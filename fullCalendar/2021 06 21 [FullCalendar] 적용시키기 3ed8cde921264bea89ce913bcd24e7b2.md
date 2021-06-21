@@ -81,7 +81,7 @@ let formTime = moment(currentTime).format('YYYY-MM-DD')
 
 1.  해당 상태를 알 수 있어야 하기 때문에 각 태그들에 status라는 데이터를 넘김.
 
-![alt text](https://github.com/KrGil/TIL/fullCalendar/2021_06_21/Untitled.png?raw=true)
+![alt text](https://github.com/KrGil/TIL/blob/main/fullCalendar/2021_06_21%20/Untitled.png?raw=true)
 
 - 아래의 extendedProps에 status가 데이터가 담김.(all은 값을 넘겨주지 않기 때문에 undefined)
 
