@@ -211,8 +211,7 @@ customButtons: {
 	    }
 	  },
 ```
-
-![2021%2006%2021%20%5BFullCalendar%5D%20%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%89%E1%85%B5%E1%84%8F%E1%85%B5%E1%84%80%E1%85%B5%203ed8cde921264bea89ce913bcd24e7b2/Untitled%201.png](2021%2006%2021%20%5BFullCalendar%5D%20%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%89%E1%85%B5%E1%84%8F%E1%85%B5%E1%84%80%E1%85%B5%203ed8cde921264bea89ce913bcd24e7b2/Untitled%201.png)
+![alt text](https://github.com/KrGil/TIL/blob/main/fullCalendar/2021_06_21%20/Untitled1.png?raw=true)
 
 - 각각의 버튼에 이벤트 걸기( 값 변경  시에만 ajax를 새로 불러오기)
 
