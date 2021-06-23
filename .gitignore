@@ -1,0 +1,10 @@
+/.metadata/
+/Servers/
+*/target/
+gaia/src/main/resources/best/gaia/db/dbinfo.properties
+/.svn/
+**/.DS_Store
+RemoteSystemsTempFiles/.project
+gaia/src/test/java/shane
+/test/
+gaia/webapp/resources/js/secret.js
