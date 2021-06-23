@@ -295,7 +295,7 @@ $.each(list, function(i, milestone){
 
 - 실제 구현한 화면
 
-![alt text](https://github.com/KrGil/TIL/blob/main/fullCalendar/2021_06_21/Untitled.png?raw=true)
+![alt text](https://github.com/KrGil/TIL/blob/main/jsGanttImproved/2021_06_23/Untitled.png?raw=true)
 > jsGantt.css
 
 - 폰트가 너무 작게 설정 되어 있어서 변경. 9px → 14px
@@ -305,11 +305,11 @@ $.each(list, function(i, milestone){
 
 ---
 
-![alt text](https://github.com/KrGil/TIL/blob/main/fullCalendar/2021_06_21/Untitled1.png?raw=true)
+![alt text](https://github.com/KrGil/TIL/blob/main/jsGanttImproved/2021_06_23/Untitled1.png?raw=true)
 
-![alt text](https://github.com/KrGil/TIL/blob/main/fullCalendar/2021_06_21/Untitled2.png?raw=true)
+![alt text](https://github.com/KrGil/TIL/blob/main/jsGanttImproved/2021_06_23/Untitled2.png?raw=true)
 
-![alt text](https://github.com/KrGil/TIL/blob/main/fullCalendar/2021_06_21/Untitled3.png?raw=true)
+![alt text](https://github.com/KrGil/TIL/blob/main/jsGanttImproved/2021_06_23/Untitled3.png?raw=true)
 
 - 이렇게 쓸모없는 null milestone List가 많이 생겨남.
 - 최초의 의도는 null milestone 하나에 list들을 담는것(milestone에 속하지 않은 issue들을 하나의 null milestone에 모두 집어넣을 계획)
