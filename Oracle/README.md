@@ -22,5 +22,4 @@ ALTER USER my_user IDENTIFIED BY MyNewPassword123
 CREATE USER my_user IDENTIFIED BY MyNewPassword123;
 
 GRANT RESOURCE, CONNECT TO my_user;
-```# TIL
-Today I Learned.  기록하기.
+```
