@@ -64,7 +64,7 @@ Eisen@Changui-MacBook typescript-basic-tsc % code .
 ```
 
 ![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_07_13/Untitled1.png?raw=true)
-이렇게 scirpts 부분에 transpile을 입력해 줍니다. 
+이렇게 scirpts 부분에 transpile을 입력해 줍니다.
 
 **.bin 내부에 존재하는 파일은 경로를 따로 써주지 않아도 됩니다.
 
