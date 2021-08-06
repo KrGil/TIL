@@ -18,15 +18,15 @@ choco list --localonly
 
 ### Openjdk8을 한번 검색해봅니다.
 
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled.png)
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled.png?raw=true)
 
 - openjdk8 패키지가 존재하네요. 제일 위에 있는 것을 클릭해 한번 살펴봅니다.
 
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%201.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%201.png)
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled1.png?raw=true)
 
 - script가 어떻게 짜져 있는지 Url과 인코딩 방식, 등을 살펴 볼 수 있습니다.
 
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%202.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%202.png)
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled2.png?raw=true)
 
 ```jsx
 $ **choco install openjdk8**
@@ -34,12 +34,11 @@ $ **choco install openjdk8**
 
 - 위의 명령어를 입력해서 한번 설치해 봅니다. **(chocolately는 항상 관리자 권한으로 cmd를 실행해야 합니다!)**
 
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%203.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%203.png)
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled3.png?raw=true)
 
 - 중간에 a를 눌러 모든 스크립트를 동작하겠다 답하고 나면 잘 설치되는것을 볼 수 있습니다.
 
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%204.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%204.png)
-
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled4.png?raw=true)
 - 보시는바와같이 JAVA_HOME path도 알아서 잡아주게끔 script가 짜져 있네요.
 
 > Docker 설치하기
@@ -58,7 +57,7 @@ $ **choco install openjdk8**
 
  **docker를 설치하셨다면 머신(컴퓨터)를 재부팅 합니다.**
 
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%205.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%205.png)
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled5.png?raw=true)
 
 - 재부팅 하고 나면 이렇게 docker가 실행됩니다.
 
@@ -66,9 +65,7 @@ $ **choco install openjdk8**
 $ docker -v
 $ docker version
 ```
-
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%206.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%206.png)
-
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled6.png?raw=true)
 - 이렇게 잘 설치되어있는 것을 알 수 있습니다.
 
 > CentOS 설치하기
@@ -81,11 +78,11 @@ docker pull centos:7
 
 위의 사이트에 알려준 명령어를 사용해 봅니다.
 
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%207.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%207.png)
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled7.png?raw=true)
 
 설치가 완료되었네요. docker를 한번 살펴 봅니다.
 
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%208.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%208.png)
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled8.png?raw=true)
 
 이렇게 docker에 centos가 깔려져 있네요.
 
@@ -97,7 +94,7 @@ docker pull centos:7
 $ docker images
 ```
 
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%209.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%209.png)
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled9.png?raw=true)
 
 > Images status 보기
 
@@ -105,7 +102,7 @@ $ docker images
 $ docker ps -a
 ```
 
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%2010.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%2010.png)
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled10.png?raw=true)
 
 > CentOS 실행시키기
 
@@ -113,12 +110,9 @@ $ docker ps -a
 $ docker run -i -t centos:7 /bin/bash
 ```
 
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%2011.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%2011.png)
-
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled11.png?raw=true)
 - 실행이 됩니다.
-
-![%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%2012.png](%5BWindow%5DChocolatey%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B51(Chocolate%20e435f33c16954b539fb0bc1ee4c7736b/Untitled%2012.png)
-
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_06_02/Untitled12.png?raw=true)
 - docker에서도 실행이 잘 되고 있다는 것을 알 수 있습니다.
 
 > container 종료하기
