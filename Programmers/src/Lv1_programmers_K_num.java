@@ -19,7 +19,7 @@ public class Lv1_programmers_K_num {
 		int[] array = {1, 5, 2, 6, 3, 7, 4}; 
 		int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
 		System.out.println(Solution.solution(array, commands).toString());
-		
+		System.out.println("tell me");
 	}
 }
 class Solution {
