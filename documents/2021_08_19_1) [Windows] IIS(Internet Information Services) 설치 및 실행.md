@@ -1,6 +1,14 @@
+---
+typora-root-url: ./
+---
 
 
-[Windows] IIS(Internet Information Services)
+
+# IIS
+
+
+
+# [Windows] IIS(Internet Information Services)
 
 > 개념
 
@@ -68,9 +76,9 @@ https://mainia.tistory.com/6131
 
   ![image-20210819141304179](C:\Users\NC517\AppData\Roaming\Typora\typora-user-images\image-20210819141304179.png)
 
+C:\Users\NC517\Documents\GitHub\TIL\documents\2021_08_19_1) [Windows] IIS(Internet Information Services) 설치 및 실행.assets
 
-
-
+![image-20210819173434147](/2021_08_19_1) [Windows] IIS(Internet Information Services) 설치 및 실행.assets/image-20210819173434147.png)
 
 # References
 
