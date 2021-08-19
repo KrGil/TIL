@@ -79,7 +79,9 @@ C:\Users\NC517\Documents\GitHub\TIL\documents\2021_08_19_1) [Windows] IIS(Intern
 
 
 
-![image-20210819173824271](https://github.com/KrGil/TIL/tree/main/documents/IIS.assets/image-20210819173824271.png)
+![image-20210819173824271](https://raw.githubusercontent.com/KrGil/TIL/tree/main/documents/IIS.assets)
+
+
 
 # References
 
