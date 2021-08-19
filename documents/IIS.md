@@ -80,7 +80,11 @@ https://mainia.tistory.com/6131
 
 C:\Users\NC517\Documents\GitHub\TIL\documents\2021_08_19_1) [Windows] IIS(Internet Information Services) 설치 및 실행.assets
 
-![image-20210819173434147](C:\Users\NC517\Documents\GitHub\TIL\documents\2021_08_19_1) [Windows] IIS(Internet Information Services) 설치 및 실행.assets/image-20210819173434147.png)
+
+
+
+
+![image-20210819173824271](IIS.assets/image-20210819173824271.png)
 
 # References
 
