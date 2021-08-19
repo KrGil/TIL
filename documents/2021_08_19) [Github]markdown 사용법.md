@@ -202,12 +202,12 @@ __double underscores__
 
 ```
 
+> 크기 지정
+
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F94qX7%2Fbtrcs8mPtOd%2FsKzQGGyixaKpAKw2y2xpd1%2Fimg.png" width="450px" height="300px" title="블로그이미지_크기조절" alt="블로그이미지3"></img>)
 
 ```
 <img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 <img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
 ```
-
- 
 
