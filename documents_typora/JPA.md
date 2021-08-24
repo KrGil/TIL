@@ -64,7 +64,7 @@
 - 어플리케이션과 JDBC 사이에서 작동
 - JPA 내부에서 JDBC API를 사용, SQL을 생성 및 호출하여 DB와 통신.
 
-![image-20210824161243257](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/JAP.assets/image-20210824161243257.png)
+![image-20210824161243257](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/JPA.assets/image-20210824161243257.png)
 
 
 
@@ -102,7 +102,9 @@
 
 - 객체간의 상속과 RDB간의 상속 차이
 
-![image-20210824162329136](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/JAP.assets/image-20210824162329136.png)
+![image-20210824162329136](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/JPA.assets/image-20210824162329136.png)
+
+
 
 - 연관관계 설정
 
@@ -186,61 +188,63 @@ println(m1 == m2) // true
 
 #### 2. 객체가 사용될 때 해당 쿼리문 실행- *lazy 로딩*
 
-```
+```java
 Member member = memberDAO.find(memberId);		// ---> SELECT * FROM MEMBER 
 Team team = member.getTeam();
-String teamName = team.getName(); 		// --->  
+String teamName = team.getName(); 		// --->  SELECT * FROM TEAM
 ```
 
+- 값이 실제로 필요한 시점에 JPA가 Team에 대한 SELECT 문을 생성 및 보냅니다.
+- 두번의 SELECT 문을 조회하게 됩니다.
+- Member와 Team 객체가 대부분 함께 사용하는 경우 즉시 로딩을 설정할 수 있습니다.
+
+```java
+Member member = memberDAO.find(memberId);		// ---> SELECT M.*, T.* FROM MEMBER JOIN TEAM ...
+Team team = member.getTeam();
+String teamName = team.getName(); 
+```
+
+- 최초의 연결 때 member와 team을 조회하는 쿼리를 보낼 수 있습니다.
+
+#### 3. 트랜잭션을 지원하는 쓰기 지연 기능- *버퍼링*
+
+```java
+/** 1. 트랜잭션을 커밋할 때까지 INSERT SQL을 모음 */
+transaction.begin();  // [트랜잭션] 시작
+em.persist(memberA); 
+em.persist(memberB); 
+em.persist(memberC); 
+// -- 여기까지 INSERT SQL을 데이터베이스에 보내지 않는다.
+// 커밋하는 순간 데이터베이스에 INSERT SQL을 모아서 보낸다. --
+/** 2. JDBC BATCH SQL 기능을 사용해서 한번에 SQL 전송 */
+transaction.commit();
+```
+
+위와 같이 하나의  트랜잭션으로  JDBC Batch 기능을 알아서 수행해 줍니다.
 
 
-#### 2, 트랜잭션을 지원하는 쓰기 지연 기능- *버퍼링*
 
-
-
-
-
-
+### 객체와 테이블의 페러다임 차이
 
 ### 연관관계. 
 
-##### 객체
+##### - 객체
 
-Member.getTeam 가능.
+Member.getTeam - 가능 Team.getMember - 불가능
 
-Team.getMember 불가능.
+##### - 테이블
+
+Member -> Team - 가능
+
+Team -> member - 가능
 
 ---
 
-##### 테이블
+mybatis와 JPA의 차이
 
-Member -> Team 가능
+mybatis -> 변환시키지만 쿼리는 직접 짜야함.
 
-Team -> member 가능
-
-
-
-
-
-객체와 테이블의 페러다임 차이를 해결해줌.
-
-
-
-mybatis -> 변환시키지만 쿼리는 직접 짜야한다.
-
-jpa -> mybatis역할 + 쿼리까지
-
-
-
-생산성 JPA의 CRUD
-
-
-
-장점
-
-1차 캐시와 동일성 보장.
-
-같은 트랜잭션 안에서는 데이터를 두번 조회하면 한번은 db에서 한번은 자체적으로 내장되어있는 캐쉬에서 꺼내온다.
+jpa -> mybatis역할 + 쿼리까지 자동으로 짜줌.
 
 
 
