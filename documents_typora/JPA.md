@@ -64,7 +64,7 @@
 - 어플리케이션과 JDBC 사이에서 작동
 - JPA 내부에서 JDBC API를 사용, SQL을 생성 및 호출하여 DB와 통신.
 
-![image-20210824161243257](JPAhttps://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/JAP.assets/image-20210824161243257.png)
+![image-20210824161243257](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/JAP.assets/image-20210824161243257.png)
 
 
 
@@ -102,7 +102,7 @@
 
 - 객체간의 상속과 RDB간의 상속 차이
 
-![image-20210824162329136](JPAhttps://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/JAP.assets/image-20210824162329136.png)
+![image-20210824162329136](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/JAP.assets/image-20210824162329136.png)
 
 - 연관관계 설정
 
