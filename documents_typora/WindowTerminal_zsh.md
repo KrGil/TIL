@@ -2,7 +2,7 @@
 
 # zsh
 
-## WindowsTerminal에 oh_my_zsh 설치
+## WindowsTerminal(git bash)에 oh_my_zsh 설치
 ### 1. zsh 파일 다운로드
 
 https://gist.github.com/fworks/af4c896c9de47d827d4caa6fd7154b6b
