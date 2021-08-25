@@ -54,7 +54,7 @@ open() {
 
 ###### ~~google에 검색하세요!!~~
 
-![image-20210825170252074](WindowsTerminal_zsh_custom_command.assets/image-20210825170252074.png)
+![image-20210825170252074](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/WindowsTerminal_zsh_custom_command.assets/image-20210825170633016.png/image-20210825170252074.png)
 
 ### 여기서 source <path>를 해 주셔야 바로 적용됩니다.
 
@@ -70,11 +70,11 @@ $ source ~/.zshrc
 
 - 이렇게 ```open``` 명령어를 못찾겠다는 경고문이
 
-![image-20210825170633016](WindowsTerminal_zsh_custom_command.assets/image-20210825170633016.png)
+![image-20210825170633016](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/WindowsTerminal_zsh_custom_command.assets/image-20210825170633016.png/image-20210825170633016.png)
 
 - folder도 잘 열고 잘 실행되는 것을 볼 수 있습니다.
 
-![image-20210825170822471](WindowsTerminal_zsh_custom_command.assets/image-20210825170822471.png)
+![image-20210825170822471](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/WindowsTerminal_zsh_custom_command.assets/image-20210825170633016.png/image-20210825170822471.png)
 
 
 
