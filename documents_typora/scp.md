@@ -37,11 +37,11 @@ https://unix.stackexchange.com/questions/571293/is-scp-unsafe-should-it-be-repla
 
 설정 창에서 앱 및 기능 -> 선택적 기능 -> OpenSSH 클라이언트 확인
 
-![image-20210827180350247](scp.assets/image-20210827180350247.png)
+![image-20210827180350247](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/scp.assets/image-20210827180350247.png)
 
 아래 사진처럼 OpenSSH 클라이언트가 설치 되어 있어야 ssh 기반으로 돌아가는 scp가 실행이 됩니다.
 
-![image-20210827190720328](scp.assets/image-20210827190720328.png)
+![image-20210827190720328](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/scp.assets/image-20210827190720328.png)
 
 
 
@@ -61,7 +61,7 @@ scp [로컬파일경로][파일]  [원격계정]@[원격ip/도메인]:[받을경
 
 한번 사용해 보겠습니다.
 
-![image-20210827191508839](scp.assets/image-20210827191508839.png)
+![image-20210827191508839](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/scp.assets/image-20210827191508839.png)
 
 ```java
 
@@ -90,7 +90,7 @@ scp C:/Users/NC517/Desktop/test.txt root@localhost:/home/eisen
 
 #### 결과
 
-![image-20210827192001762](scp.assets/image-20210827192001762.png)
+![image-20210827192001762](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/scp.assets/image-20210827192001762.png)
 
 이렇게 파일이 잘 올라가는 것을 볼 수 있습니다.
 
@@ -110,7 +110,7 @@ scp [원격계정]@[원격ip/도메인]:[파일] [받을경로]
 
 test.txt를 test1.txt로 이름을 바꿔줍니다.
 
-![image-20210827192422248](scp.assets/image-20210827192422248.png)
+![image-20210827192422248](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/scp.assets/image-20210827192422248.png)
 
 아래 명령어를 실행시킵니다.
 
@@ -128,7 +128,7 @@ scp root@localhost:/home/eisen/test1.txt ./
 
 명령어를 실행시키면 아래 이미지와 같이 test1.txt가 생기는 것을 볼 수 있습니다.
 
-![image-20210827192600466](scp.assets/image-20210827192600466.png)
+![image-20210827192600466](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/scp.assets/image-20210827192600466.png)
 
 #### 실행 code
 
