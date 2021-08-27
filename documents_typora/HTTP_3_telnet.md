@@ -131,7 +131,7 @@ google이 더이상 HTTP/1.1의 해당 도메인을 지원하지 않는 듯 하�
 
 따로 host를 적지 않으면 200코드를 정상적으로 보내주네요.
 
-![image-20210825133256011](HTTP_3_telnet.assets/image-20210825133256011.png)
+![image-20210825133256011](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/HTTP_3_telnet.assets/image-20210825133256011.png)
 
 여기서 보여드리고 싶었던 부분은 HTTP/1.1은 ```GET / HTTP/1.1``` 뿐만 아니라 virtual host로 인하여 ``` HOST: <uri>``` 도 함께 작성해서 요청을 한다는 부분입니다.
 
@@ -149,7 +149,7 @@ google이 더이상 HTTP/1.1의 해당 도메인을 지원하지 않는 듯 하�
 
 telnet을 활용한 HTTP2와 HTTP3의 연결은 불가능합니다. 대신 Wireshark를 사용한다면 가능합니다.
 
-![image-20210825144315201](Untitled.assets/image-20210825144315201.png)
+![image-20210825144315201](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/HTTP_3_telnet.assets/image-20210825144315201.png)
 
 https://http2.github.io/faq/
 
