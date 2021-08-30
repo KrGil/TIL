@@ -95,6 +95,54 @@ print 'my name is $name \n';
 
 
 
+### CHILD_ERROR
+
+> $? >> 8
+
+https://perldoc.perl.org/perlvar#%24?
+
+
+
+### 소유자 변경
+
+> chown
+
+파일이나 디렉터리의 소유자를 변경합니다.
+
+```-R``` 명령으로 하위 디렉터리 모두 변경할 수 있습니다.
+
+
+
+### Output redirection
+
+- 0(stdin) 표준 입력 메시지
+- 1(stdout) 표준 오류 메시지
+- 2(stderr) 표준 출력 메시지
+
+```cd /dev```에 들어가면 조금 더 이해하기 도움이 될 듯 합니다.
+
+> 2>&1
+
+표준오류 메시지를 출력하겠다는 의미입니다.
+
+'2' : 표준 오류 메시지(오류가 발생 시)
+
+'>' : 해당 파일에 내용을 덮어씌우기
+
+'&1' :  현재 위치에 출력(그냥 1을 적지 않는 이유는 1을 output redirection으로 인식시켜주기 위해서입니다. i.g)2>1 1이란 파일에 오류메시지가 저장됩니다.)
+
+https://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean
+
+
+
+### > , >> 
+
+**`open (MYFILE, '>>data.txt')`**— 열기 `data.txt`, 원본 데이터를 유지하고 끝에서 데이터를 추가합니다.
+
+**`open (MYFILE, '>data.txt')`**— 열고 `data.txt`내부의 모든 것을 삭제하고 처음부터 데이터를 씁니다.
+
+https://stackoverflow.com/questions/3004324/difference-between-and-in-perl
+
 
 
 
