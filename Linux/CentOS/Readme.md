@@ -8,6 +8,8 @@ $ hostnamectl set-hostname [name]
 
 - hostnamectl set-hostname myplayGround
 
+
+
 > 네트워크 정보 확인
 
 ```bash
@@ -23,6 +25,8 @@ $ ifconfig
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ...
 ```
+
+
 
 > 부팅 시 자동으로 네트워크 잡히도록 설정
 
@@ -52,6 +56,8 @@ DEVICE=eth0
 ...**
 ```
 
+
+
 > 수정된 사항 바로 적용시키기
 
 ```bash
@@ -60,6 +66,8 @@ $ source /etc/bashrc
 
 https://klero.tistory.com/entry/source-명령어란
 
+
+
 > 특정 유저 사용하기
 
 ```bash
@@ -67,6 +75,8 @@ $ su - [username]
 ```
 
 - su - eisen
+
+
 
 > systemctl
 
@@ -84,6 +94,8 @@ $ systemctl list-unit-files | grep postfix
 
 - 시스템에 있는 unit 중에서 postfix를 검색하겠다.
 
+
+
 > ps
 
 - 프로세스
@@ -94,12 +106,16 @@ $ ps aux | grep postfix
 
 - 프로세스들 중에서 postfix를 찾겠다.
 
+
+
 > iptables
 
 ```java
 $ iptables nL    // 방화벽 상태 확인
 $ iptables -F    // 모든 방화벽 열기(방화벽 모든 설정 삭제)
 ```
+
+
 
 > 특정 ip에 파일 전송하기
 
@@ -109,6 +125,8 @@ $ scp [전송할파일이름(확장자까지)] [Username][@127.0.0.1](<mailto:jm
 
 - scp testFile.tar.gz eisen[@127.0.0.1](mailto:jmocha@127.0.0.1)(또는 localhost):test
 
+
+
 > 디렉토리 소유 유저 변경
 
 ```java
@@ -117,6 +135,8 @@ $ chown [user]:[group] [/path/to/file_or_directory]
 
 chown user:group /path/to/file_or_directory
 
+
+
 > 재시작하기
 
 ```bash
@@ -124,6 +144,8 @@ $ sudo reboot
 $ sudo reboot -f
 $ sudo systemctl --force --force reboot
 ```
+
+
 
 > 복사하기
 
@@ -135,6 +157,8 @@ $ cp [Option][원본][사본]
 
 - cp mydir1 mydir2
 
+
+
 > 심볼릭 링크
 
 https://zetawiki.com/wiki/리눅스_심볼릭링크_폴더_생성_실습
@@ -144,6 +168,8 @@ $ ln -s /volumes/disk3/test/eisen eisen
 ```
 
 현재 위치에 eisen이라는 심볼릭 링크를 생성.
+
+
 
 > 파일 검색하기
 
@@ -160,6 +186,8 @@ name : 찾을 파일을 적습니다. `*.txt`처럼 찾을 파일의 타입으�
 ```jsx
 sudo find / -name test.txt
 ```
+
+
 
 # Reference
 
