@@ -88,8 +88,6 @@ prognroll.js:1 Uncaught TypeError: Cannot read property 'fn' of undefined
 
 ![image-20210830171746178](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Tistory/progressbar.assets/image-20210830171746178.png)
 
-![image-20210830193328919](progressbar.assets/image-20210830193328919.png
-
 
 
 # reference
