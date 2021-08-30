@@ -20,7 +20,9 @@
 
 그리고 [openSSH8.0 배포때 발표 내용](https://www.openssh.com/txt/release-8.0) 으로 인하여 앞으로는 ```scp``` 보다 ```rsync```와 ```sftp``` 사용을 권장하고 있습니다.
 
-https://hoing.io/archives/6588
+참고 : https://hoing.io/archives/6588
+
+
 
 https://unix.stackexchange.com/questions/571293/is-scp-unsafe-should-it-be-replaced-with-sftp
 

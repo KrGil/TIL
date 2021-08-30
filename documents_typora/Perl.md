@@ -101,19 +101,7 @@ print 'my name is $name \n';
 
 ### questions
 
-
-
-
-
 https://perldoc.perl.org/perlrun
-
-
-
-
-
-### @INC
-
-``` @INC``` location of perl libraries
 
 
 
