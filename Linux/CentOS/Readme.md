@@ -189,6 +189,16 @@ sudo find / -name test.txt
 
 
 
+### 사용자 및 권한 관련 명령어
+
+https://hooongs.tistory.com/239
+
+#### 사용자 권한 변경
+
+https://twofootdog.tistory.com/9
+
+
+
 # Reference
 
 https://klero.tistory.com/entry/source-명령어란

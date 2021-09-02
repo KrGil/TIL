@@ -92,6 +92,8 @@ $ vim ~/.zshrc
 
 로 아래 이미지처럼 수정해 주어도 됩니다.
 
+
+
 ![image-20210824144031567](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/WindowTerminal_zsh.assets/image-20210824144031567.png)
 
 #### powerlevel10k의 경우 설치 후 재실행 할 경우 아래처럼 설정값을 따로 설정하는 질문들이 나옵니다. 잘 읽어 본 후 본인에 맞게 설정하시면 됩니다.

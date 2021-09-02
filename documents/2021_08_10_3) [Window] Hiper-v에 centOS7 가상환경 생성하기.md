@@ -38,6 +38,26 @@ VLAN ID를 체크해서 사용합니다.
 
 ![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_10_3/Untitled6.png?raw=true)
 
+이 상황에서 만약 아래 이미지가 뜬다면 아래 링크를 참고해 주세요.
+
+[여기를 확인해 주세요](https://jjam89.tistory.com/133)
+
+![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_10_4/Untitled.png?raw=true)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # References
 
 [https://thrillfighter.tistory.com/565](https://thrillfighter.tistory.com/565)

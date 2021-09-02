@@ -98,13 +98,27 @@ $ shell:startup
 
 ```java
 @echo off
-Powershell.exe -noprofile -executionpolicy bypass -file "C:\Users\NC517\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\mobilehotspot_on.ps1"
+Powershell.exe -noprofile -executionpolicy bypass -file "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\mobilehotspot_on.ps1"
 pause
 ```
 
 ##### 그럼 이렇게 컴퓨터가 켜질때마다 cmd 창이 실행되는 것을 볼 수 있습니다.
 
 ![image-20210820152859833](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Windows_mobilehotspot_on.assets/image-20210820152859833.png)
+
+### Edit 환경변수 사용.
+
+``` %username%``` 을 사용하여 사용자가 변경되어도 함께 변경 될 수 있도록 수정.
+
+```bash
+x @echo off
+Powershell.exe -noprofile -executionpolicy bypass -file "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\mobilehotspot_on.ps1"
+pause
+```
+
+
+
+
 
 
 
