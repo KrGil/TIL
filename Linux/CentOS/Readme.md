@@ -189,6 +189,14 @@ sudo find / -name test.txt
 
 
 
+> ssh 설정 변경하기
+
+```
+sudo vim /etc/ssh/sshd_config
+```
+
+
+
 ### 사용자 및 권한 관련 명령어
 
 https://hooongs.tistory.com/239

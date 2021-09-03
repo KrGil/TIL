@@ -4,7 +4,7 @@
 
 https://blog.limcm.kr/241
 
-### Switch Hub()
+### Switch Hub
 
 - 포트의 번호를 분배해 주는 역할
 
