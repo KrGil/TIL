@@ -14,7 +14,7 @@
  */
 public class Lv1_programmers_poketmon {
 	public static void main(String[] args) {
-		Solution.class.
+		
 	}
 }
 
