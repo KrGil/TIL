@@ -1,6 +1,6 @@
 # CentOS7에 oh_my_zsh(zsh) 설치하기
 
-https://nitocin.tistory.com/entry/ohmyzsh-%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8-%EC%84%A4%EC%B9%98
+
 
 # Before we go further
 
@@ -311,4 +311,12 @@ bash: shopt: 명령을 찾을 수 없습니다...
 bash: shopt: 명령을 찾을 수 없습니다...
 bash: shopt: 명령을 찾을 수 없습니다...
 ```
+
+
+
+
+
+### References
+
+**https://nitocin.tistory.com/entry/ohmyzsh-%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8-%EC%84%A4%EC%B9%98**
 

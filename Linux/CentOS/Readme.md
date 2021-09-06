@@ -197,6 +197,16 @@ sudo vim /etc/ssh/sshd_config
 
 
 
+> 본인의 ip에 대해 검색
+
+```ip route show```
+
+
+
+
+
+
+
 ### 사용자 및 권한 관련 명령어
 
 https://hooongs.tistory.com/239
