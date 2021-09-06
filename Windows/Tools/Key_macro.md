@@ -18,11 +18,11 @@ C:\Users\Eisen\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 shell:startup
 ```
 
-![image-20210906104411670](Key_macro.assets/image-20210906104411670.png)
+![image-20210906104411670](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Tools/Key_macro.assets/image-20210906104411670.png)
 
 #### 키 설정하기
 
-![image-20210906104343276](Key_macro.assets/image-20210906104343276.png)
+![image-20210906104343276](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Tools/Key_macro.assets/image-20210906104343276.png)
 
 
 ##### 기록
@@ -34,7 +34,7 @@ ok 버튼 이후 저장을 클릭하여 저장시킵니다.
 직접 메크로 단계를 하나씩 입력이 가능합니다.
 ok 버튼 이후 저장버튼을 클릭하여 저장시킵니다.
 
-![image-20210906104455016](Key_macro.assets/image-20210906104455016.png)
+![image-20210906104455016](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Tools/Key_macro.assets/image-20210906104455016.png)
 
 ### 매크로 실행 버튼 설정
 
@@ -42,11 +42,11 @@ ok 버튼 이후 저장버튼을 클릭하여 저장시킵니다.
 
 저는 컴퓨터 시작 시에만 해당 매크로를 실행시키기 위해 아래와 같이 설정했습니다.
 
-![image-20210906105047068](Key_macro.assets/image-20210906105047068.png)
+![image-20210906105047068](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Tools/Key_macro.assets/image-20210906105047068.png)
 
 ### 매크로 시작 상태로 변경
 
-![image-20210906104754816](Key_macro.assets/image-20210906104754816.png)
+![image-20210906104754816](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Tools/Key_macro.assets/image-20210906104754816.png)
 
 f12를 누르거나 ```매크로 실행 가능``` 을 체크해 주시면 이제 매크로가 자동으로 실행이 됩니다.
 
