@@ -201,7 +201,7 @@ sudo vim /etc/ssh/sshd_config
 
 ```ip route show```
 
-
+```ethtool <인터페이스 이름>``` : ethtool eth0
 
 
 

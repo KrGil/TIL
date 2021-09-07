@@ -16,7 +16,8 @@ public class kakaoInternPushKeyPad {
         // 0 ,1, 2
 	}
     public String solution(int[] numbers, String hand) {
-    }
+        return null;
+	}
     // number = 1이면 1,1
     // number = 4이면 2,1
     // number = 7이면 3,1
@@ -27,7 +28,8 @@ public class kakaoInternPushKeyPad {
 
         i = number / 3;
         j = number % 3;
-        return int[i][j];
+//        return int[i][j];
+        return null;
     }
     public int showArrayi(int number){
         return number / 3;
@@ -37,5 +39,7 @@ public class kakaoInternPushKeyPad {
     }
     public int calculateDistance(){
 
+	    // todo
+	    return 0;
     }
 }
