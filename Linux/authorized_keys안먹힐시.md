@@ -6,7 +6,7 @@
 
 
 
-ssh -v eisen@localhost 로 로그를 확인 했을 시 
+```ssh -v eisen@localhost``` 로 로그를 확인 했을 시 
 
 ```
 ❯ ssh -v jmocha@172.30.130.176
@@ -88,12 +88,12 @@ jmocha@172.30.130.176's password:
 
 ### 해결 방법
 
-#### 1. .ssh 파일 삭제 후 새로 생성 및 권한 설정.
+#### 1. ```.ssh``` 파일 삭제 후 새로 생성 및 권한 설정.
 
-1. 접속할 계정으로 로그인 (ssh eisen@localhost)
-2. 기존에 있는 .ssh 파일 삭제 ``` rm -rf .ssh ```
-3. 로그인 후 /home/eisen/.ssh 파일 생성
-4. chmod 700 .ssh 로 .ssh파일 권한 수정
+1. 접속할 계정으로 로그인 (```ssh eisen@localhost```)
+2. 기존에 있는 ```.ssh``` 파일 삭제 ``` rm -rf .ssh ```
+3. 로그인 후 ```/home/eisen/.ssh``` 파일 생성
+4. ```chmod 700 .ssh``` 로 ```.ssh```파일 권한 수정
 
 ![image-20210910091149601](https://raw.githubusercontent.com/KrGil/TIL/main/Linux/authorized_keys안먹힐시.assets/image-20210910091149601.png)
 
