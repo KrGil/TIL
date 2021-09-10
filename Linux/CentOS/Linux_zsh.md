@@ -216,6 +216,9 @@ alias bbb='cd ../../..'
 alias bbbb='cd ../../../..' 
 
 alias rma='rm -rf'
+
+alias =
+
 ```
 
 수정 이후 source /etc/zshrc로 적용시키던, ```reboot```으로 재부팅 하시고 사용하시면 됩니다.
