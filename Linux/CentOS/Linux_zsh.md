@@ -42,7 +42,7 @@ CentOS7에서 ```bash``` 는 ```~/.bashrc```, ``` ~/.bash_profile```, ```/etc/ba
 
 하나의 파일을 수정한 후 변경사항이 먹히지 않은 듯 한다면 ```source ~/.zshrc/```, ```source /etc/zshrc``` 을 실행해 봅니다.
 
-
+*__아래의 모든 명령어는 root 계정으로 이루어졌습니다.__*
 
 
 
@@ -69,8 +69,7 @@ zsh
 #### 설치위치 지정 설치(/usr/local/.oh-my-zsh)
 
 ```
-export ZSH="/usr/local/.oh-my-zsh"; sh -c "$(curl -fsSL https://raw.githubusercontent.
-com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+export ZSH="/usr/local/.oh-my-zsh"; sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 *위와 같이 설치해 주는 이유는 위치를 따로 지정하지 않았을 시 기본적으로 사용자 home 디렉토리 아래에 설치됩니다. root계정으로 설치시 /root/.oh-my-zsh에 설치가 되는데 일반 계정 사용자는 oh-my-zsh 사용 시 /root/.oh-my-zsh를 참조하게 되는데 일반 계정은 /root/에 접근할 수 없는 문제가 생깁니다.* 

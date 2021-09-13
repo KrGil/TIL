@@ -1,5 +1,27 @@
 # [Linux] CentOS 명령어
 
+> 그룹, 사용자 생성 및 비밀번호 설정
+
+```
+groupadd <groupName>
+useradd -g <groupName> <userName>
+passwd <username>
+```
+
+
+
+> sudo 권한 설정
+
+```
+$ vim /etc/sudoers
+
+jmocha ALL=(ALL) ALL
+```
+
+
+
+
+
 >  hostname 변경하기
 
 ```jsx

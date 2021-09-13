@@ -105,9 +105,9 @@ jmocha@172.30.130.176's password:
 
 ##### 방법 1. 직접 생성 및 복사 붙여넣기.
 
-1. .ssh 파일 들어간 후 touch authorized_keys 파일 생성
+1. ```.ssh``` 파일 들어간 후 ```touch authorized_keys``` 명령어로 파일 생성
 
-2. chmod 600 authorized_keys 파일 권한 수정
+2. ```chmod 600 authorized_keys``` 명령어로 파일 권한 수정
 
 3. authorized_keys 파일 편집
 
@@ -115,7 +115,7 @@ jmocha@172.30.130.176's password:
 
     ``` echo [public_key_string] >> ~/.ssh/authorized_keys ``` 명령어로 작성해도 가능.
 
-4. exit로 나온 후 ssh eisen@localhost로 접속 시도
+4. ```exit```로 나온 후 ```ssh eisen@localhost```로 접속 시도
 
 5. 비밀번호를 물어보지 않으면 수정 성공.
 
@@ -123,25 +123,25 @@ jmocha@172.30.130.176's password:
 
 1. /c/Users/<USERNAME>/.ssh 로 들어가기 ``` cd /c/Users/<USERNAME>/.ssh ```
 2. ``` scp id_rsa.pub eisen@localhost:/home/eisen/.ssh/authorized_keys ```  로 파일 전송
-3. chmod 600 authorized_keys 파일 권한 수정
-4. exit로 나온 후 ssh eisen@localhost로 접속 시도
+3. ```chmod 600 authorized_keys``` 파일 권한 수정
+4. ```exit```로 나온 후 ```ssh eisen@localhost```로 접속 시도
 5. 비밀번호를 물어보지 않으면 수정 성공.
 
 ##### 방법 3. ssh-copy-id 사용하기
 
-
-
-1. ssh-copy-id eisen@localhost 명령어 실행
+1. ```ssh-copy-id eisen@localhost``` 명령어 실행
 
 ![image-20210910091854112](https://raw.githubusercontent.com/KrGil/TIL/main/Linux/authorized_keys안먹힐시.assets/image-20210910091854112.png)
 
-2. 아래의 이미지와 같이 WARNING이 뜬다면
+2. 이미 .ssh 폴더와 authorized_keys 파일이 존재 할 시
 
 ![image-20210910092046088](https://raw.githubusercontent.com/KrGil/TIL/main/Linux/authorized_keys안먹힐시.assets/image-20210910092046088.png)
 
-ssh-copy-id -f eisen@localhost 를 사용하거나
+```ssh-copy-id -f eisen@localhost``` 를 사용하거나
 
 서버의 .ssh폴더를 삭제한 후 다시 시도해 주시길 바랍니다.
+
+
 
 ### Result
 
