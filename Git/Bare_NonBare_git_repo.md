@@ -48,7 +48,7 @@ clone 받은 모든 폴더와 파일들을 볼 수 있고 해당 repo(repository
 
 ### Bare와 non-bare의 차이.
 
-![image-20210909193039406](Bare_NonBare_git_repo.assets/image-20210909193039406.png)
+![image-20210909193039406](https://raw.githubusercontent.com/KrGil/TIL/main/Git/Bare_NonBare_git_repo.assets/image-20210909193039406.png)
 
 ### 사용 방법
 
@@ -93,5 +93,4 @@ clone 받은 모든 폴더와 파일들을 볼 수 있고 해당 repo(repository
 ### References
 
 https://stackoverflow.com/questions/7861184/what-is-the-difference-between-git-init-and-git-init-bare
-
 

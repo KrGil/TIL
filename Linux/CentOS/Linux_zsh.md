@@ -48,10 +48,16 @@ CentOS7에서 ```bash``` 는 ```~/.bashrc```, ``` ~/.bash_profile```, ```/etc/ba
 
 ### zsh와 git 설치
 
+yum update 실행 후 진행합니다.
+
+```
+yum update -y
+```
+
 아래 코드 실행
 
 ```
-yum -y install git-core zsh
+yum -y install git-cor zsh
 ```
 
 설치 확인하기
@@ -59,8 +65,6 @@ yum -y install git-core zsh
 ```
 zsh
 ```
-
-```zsh``` 실행 시 아무런 메시지가 뜨지 않으면 설치가 완료된 것입니다.
 
 
 
