@@ -5,7 +5,7 @@ HTTP(HyperText Transfer Protocol)은 웹에서 클라이언트(웹 브라우저)
 ###### *현재 HTTP는 신뢰할 수 있는 연결 기반인 TCP 표준에 의존합니다.*
 
 ###### *구글의 경우*  자체적으로 개발한 QUIC(HTTP3)을 사용하며 UDP를 기반으로 합니다. 
-![image-20210820095135118](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/HTTP.assets/image-20210820095135118.png)
+![image-20210820095135118](https://raw.githubusercontent.com/KrGil/TIL/main/C.S/documents/HTTP.assets/image-20210820095135118.png)
 
 
 # HTTP 1.1이란?
@@ -39,7 +39,7 @@ HTTP(HyperText Transfer Protocol)은 웹에서 클라이언트(웹 브라우저)
 
 *TCP의 3-way Handshaking*
 
-![image-20210820095918173](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/HTTP.assets/image-20210820095918173.png)
+![image-20210820095918173](https://raw.githubusercontent.com/KrGil/TIL/main/C.S/documents/HTTP.assets/image-20210820095918173.png)
 
 
 
@@ -57,7 +57,7 @@ HTTP1.1의 성능에 초점을 맞추어 수정한 버전입니다. latency, 네
 
 - Connection <u>*한 개로 동시에 여러 개*</u>의 메시지를 주고 받을 수 있으며 응답은 **순서에 상관없이** Stream으로 주고 받습니다. 위에 언급한 Pipelining의 개선 버전이라 보시면 될 듯 합니다.
 
-![image-20210820105636492](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/HTTP.assets/image-20210820105636492.png)
+![image-20210820105636492](https://raw.githubusercontent.com/KrGil/TIL/main/C.S/documents/HTTP.assets/image-20210820105636492.png)
 
 ### Stream Prioritization
 
@@ -67,13 +67,13 @@ HTTP1.1의 성능에 초점을 맞추어 수정한 버전입니다. latency, 네
 
 - server는 client가 요청하지 않은 리소스들을 사전에 push를 통해 전송할 수 있습니다. 이럴 경우 client가 HTML문서를 최소한으로 요청할 수 있습니다.
 
-![image-20210820160033779](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/HTTP.assets/image-20210820160033779.png)
+![image-20210820160033779](https://raw.githubusercontent.com/KrGil/TIL/main/C.S/documents/HTTP.assets/image-20210820160033779.png)
 
 ### Header Compression
 
 - Header Table과 Huffman Encoding이라는 기법을 사용하는 HPACK 압축 방식을 사용합니다.
 
-![image-20210820160154555](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/HTTP.assets/image-20210820160154555.png)
+![image-20210820160154555](https://raw.githubusercontent.com/KrGil/TIL/main/C.S/documents/HTTP.assets/image-20210820160154555.png)
 
 - HTTP 1.1의 경우 클라이언트가 요청을 두번 보내면 해더 중복에 대한 처리가 전혀 업는 반면, HTTP 2의 경우 위의 이미지와 같이 중복을 처리한 후 데이터를 전송합니다.
 
@@ -89,11 +89,11 @@ https://www.youtube.com/watch?v=jhqrRT4fvOA
 
 ###### *NAVER의 프로토콜(HTTP2)* 
 
-![image-20210820160859777](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/HTTP.assets/image-20210820160859777.png)
+![image-20210820160859777](https://raw.githubusercontent.com/KrGil/TIL/main/C.S/documents/HTTP.assets/image-20210820160859777.png)
 
 ###### *Google의 프로토콜(HTTP3/QUIC)*
 
-![image-20210820160952321](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/HTTP.assets/image-20210820160952321.png)
+![image-20210820160952321](https://raw.githubusercontent.com/KrGil/TIL/main/C.S/documents/HTTP.assets/image-20210820160952321.png)
 
 # References
 

@@ -12,7 +12,7 @@
 $ netsh wlan start hostednetwork //start hotspot
 ```
 
-![image-20210820134525333](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Windows_mobilehotspot_on.assets/image-20210820134525333.png)
+![image-20210820134525333](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Tools/Windows_mobilehotspot_on.assets/image-20210820134525333.png)
 
 ###### *이미지의 cmd창과 실제 cmd창에 차이가 존재할 수 있습니다.* 
 
@@ -27,7 +27,7 @@ $ netsh wlan start hostednetwork //start hotspot
 그룹 또는 리소스가 요청된 작업을 실행할 올바른 상태에 있지 않습니다.
 ```
 
-![image-20210820134936714](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Windows_mobilehotspot_on.assets/image-20210820134936714.png)
+![image-20210820134936714](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Tools/Windows_mobilehotspot_on.assets/image-20210820134936714.png)
 
 ###### *이미지의 cmd창과 실제 cmd창에 차이가 존재할 수 있습니다.* 
 
@@ -39,7 +39,7 @@ $ netsh wlan start hostednetwork //start hotspot
 $ netsh wlan show drivers
 ```
 
-![image-20210820135611098](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Windows_mobilehotspot_on.assets/image-20210820135611098.png)
+![image-20210820135611098](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Tools/Windows_mobilehotspot_on.assets/image-20210820135611098.png)
 
 호스트된 네트워크 지원이 ''*__아니요__*''로 되어 있기 때문에 위와 같은 오류가 발생하는 것입니다.
 
@@ -84,13 +84,13 @@ $ shell:startup
 - 그러면 시작메뉴 > 프로그램 > 시작프로그램 폴더가 켜집니다.
 - 켜진 폴더에 .ps1파일과 .bat 파일을 붙여넣습니다. 
 
-![image-20210820150340770](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Windows_mobilehotspot_on.assets/image-20210820150340770.png)
+![image-20210820150340770](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Tools/Windows_mobilehotspot_on.assets/image-20210820150340770.png)
 
 
 
 ### 컴퓨터를 재시작하면 아래와 같이 자동으로 모바일 핫스팟이 켜지는 것을 볼 수 있습니다.
 
-![image-20210820152416488](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Windows_mobilehotspot_on.assets/image-20210820152416488.png)
+![image-20210820152416488](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Tools/Windows_mobilehotspot_on.assets/image-20210820152416488.png)
 
 
 
@@ -104,7 +104,7 @@ pause
 
 ##### 그럼 이렇게 컴퓨터가 켜질때마다 cmd 창이 실행되는 것을 볼 수 있습니다.
 
-![image-20210820152859833](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Windows_mobilehotspot_on.assets/image-20210820152859833.png)
+![image-20210820152859833](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Tools/Windows_mobilehotspot_on.assets/image-20210820152859833.png)
 
 ### Edit 환경변수 사용.
 
