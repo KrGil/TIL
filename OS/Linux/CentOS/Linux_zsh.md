@@ -144,6 +144,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 ### zsh 버전이 낮다고 뜰 때
 
+아래 링크를 보고 따라해 주세요!
+
 https://gist.github.com/Semo/378fba2516a31f2608f0ad0161a73ab7
 
 

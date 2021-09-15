@@ -6,7 +6,7 @@
 
 우분투에서 ls 시 이렇게 글자 배경색상이 생깁니다... 고쳐보려고 정말 theme도 고쳐보고 색상도 따로 줘보고 해도 해결이 안되네요... 방법을 찾다 colorls라는 것을 보게 되었습니다.
 
-![image-20210826091703873](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Ubuntu_zsh_colorls.assets/image-20210826091703873.png)
+![image-20210826091703873](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Linux/Ubuntu/Ubuntu_zsh_colorls.assets/image-20210826091703873.png)
 
 https://github.com/athityakumar/colorls
 
@@ -80,7 +80,7 @@ sudo apt-get install build-essential
 sudo gem install colorls
 ```
 
-![image-20210826102632099](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Ubuntu_zsh_colorls.assets/image-20210826102632099.png)
+![image-20210826102632099](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Linux/Ubuntu/Ubuntu_zsh_colorls.assets/image-20210826102632099.png)
 
 후.. 긴 여정이었습니다.  이제 ls를 사용하면 colorls가 자동으로 작동하도록 등록합니다.
 
@@ -103,7 +103,7 @@ https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel1
 
 ``` source ~/.zshrc```로 변경 사항을 적용시킵니다.
 
-![image-20210826103336817](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Ubuntu_zsh_colorls.assets/image-20210826103336817.png)
+![image-20210826103336817](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Linux/Ubuntu/Ubuntu_zsh_colorls.assets/image-20210826103336817.png)
 
 
 
@@ -111,7 +111,7 @@ https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel1
 
 폰트까지 변경해 주니  깔끔하게 출력이 됩니다.
 
-![image-20210826105347515](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Ubuntu_zsh_colorls.assets/image-20210826105347515.png)
+![image-20210826105347515](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Linux/Ubuntu/Ubuntu_zsh_colorls.assets/image-20210826105347515.png)
 
 
 

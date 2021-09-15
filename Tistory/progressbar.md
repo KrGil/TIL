@@ -86,7 +86,7 @@ prognroll.js:1 Uncaught TypeError: Cannot read property 'fn' of undefined
 
 제가 선택한 색상은 gingerline 입니다.
 
-![image-20210830171746178](https://raw.githubusercontent.com/KrGil/TIL/main/documents_typora/Tistory/progressbar.assets/image-20210830171746178.png)
+![image-20210830171746178](https://raw.githubusercontent.com/KrGil/TIL/main/Tistory/progressbar.assets/image-20210830171746178.png)
 
 
 
