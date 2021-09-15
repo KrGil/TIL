@@ -5,7 +5,7 @@ HTTP(HyperText Transfer Protocol)은 웹에서 클라이언트(웹 브라우저)
 ###### *현재 HTTP는 신뢰할 수 있는 연결 기반인 TCP 표준에 의존합니다.*
 
 ###### *구글의 경우*  자체적으로 개발한 QUIC(HTTP3)을 사용하며 UDP를 기반으로 합니다. 
-![image-20210820095135118](https://raw.githubusercontent.com/KrGil/TIL/main/C.S/documents/HTTP.assets/image-20210820095135118.png)
+![image-20210820095135118](https://raw.githubusercontent.com/KrGil/TIL/main/CS/HTTP/HTTP.assets/image-20210820095135118.png)
 
 
 # HTTP 1.1이란?
