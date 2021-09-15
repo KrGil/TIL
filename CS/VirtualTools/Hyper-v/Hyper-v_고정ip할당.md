@@ -14,7 +14,7 @@
 
 - 저는 스위치의 이름을 CentOS라고 지었습니다.
 
-![image-20210906110645340](https://raw.githubusercontent.com/KrGil/TIL/main/VirtualTools/Hyper-v_고정ip할당.assets/image-20210906110645340.png)
+![image-20210906110645340](https://raw.githubusercontent.com/KrGil/TIL/main/VirtualTools/Hyper-v/Hyper-v_고정ip할당.assets/image-20210906110645340.png)
 
 
 

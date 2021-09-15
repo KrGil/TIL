@@ -1,6 +1,6 @@
 
 
-# Hiper-v에서 Linux server(CentOS) 포트포워딩 시키기.
+# Hyper-v에서 Linux server(CentOS) 포트포워딩 시키기.
 
 
 
