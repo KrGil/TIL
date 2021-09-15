@@ -4,11 +4,11 @@
 
 설정 -> 앱 -> 선택적 기능 -> 기능추가 -> openssh 서버 추가
 
-![image-20210914090847483](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Windows_openSSH_server.assets/image-20210914090847483.png)
+![image-20210914090847483](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Windows/Server/Windows_openSSH_server.assets/image-20210914090847483.png)
 
 
 
-![image-20210914090731173](https://raw.githubusercontent.com/KrGil/TIL/main/Windows/Windows_openSSH_server.assets/image-20210914090731173.png)
+![image-20210914090731173](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Windows/Server/Windows_openSSH_server.assets/image-20210914090731173.png)
 
 ```
 Start-Service sshd

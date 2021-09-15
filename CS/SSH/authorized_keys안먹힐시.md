@@ -95,7 +95,7 @@ jmocha@172.30.130.176's password:
 3. 로그인 후 ```/home/eisen/.ssh``` 파일 생성
 4. ```chmod 700 .ssh``` 로 ```.ssh```파일 권한 수정
 
-![image-20210910091149601](https://raw.githubusercontent.com/KrGil/TIL/main/Linux/authorized_keys안먹힐시.assets/image-20210910091149601.png)
+![image-20210910091149601](https://raw.githubusercontent.com/KrGil/TIL/main/CS/SSH/authorized_keys안먹힐시.assets/image-20210910091149601.png)
 
 그럼 위와 같이 소유와 권한이 나타나는 것을 알 수 있습니다.
 
@@ -131,11 +131,11 @@ jmocha@172.30.130.176's password:
 
 1. ```ssh-copy-id eisen@localhost``` 명령어 실행
 
-![image-20210910091854112](https://raw.githubusercontent.com/KrGil/TIL/main/Linux/authorized_keys안먹힐시.assets/image-20210910091854112.png)
+![image-20210910091854112](https://raw.githubusercontent.com/KrGil/TIL/main/CS/SSH/authorized_keys안먹힐시.assets/image-20210910091854112.png)
 
 2. 이미 .ssh 폴더와 authorized_keys 파일이 존재 할 시
 
-![image-20210910092046088](https://raw.githubusercontent.com/KrGil/TIL/main/Linux/authorized_keys안먹힐시.assets/image-20210910092046088.png)
+![image-20210910092046088](https://raw.githubusercontent.com/KrGil/TIL/main/CS/SSH/authorized_keys안먹힐시.assets/image-20210910092046088.png)
 
 ```ssh-copy-id -f eisen@localhost``` 를 사용하거나
 

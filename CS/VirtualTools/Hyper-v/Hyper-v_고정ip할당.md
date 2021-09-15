@@ -14,7 +14,7 @@
 
 - 저는 스위치의 이름을 CentOS라고 지었습니다.
 
-![image-20210906110645340](https://raw.githubusercontent.com/KrGil/TIL/main/VirtualTools/Hyper-v/Hyper-v_고정ip할당.assets/image-20210906110645340.png)
+![image-20210906110645340](https://raw.githubusercontent.com/KrGil/TIL/main/CS/VirtualTools/Hyper-v/Hyper-v_고정ip할당.assets/image-20210906110645340.png)
 
 
 
@@ -22,7 +22,7 @@
 
 - 보통 연결하면 192.168.137.1로 설정이 잡히는 듯 하더군요.
 
-![image-20210906111352867](https://raw.githubusercontent.com/KrGil/TIL/main/VirtualTools/Hyper-v_고정ip할당.assets/image-20210906111352867.png)
+![image-20210906111352867](https://raw.githubusercontent.com/KrGil/TIL/main/CS/VirtualTools/Hyper-v/Hyper-v_고정ip할당.assets/image-20210906111352867.png)
 
 
 
@@ -32,11 +32,11 @@
 
 centos에 접속해 설정을 바꿔 줍니다.(우측 상단의 유선 네트워크 설정)
 
-![image-20210906133017981](https://raw.githubusercontent.com/KrGil/TIL/main/VirtualTools/Hyper-v_고정ip할당.assets/image-20210906133017981.png)
+![image-20210906133017981](https://raw.githubusercontent.com/KrGil/TIL/main/CS/VirtualTools/Hyper-v/Hyper-v_고정ip할당.assets/image-20210906133017981.png)
 
 그 후 설정 버튼을 클릭한 후 IPv4를 아래 이미지와 같이 변경해줍니다.
 
-![image-20210906133119837](https://raw.githubusercontent.com/KrGil/TIL/main/VirtualTools/Hyper-v_고정ip할당.assets/image-20210906133119837.png)
+![image-20210906133119837](https://raw.githubusercontent.com/KrGil/TIL/main/CS/VirtualTools/Hyper-v/Hyper-v_고정ip할당.assets/image-20210906133119837.png)
 
 
 
@@ -46,7 +46,7 @@ centos에 접속해 설정을 바꿔 줍니다.(우측 상단의 유선 네트�
 ip route show
 ```
 
-![image-20210906133230737](https://raw.githubusercontent.com/KrGil/TIL/main/VirtualTools/Hyper-v_고정ip할당.assets/image-20210906133230737.png)
+![image-20210906133230737](https://raw.githubusercontent.com/KrGil/TIL/main/CS/VirtualTools/Hyper-v/Hyper-v_고정ip할당.assets/image-20210906133230737.png)
 
 
 
@@ -72,11 +72,11 @@ ip route show
 
 ### Default Switch 분석
 
-![image-20210906152457280](https://raw.githubusercontent.com/KrGil/TIL/main/VirtualTools/Hyper-v_고정ip할당.assets/image-20210906152457280.png)
+![image-20210906152457280](https://raw.githubusercontent.com/KrGil/TIL/main/CS/VirtualTools/Hyper-v/Hyper-v_고정ip할당.assets/image-20210906152457280.png)
 
 #### CentOS 접속 후 ip route show 실행 시
 
-![image-20210906152534483](https://raw.githubusercontent.com/KrGil/TIL/main/VirtualTools/Hyper-v_고정ip할당.assets/image-20210906152534483.png)
+![image-20210906152534483](https://raw.githubusercontent.com/KrGil/TIL/main/CS/VirtualTools/Hyper-v/Hyper-v_고정ip할당.assets/image-20210906152534483.png)
 
 - Default Switch에서 설정한 ip를 기반으로 eth0가 172.25.24.14 로 가지를 친 것을 볼 수 있습니다.
 - 14 -> 13으로 변경해 보도록 하겠습니다.
@@ -85,7 +85,7 @@ ip route show
 
 게이트웨이로 잡아준 Default Switch의 ip가 변하지 않는다면 centOS 내부에서 고정 ip를 할당 시키면 될 듯 하네요.
 
-![image-20210906162035303](https://raw.githubusercontent.com/KrGil/TIL/main/VirtualTools/Hyper-v_고정ip할당.assets/image-20210906162035303.png)
+![image-20210906162035303](https://raw.githubusercontent.com/KrGil/TIL/main/CS/VirtualTools/Hyper-v/Hyper-v_고정ip할당.assets/image-20210906162035303.png)
 
 
 

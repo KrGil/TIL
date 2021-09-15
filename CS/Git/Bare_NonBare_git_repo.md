@@ -34,7 +34,7 @@ clone 받은 모든 폴더와 파일들을 볼 수 있고 해당 repo(repository
 
 아래와 같이 생성한 directory에 히스토리와 같은 모든 git 정보들이 들어있는 ```.git``` 파일이 존재 합니다.
 
-![image-20210909194102007](https://raw.githubusercontent.com/KrGil/TIL/main/Git/Bare_NonBare_git_repo.assets/image-20210909194102007.png)
+![image-20210909194102007](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Git/Bare_NonBare_git_repo.assets/image-20210909194102007.png)
 
 ***주의***
 
@@ -44,13 +44,13 @@ clone 받은 모든 폴더와 파일들을 볼 수 있고 해당 repo(repository
 
 작업 영역 없이 *__저장소__* 만을 생성합니다. 작업 영역이 없기 때문에 안에서 파일을 추가, 수정, 삭제 등을 할 수 없습니다.
 
-![image-20210909194459215](https://raw.githubusercontent.com/KrGil/TIL/main/Git/Bare_NonBare_git_repo.assets/image-20210909194459215.png)
+![image-20210909194459215](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Git/Bare_NonBare_git_repo.assets/image-20210909194459215.png)
 
 
 
 ### Bare와 non-bare의 차이.
 
-![image-20210909193039406](https://raw.githubusercontent.com/KrGil/TIL/main/Git/Bare_NonBare_git_repo.assets/image-20210909193039406.png)
+![image-20210909193039406](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Git/Bare_NonBare_git_repo.assets/image-20210909193039406.png)
 
 ### 사용 방법
 
