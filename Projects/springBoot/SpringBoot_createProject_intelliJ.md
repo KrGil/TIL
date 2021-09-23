@@ -73,6 +73,10 @@ Hello
 
 
 
+
+#### *__추가(서버 재시작 하지않고 build만으로 실행하기)__*
+
+
 ## spring-boot-devtools 설치
 
 #### 1. Gradle(or maven)에 defendency를 추가합니다.

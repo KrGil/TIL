@@ -1,10 +1,11 @@
 # Git Command
 
-### 	1. ```git diff```
+## 	List
+​	1. ```git diff```
 
+​	2. 
 
-
-## README
+## Notice
 
 [something]의 ``` [  ] ``` 표시는 생략해도 된다는 의미입니다.
 
@@ -12,7 +13,9 @@
 
 
 
-## git pull 하기 전에 리모트와의 변경점 확인하기
+## ``` git diff```
+
+### git pull 하기 전에 리모트와의 변경점 확인하기
 
 ```
 git diff HEAD <remoteName>/<branchName>
@@ -20,13 +23,13 @@ git diff HEAD <remoteName>/<branchName>
 
 local의 최신 commit과 remote repo와의 변경점을 볼 수 있습니다.
 
-i.g)  ```git diff HEAD origin/master``` 
+e.g)  ```git diff HEAD origin/master``` 
 
 *``` git fetch``` 이후 사용*
 
 
 
-## git push 하기 전에 리모트와의 변경점 확인하기
+### git push 하기 전에 리모트와의 변경점 확인하기
 
 ```
 git diff <remoteName>/<branchName> HEAD
@@ -38,7 +41,7 @@ local의 최신 commit과 remote repo와의 변경점을 볼 수 있습니다.
 
 
 
-## git add 전에 변경점 확인하기
+### git add 전에 변경점 확인하기
 
 ```
 git diff
@@ -46,7 +49,7 @@ git diff
 
 
 
-## git add 이후 변경점 확인하기
+### git add 이후 변경점 확인하기
 
 ```
 git diff --cached
@@ -57,7 +60,7 @@ git diff --staged
 
 
 
-## 방금 git commit 한 변경점 확인하기
+### 방금 git commit 한 변경점 확인하기
 
 ```
 git diff HEAD^ [HEAD]
@@ -67,7 +70,7 @@ git diff HEAD^ [HEAD]
 
 
 
-## commit 끼리 비교하기
+### commit 끼리 비교하기
 
 ```
 git diff <commitHash> <commitHash>
@@ -77,7 +80,7 @@ git diff <commitHash> <commitHash>
 
 
 
-## 특정 commit의 변경점 확인하기
+### 특정 commit의 변경점 확인하기
 
 ```
 git diff <commitHash>^
@@ -87,7 +90,7 @@ git diff <commitHash>^
 
 
 
-## 브랜치끼리 비교하기
+### 브랜치끼리 비교하기
 
 ```
 git diff <branchNameA> <branchNameB>
@@ -97,7 +100,7 @@ Pull Request를 보내기 전에 mainBranch와의 변경점을 확인할 때 사
 
 
 
-## 특정 1개의 파일의 변경점 확인하기
+### 특정 1개의 파일의 변경점 확인하기
 
 ```
 git diff -- <filePath>
@@ -107,7 +110,7 @@ git add 하기 전에 특정한 파일의 변경점을 확인하고자 할 때 �
 
 디렉토리 비교도 가능합니다.
 
-### 다른 브랜치와의 특정 파일 비교하기
+#### 다른 브랜치와의 특정 파일 비교하기
 
 ```
 git diff <branchNameA> <branchNameB> --<filePath>
@@ -115,7 +118,7 @@ git diff <branchNameA> <branchNameB> --<filePath>
 
 
 
-## 다른 파일끼리 비교하기
+### 다른 파일끼리 비교하기
 
 ```
 git diff -- <filePathA> <filePathB>
@@ -123,7 +126,7 @@ git diff -- <filePathA> <filePathB>
 
 
 
-## 어느정도 변경되었는지만 확인하기
+### 몇개의 파일이 몇 줄 변경되었는지 확인하기
 
 ```
 git diff --stat
@@ -135,5 +138,36 @@ sourceCode나 git desktop과 같이 한 눈에 변경 내역을 볼 수 있습�
 
 
 
+### 파일명만 확인하기
+
+```
+git diff --name--only
+```
 
 
+
+### 개행 코드나 공백 무시하기
+
+```
+git diff -w
+```
+
+
+
+### 변경점 전후에 표시되는 행 수 변경하기
+
+```
+git diff -U10
+```
+
+변경 전후의 행수 설정. U0으로 하면 전후의 행수가 0이 되어 보이지 않습니다.
+
+
+
+### 단어 단위로 비교하기
+
+```
+git diff --color-words
+```
+
+행 단위가 아닌 단어 단위로 비교해 줍니다.(2줄로 -, +로 표시 되는 것이 그냥 한줄로 색상만 변경되어 표시됩니다.)
