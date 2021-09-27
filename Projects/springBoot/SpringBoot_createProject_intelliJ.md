@@ -12,7 +12,7 @@ https://start.spring.io/
 
 #### 2. intelliJ에서 new project -> spring initializr로 생성합니다.
 
-![image-20210914173252408](SpringBoot_createProject_intelliJ.assets/image-20210914173252408.png)
+![image-20210914173252408](SpringBoot_createProject_intelliJ.assets/image-20210914173252408-16327311138921.png)
 
 #### 1번 선택
 
