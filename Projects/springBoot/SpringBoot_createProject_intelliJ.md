@@ -12,7 +12,7 @@ https://start.spring.io/
 
 #### 2. intelliJ에서 new project -> spring initializr로 생성합니다.
 
-![image-20210914173252408](SpringBoot_createProject_intelliJ.assets/image-20210914173252408-16327311138921.png)
+![image-20210914173252408](https://raw.githubusercontent.com/KrGil/TIL/main/Projects/springBoot/SpringBoot_createProject_intelliJ.assets/image-20210914173252408.png)
 
 #### 1번 선택
 
@@ -32,7 +32,7 @@ src -> main -> java -> 패키지 -> <name>SpringApplication
 
 SpringApplication을 실행 시켜 봅니다.(이름은 다를 수 있습니다.)
 
-![image-20210914174341396](SpringBoot_createProject_intelliJ.assets/image-20210914174341396.png)
+![image-20210914174341396](https://raw.githubusercontent.com/KrGil/TIL/main/Projects/springBoot/SpringBoot_createProject_intelliJ.assets/image-20210914174341396.png)
 
 
 
@@ -40,7 +40,7 @@ SpringApplication을 실행 시켜 봅니다.(이름은 다를 수 있습니다.
 
 embedded(내장)되어있는 tomcat이 8080포트로 실행이 되는지 확인해 봅니다.
 
-![image-20210914174403414](SpringBoot_createProject_intelliJ.assets/image-20210914174403414.png)
+![image-20210914174403414](https://raw.githubusercontent.com/KrGil/TIL/main/Projects/springBoot/SpringBoot_createProject_intelliJ.assets/image-20210914174403414.png)
 
 실행 시 화이트스페이스 에러가 뜨면 잘 연결되었다는 뜻입니다.
 
@@ -66,7 +66,7 @@ Hello
 
 저장 후 서버를 재시작하면
 
-![image-20210914175147664](SpringBoot_createProject_intelliJ.assets/image-20210914175147664.png)
+![image-20210914175147664](https://raw.githubusercontent.com/KrGil/TIL/main/Projects/springBoot/SpringBoot_createProject_intelliJ.assets/image-20210914175147664.png)
 
 아래 이미지와 같이 페이지가 뜨는것을 알 수 있습니다.
 
@@ -95,19 +95,19 @@ dependencies {
 
 #### 2. application이 실행 중이더라도 자동 빌드(컴파일)이 되도록 허락합니다.
 
-![image-20210914171603344](SpringBoot_createProject_intelliJ.assets/image-20210914171603344.png)
+![image-20210914171603344](https://raw.githubusercontent.com/KrGil/TIL/main/Projects/springBoot/SpringBoot_createProject_intelliJ.assets/image-20210914171603344.png)
 
 #### 3. 자동 빌드(compile)를 허락합니다.
 
-![image-20210914163300388](SpringBoot_createProject_intelliJ.assets/image-20210914163300388.png)
+![image-20210914163300388](https://raw.githubusercontent.com/KrGil/TIL/main/Projects/springBoot/SpringBoot_createProject_intelliJ.assets/image-20210914163300388.png)
 
 #### 4. intelliJ 우측 상단에서 Edit Configurations를 클릭합니다.
 
-![image-20210914163701376](SpringBoot_createProject_intelliJ.assets/image-20210914163701376.png)
+![image-20210914163701376](https://raw.githubusercontent.com/KrGil/TIL/main/Projects/springBoot/SpringBoot_createProject_intelliJ.assets/image-20210914163701376.png)
 
 #### 5. 중간 쯤에 On 'update' action과 On frame deactivation을 *update resources* 로 변경합니다.
 
-![image-20210914163621870](SpringBoot_createProject_intelliJ.assets/image-20210914163621870.png)
+![image-20210914163621870](https://raw.githubusercontent.com/KrGil/TIL/main/Projects/springBoot/SpringBoot_createProject_intelliJ.assets/image-20210914163621870.png)
 
 
 
