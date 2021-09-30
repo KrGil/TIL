@@ -1,9 +1,13 @@
 # Git Command
 
 ## 	List
-​	1. ```git diff```
+ 	1. ```git diff```
 
-​	2. 
+ 2. ``` git log```
+
+ 3. ```etc```
+
+    
 
 ## Notice
 
@@ -57,6 +61,16 @@ git diff --staged
 ```
 
 두 command 모두 동일한 결과를 내줍니다.
+
+
+
+### git add 이전 변경점 확인하기
+
+```
+git diff --stat
+```
+
+
 
 
 
@@ -171,3 +185,146 @@ git diff --color-words
 ```
 
 행 단위가 아닌 단어 단위로 비교해 줍니다.(2줄로 -, +로 표시 되는 것이 그냥 한줄로 색상만 변경되어 표시됩니다.)
+
+
+
+## git log
+
+### 요약하기
+
+```
+git log --pretty="%h %s" --graph
+```
+
+```%h``` 요약해쉬 7글자
+
+```%s``` commit의 첫 번째 줄
+
+```--graph``` 그래프 보여주기
+
+
+
+
+
+### log 조회 범위 설정
+
+```
+git log --before=<number..>
+
+git log --since=<number..>
+
+git log --since=1month
+```
+
+
+
+### 특정 브랜치 log 조회하기
+
+```
+git log <origin/master>
+```
+
+특정 브랜치 log 보기
+
+
+
+### 특정 작성인으로 로그 검색하기
+
+```
+git log --author=<name>
+
+git log --author=<name> --grep=<name>
+```
+
+
+
+## etc
+
+### git stash
+
+```
+git stash
+```
+
+untracked 파일은 되지 않습니다. git add 이후에 stash를 해야 모두 적용됩니다.
+
+```
+git stash pop
+```
+
+pop  시 모든 상태가 unstaged로 변경됩니다.(add 이전 상태로 변경됩니다.)
+
+
+
+### 이전 commit message 사용하기
+
+```
+git commit -c HEAD 
+```
+
+```HEAD^``` , hash 등을 사용할 수 있습니다.
+
+
+
+### git config list 보기
+
+```
+git config --list
+```
+
+
+
+```
+git config --global --list
+```
+
+본인의 git 설정들을 볼 수 있습니다. 또한 ```--global``` 옵션을 추가하면 global 적용 옵션들만 따로 볼 수 있습니다.
+
+
+
+### commit 순서 바꾸기
+
+```
+git rebase -i HEAD~3
+```
+
+개인적으로 rebase의 경우 쓰기가 상당히 까다로운 듯 합니다.
+
+
+
+### ~와 ^
+
+```
+git show HEAD^
+git show HEAD^^
+git show HEAD~1
+```
+
+^의 경우 바로 전을 의미하고
+
+~1 등의 숫자일 경우 범위를 지정할 때 많이 사용합니다.
+
+```
+git log HEAD^..HEAD
+```
+
+HEAD로부터 한개 전까지.
+
+### 특정 브랜치를 내 브랜치로 merge하기
+
+```
+git merge <branch>
+```
+
+특정 브랜치에 있는 커밋들을 가지고 옵니다.
+
+```
+git merge -n master
+```
+
+```master``` 브랜치에 존재하는 커밋들을 unstaged 상태로 가지고 옵니다.
+
+
+
+
+
