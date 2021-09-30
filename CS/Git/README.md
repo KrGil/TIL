@@ -326,5 +326,15 @@ git merge -n master
 
 
 
+## git config
+
+### git status 시 한글 안될 때.
+
+```
+git config --global core.quotepath false
+```
+
+```"\354\204\254\354\227\260\352\262\260\355\225\230\352\270\260.cpp"``` git status 시 이런식으로 path가 출력될 때 사용하시면 한글로 변환되어서 출력됩니다.
+
 
 
