@@ -227,6 +227,24 @@ sudo vim /etc/ssh/sshd_config
 
 
 
+> 한글 깨질 시
+
+```
+alias ls='ls --show-control-chars'
+```
+
+
+
+> env 출력하기
+
+```
+print
+```
+
+
+
+
+
 
 
 ### 사용자 및 권한 관련 명령어
