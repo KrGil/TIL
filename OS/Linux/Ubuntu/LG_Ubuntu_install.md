@@ -110,15 +110,25 @@ sudo apt install grub-customizer
 grub-customizer
 ```
 
-![image-20211012114748712](/home/eisen/Documents/GitHub/TIL/OS/Linux/Ubuntu/LG_Ubuntu_install.assets/image-20211012114748712.png) 
+![image-20211012114748712](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Linux/Ubuntu/LG_Ubuntu_install.assets/image-20211012114748712.png) 
 
 잘 부팅 되는 5.11.0-16-generic으로 변경합니다.  Ubuntu 우클릭 후 edit
 
-![image-20211012125436082](/home/eisen/Documents/GitHub/TIL/OS/Linux/Ubuntu/LG_Ubuntu_install.assets/image-20211012125436082.png)
+![image-20211012125436082](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Linux/Ubuntu/LG_Ubuntu_install.assets/image-20211012125436082.png)
 
-![image-20211012125608339](/home/eisen/Documents/GitHub/TIL/OS/Linux/Ubuntu/LG_Ubuntu_install.assets/image-20211012125608339.png)
+![image-20211012125608339](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Linux/Ubuntu/LG_Ubuntu_install.assets/image-20211012125608339.png)
 
 잘 부팅되는 5.11.0-16 으로 번호만 변경해 줍니다.
+
+
+
+### 주의
+
+ubuntu 21.04 에서 kernel을 5.11.0-16으로 바꾼 후 fusuma의 특정 제스쳐가(4손가락 올리기) 작동이 안되더군요. 로그들을 확인해 본 결과 fusuma의 잘못보다는 libinput 혹은 xdotool 쪽에서 버그를 발생시키더군요. 해결책은 kernel 변경이라는데... 21.04에는 보시는바와 같이 2가지밖에 존재하지 않습니다. libinput에서 버그가 존재한다면 libinput의 버전을 변경해 보시는 것도 하나의 방법이라 생각합니다.
+
+또한 intelliJ 사용 시 한글을 입력하면 한글의 순서가 조금 이상하게 배치되더군요. 수정하려고 이런저런 방법을 동원해 보았지만 21.04에는 먹히지 않더군요. 아무래도 21.04 버전에서 발생한 버그들의 경우 해결책을 찾는것이 쉽지 않은 듯 합니다.
+
+
 
 
 
