@@ -30,7 +30,7 @@ sudo apt install gnome-tweaks
 
 tweaks를 실행시켜 줍니다.
 
-![image-20211027173909865](/home/eisen/Documents/GitHub/TIL/OS/Linux/Ubuntu/Ubuntu_AppleKeyboard.assets/image-20211027173909865.png)
+![image-20211027173909865](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Linux/Ubuntu/Ubuntu_AppleKeyboard.assets/image-20211027173909865.png)
 
 
 
@@ -40,7 +40,7 @@ tweaks를 실행시켜 줍니다.
 
 그리고 그 후 ```Alt/Win key behavior```의 ```Alt is mapped to Win and the usual Alt```를 체크해 줍니다. 
 
-![image-20211027174007729](/home/eisen/Documents/GitHub/TIL/OS/Linux/Ubuntu/Ubuntu_AppleKeyboard.assets/image-20211027174007729.png)
+![image-20211027174007729](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Linux/Ubuntu/Ubuntu_AppleKeyboard.assets/image-20211027174007729.png)
 
 그러면 alt키로 적용되며 기존 키보드에 설정한 한영 키 역시 잘 먹힙니다.
 
@@ -50,7 +50,7 @@ tweaks를 실행시켜 줍니다.
 
 > mac의 키보드 맵핑이 개인적으로 편하기 때문에 가장 왼쪽 하단부터 ```Windows(super), alt, ctrl``` 키로 새로 맵핑하였습니다.
 
-![image-20211027174332797](/home/eisen/Documents/GitHub/TIL/OS/Linux/Ubuntu/Ubuntu_AppleKeyboard.assets/image-20211027174332797.png)
+![image-20211027174332797](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Linux/Ubuntu/Ubuntu_AppleKeyboard.assets/image-20211027174332797.png)
 
 이렇게 설정을 변경하면 기존의 mac용 키보드와 비슷한 기능과 위치로 사용하실 수 있습니다.
 
