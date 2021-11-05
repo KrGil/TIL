@@ -18,7 +18,7 @@ KVM은 Linux를 _**타입1(베어메탈)**_ 하이퍼바이저로 전환하여 �
 
 단일 하드웨어에서 여러 다른 가상 머신을 호스팅할 수 있는 프로그램입니다.
 
-![image-20211029095355763](/home/eisen/Documents/GitHub/TIL/Team_discussion/KVM이란.assets/image-20211029095355763.png)
+![image-20211029095355763](https://raw.githubusercontent.com/KrGil/TIL/main/Team_discussion/KVM이란.assets/image-20211029095355763.png)
 
 ​																	출처 : [위키](https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%B0%94%EC%9D%B4%EC%A0%80)
 
