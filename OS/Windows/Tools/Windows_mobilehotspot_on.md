@@ -39,7 +39,7 @@ $ netsh wlan start hostednetwork //start hotspot
 $ netsh wlan show drivers
 ```
 
-![image-20210820135611098](Windows_mobilehotspot_on.assets/image-20210820135611098-16316869699353.png)
+![image-20210820135611098](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Windows/Tools/Windows_mobilehotspot_on.assets/image-20210820135611098-16316869699353.png)
 
 호스트된 네트워크 지원이 ''*__아니요__*''로 되어 있기 때문에 위와 같은 오류가 발생하는 것입니다.
 
@@ -73,6 +73,10 @@ Powershell.exe -noprofile -executionpolicy bypass -file "ps1파일경로"
 @echo off
 Powershell.exe -noprofile -executionpolicy bypass -file "C:\Users\NC517\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\mobilehotspot_on.ps1"
 pause
+    
+    @echo off
+Powershell.exe -noprofile -executionpolicy bypass -file "C:\Users\admin\Documents\mobilehotspot_on.ps1"
+pause
 ```
 
 ```Windows + R``` 를 눌러 실행을 키고 아래 문구를 칩니다.
@@ -84,13 +88,13 @@ $ shell:startup
 - 그러면 시작메뉴 > 프로그램 > 시작프로그램 폴더가 켜집니다.
 - 켜진 폴더에 .ps1파일과 .bat 파일을 붙여넣습니다. 
 
-![image-20210820150340770](Windows_mobilehotspot_on.assets/image-20210820150340770-16316869830635.png)
+![image-20210820150340770](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Windows/Tools/Windows_mobilehotspot_on.assets//image-20210820150340770-16316869830635.png)
 
 
 
 ### 컴퓨터를 재시작하면 아래와 같이 자동으로 모바일 핫스팟이 켜지는 것을 볼 수 있습니다.
 
-![image-20210820152416488](Windows_mobilehotspot_on.assets/image-20210820152416488-16316869953047.png)
+![image-20210820152416488](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Windows/Tools/Windows_mobilehotspot_on.assets//image-20210820152416488-16316869953047.png)
 
 
 
@@ -104,7 +108,7 @@ pause
 
 ##### 그럼 이렇게 컴퓨터가 켜질때마다 cmd 창이 실행되는 것을 볼 수 있습니다.
 
-![image-20210820152859833](Windows_mobilehotspot_on.assets/image-20210820152859833-16316870049759.png)
+![image-20210820152859833](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Windows/Tools/Windows_mobilehotspot_on.assets//image-20210820152859833-16316870049759.png)
 
 ### Edit 환경변수 사용.
 
