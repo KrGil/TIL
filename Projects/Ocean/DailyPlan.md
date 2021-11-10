@@ -71,6 +71,24 @@ EgovPropertyService -> /komsa_in/src/main/resources/egovframework/spring/context
 
 RequestContextHolder의 setAttributes()는 login.do와 ssoLogin.do에서 사용.
 
+/komsa_in/src/main/java/kr/or/komsa/cmn/com/service/impl/CmnComLoginServiceImpl.java
+
+login 시 mapper에 있는 selectOfficeInfo부터 시작해서 insert, update 등을 실행시키고, KomsaUserVO와 여타 다른 값들을 받아 온 후 HashMap<> result 에 추가한 후 Map<>으로 return.
+
+
+
+### Structure
+
+Controller - web / Controller
+
+Mapper - service / Mapper -> interface만 존재.
+
+Service - service / Service -> Interface, ServiceImpl이 함께 존재
+
+​	bean에 등록할 때는(@Resource) interface를 등록한다.(구현해 놓은 녀석들을 사용할 수 있다.)
+
+
+
 
 
 
@@ -82,3 +100,4 @@ RequestContextHolder의 setAttributes()는 login.do와 ssoLogin.do에서 사용.
 ---
 
 sql - 연산 순서 정리 ( oracle, mysql)  벤더란?
+
