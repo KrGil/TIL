@@ -8,6 +8,10 @@ eclipse 데이터 흐름 파악(jsp파일 위치 및 경로 확인)
 
 
 
+
+
+
+
 ### 정리해야할 것
 
 - 연산자
@@ -42,50 +46,6 @@ eclipse 데이터 흐름 파악(jsp파일 위치 및 경로 확인)
 
 
 
-
-### 흐름도
-
-​	선박검사 -> 검사신청서 -> 통합 선박검사(controller 데이터 흐름 확인.) -> 검색 버튼 시
-
-
-
-Class : ShiSarSeaShiInspctController.java(extends KomsaAbstractController) -> 
-
-Method : ("shiSarSeaShiInspctPage.do") shiSarSeaShiInspctListPage(@RequestParam HashMap<String, Object> param, ModelMap model) -> 
-
-
-
-
-
-### 참고
-
-#### EgovPropertyService
-
-EgovPropertyService -> /komsa_in/src/main/resources/egovframework/spring/context-properties.xml -> properties -> globa.properties, komsa_in_cmn.properties의 properties를 모두 가지고 옴.
-
-위와 같이 @resource 혹은 생성자로 DI된 클래스 혹은 메서드 들은 context-common.xml 혹은 poperties.xml 등과 같은 파일들에 bean으로 직접 등록시켜 놓았음.
-
-
-
-#### RequestContextHolder
-
-RequestContextHolder의 setAttributes()는 login.do와 ssoLogin.do에서 사용.
-
-/komsa_in/src/main/java/kr/or/komsa/cmn/com/service/impl/CmnComLoginServiceImpl.java
-
-login 시 mapper에 있는 selectOfficeInfo부터 시작해서 insert, update 등을 실행시키고, KomsaUserVO와 여타 다른 값들을 받아 온 후 HashMap<> result 에 추가한 후 Map<>으로 return.
-
-
-
-### Structure
-
-Controller - web / Controller
-
-Mapper - service / Mapper -> interface만 존재.
-
-Service - service / Service -> Interface, ServiceImpl이 함께 존재
-
-​	bean에 등록할 때는(@Resource) interface를 등록한다.(구현해 놓은 녀석들을 사용할 수 있다.)
 
 
 

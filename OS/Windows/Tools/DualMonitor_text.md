@@ -10,7 +10,7 @@
 
 ClearType 기능
 
-![image-20211110161354280](C:\Users\Eisen\Documents\GitHub\TIL\OS\Windows\Tools\DualMonitor_text.assets\image-20211110161354280.png)
+![image-20211110161354280](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Windows/Tools/DualMonitor_text.assets/image-20211110161354280.png)
 
 윈도우 검색창에서 ClearType을 검색하여 진행합니다.
 
@@ -24,7 +24,7 @@ ClearType 기능
 >
 > 높은 DPI 조정 재정의 체크 -> 응용 프로그램으로 설정
 
-![image-20211110161627683](C:\Users\Eisen\Documents\GitHub\TIL\OS\Windows\Tools\DualMonitor_text.assets\image-20211110161627683.png)
+![image-20211110161627683](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Windows/Tools/DualMonitor_text.assets/image-20211110161627683.png)
 
 프로그램 재시작 시 뚜렷한 텍스트를 볼 수 있습니다. 응용프로그램으로 설정 후 재시작 했는데도 텍스트 번짐 현상이 나온다면 다른 설정으로 한번 시도해 보시길 바랍니다.
 
