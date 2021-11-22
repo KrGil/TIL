@@ -4,8 +4,6 @@
 >
 > 역시 기억력은 믿을게 못되나 봅니다.
 
-
-
 ### 상태
 
 ![image-20211122091204978](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Git/git_push_시_username.assets/image-20211122091204978.png)
