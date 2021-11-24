@@ -21,13 +21,13 @@
 
 프로젝트를 생성한 후 hibernate의 버전을 설정하려면 본인이 사용하고 있는 spirngBoot의 버전을 알고 있어야 합니다.
 
-![image-20211123084046329](/home/eisen/Documents/GitHub/TIL/Projects/jpa-basic/create-jpa-project.assets/image-20211123084046329.png)
+![image-20211123084046329](https://raw.githubusercontent.com/KrGil/TIL/main/Projects/jpa-basic/create-jpa-project.assets/image-20211123084046329.png)
 
 spring.io -> Projects -> 해당하는 버전의 Reference Doc. 를 클릭하여 해당 버전의 document를 확인해 봅니다.
 
  그 후 __*a single HTML page*__를 클릭해서 한페이지로 본 후 ```org.hibernate``` 를 검색합니다. 
 
-![image-20211123084346371](/home/eisen/Documents/GitHub/TIL/Projects/jpa-basic/create-jpa-project.assets/image-20211123084346371.png)
+![image-20211123084346371](https://raw.githubusercontent.com/KrGil/TIL/main/Projects/jpa-basic/create-jpa-project.assets/image-20211123084346371.png)
 
 hibernate-entitymanager의 org.hibernate의 버전을 보면 5.6.1.Final까지 지원한다고 나와 있습니다.
 
@@ -53,7 +53,7 @@ hibernate-entitymanager의 org.hibernate의 버전을 보면 5.6.1.Final까지 �
 SELECT H2VERSION() FROM DUAL
 ```
 
-![image-20211123085129275](/home/eisen/Documents/GitHub/TIL/Projects/jpa-basic/create-jpa-project.assets/image-20211123085129275.png)
+![image-20211123085129275](https://raw.githubusercontent.com/KrGil/TIL/main/Projects/jpa-basic/create-jpa-project.assets/image-20211123085129275.png)
 
 위의 이미지와 같이 h2 버전을 return합니다.
 
