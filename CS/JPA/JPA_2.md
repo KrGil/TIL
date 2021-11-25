@@ -8,3 +8,7 @@
 
 
 
+EntityManagerFactory: application 로딩 시점에 딱 하나만 존재해야합니다.
+
+EntityManger: transaction 마다 생성해 주어야 합니다.
+
