@@ -111,5 +111,5 @@ select의 경우 위와 같이 em.find로 해당하는 pk(id = 1L)의 값을 찾
 
 ```update``` 의 경우 ```em.find()```로 찾은 객체에 ```.set<COLUMN>()을 사용하여 UPDATE를 실행 할 수 있습니다.
 
-
+jpa의 entity에 등록된 객체들은 commit 전에 jpa가 확인을 합니다. 그리고 값이 변경 되어 있다면 자동으로 ```update```를 실행시킵니다.
 
