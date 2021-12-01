@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  */
 public class NewIdRecommand {
     public static void main(String[] args) {
-        Solution2.
+//        Solution2.
     }
     public class Solution2{
         public String solution(String new_id){
