@@ -14,5 +14,19 @@
 
 ​		```Alt + Insert ```
 
+​	**RecentFiles**
 
+​		```Ctrl + E ```
+
+
+
+### ShortCut
+
+	#### 	System.out.println()
+
+​		**soutv** 선언된 변수 자동
+
+​		**soutp**
+
+​		**soutm**
 

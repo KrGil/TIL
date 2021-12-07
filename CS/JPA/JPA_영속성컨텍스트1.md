@@ -27,13 +27,17 @@ em.remove(user);
 
 ### persist
 
+> ```persist``` 를 사용하는 순간 영속 컨텍스트에 객체가 저장됩니다.
+>
+> 아래의 코드를 보는바와 같이 ```persist```를 사용한 순간에는 ```sql```이 실행되지 않습니다.
+
 ```\
-// 비영 속
+// 비영속
 User user = new User();
 user.setId(100L);
 user.setName("HelloJPA");
 
-// 영 속
+// 영속
 System.out.println("=== BEFORE ===");
 em.persist(user);
 System.out.println("=== AFTER ===");
@@ -41,7 +45,7 @@ System.out.println("=== AFTER ===");
 transaction.commit();
 ```
 
-
+#### result
 
 ```
 === BEFORE ===
@@ -56,4 +60,8 @@ Hibernate:
         values
             (?, ?)
 ```
+
+위의 결과와 같이 ```persist```를 실행한 순간에 ```insert```를 실행하는 것이 아니라 ```commit```의 순간에 영속 컨텍스트 내에 저장되어 있는 객체와 db를 비교하여 db에 없다면 ```insert```를 실행시켜 줍니다.
+
+
 
