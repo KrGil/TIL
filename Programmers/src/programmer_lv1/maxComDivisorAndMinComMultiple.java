@@ -1,31 +1,29 @@
 package programmer_lv1;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Set;
 
 public class maxComDivisorAndMinComMultiple {
     public static void main(String[] args) {
         maxComDivisorAndMinComMultiple result = new maxComDivisorAndMinComMultiple();
-        System.out.println(result.greatComDivisor(12));
+
+        System.out.println("result = " + Arrays.toString(result.solution(12, 3)));
     }
-    public int[] solution(int n, int m) {
-        int[] answer = {};
-        return answer;
-    }
-    ArrayList<Integer> greatComDivisor(int num){
-        ArrayList<Integer> divisorList = new ArrayList<>();
-        for(int i=1; i<=num/2; i++){
-            System.out.println(i);
-            if(num%i == 0){
-                if(!divisorList.contains(i))
-                    divisorList.add(i);
-                if(!divisorList.contains(num / i))
-                    divisorList.add(num / i);
+    public long[] solution(int n, int m) {
+        long[] answer = new long [2];
+
+//        if(m%n==0){
+//            answer[0] = n;
+//            answer[1] = m;
+//        }else{
+        for(int i = 1; i <= m; i++){
+            if(n%i==0 && m%i==0){
+                answer[0] = i;
             }
         }
-        return divisorList;
+        answer[1] = n*m/answer[0];
+//        }
+        return answer;
     }
-
-
-
 }
