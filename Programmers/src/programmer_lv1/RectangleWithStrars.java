@@ -1,5 +1,6 @@
 package programmer_lv1;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class RectangleWithStrars {
@@ -8,6 +9,11 @@ public class RectangleWithStrars {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println(a + b);
+        for (int i = 0; i < b; i++) {
+            for (int j = 0; j < a; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
