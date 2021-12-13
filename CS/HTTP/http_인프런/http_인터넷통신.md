@@ -14,7 +14,7 @@
 >
 > 전송 데이터
 
-![image-20211213075930570](/home/eisen/Documents/GitHub/TIL/CS/HTTP/http_인프런/http_인터넷통신.assets/image-20211213075930570.png)
+![image-20211213075930570](https://raw.githubusercontent.com/KrGil/TIL/main/CS/HTTP/http_%EC%9D%B8%ED%94%84%EB%9F%B0/http_%EC%9D%B8%ED%84%B0%EB%84%B7%ED%86%B5%EC%8B%A0.assets/image-20211213075930570.png)
 
 
 
@@ -40,7 +40,7 @@
 
 ### TCP, UDP
 
-![image-20211213080928828](/home/eisen/Documents/GitHub/TIL/CS/HTTP/http_인프런/http_인터넷통신.assets/image-20211213080928828.png)
+![image-20211213080928828](https://raw.githubusercontent.com/KrGil/TIL/main/CS/HTTP/http_%EC%9D%B8%ED%94%84%EB%9F%B0/http_%EC%9D%B8%ED%84%B0%EB%84%B7%ED%86%B5%EC%8B%A0.assets/image-20211213080928828.png)
 
 
 
