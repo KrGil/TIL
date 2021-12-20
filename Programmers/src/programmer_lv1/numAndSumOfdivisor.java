@@ -13,31 +13,41 @@ package programmer_lv1;
  */
 public class numAndSumOfdivisor {
     public static void main(String[] args) {
-        int left = 1;
-        int right = 2;
+        int left = 13;
+        int right = 17;
         numAndSumOfdivisor sol = new numAndSumOfdivisor();
-        sol.solution(left, right);
+        System.out.println(sol.solution(left, right));;
 
     }
     public int solution(int left, int right){
+//        int result = 0;
+//        for(int i = left; i <= right; i++){
+//            int divisorCnt = 0;
+//            for (int j = 1; j <= i; j++) {
+//                if (i % j == 0) {
+//                    divisorCnt++;
+//                }
+//            }
+//            if (divisorCnt % 2 == 0) {
+//                result += i;
+//                System.out.println("result : +"+result);
+//            } else {
+//                result -= i;
+//                System.out.println("result : -"+result);
+//            }
+//
+//            System.out.println("left : "+i+" divisorCnt : "+divisorCnt);
+//        }
+//        System.out.println(Math.sqrt(16));
         int result = 0;
         for(int i = left; i <= right; i++){
-            int divisorCnt = 1;
-            for (int j = 1; j <= left; j++) {
-                if (i % j == 0) {
-                    divisorCnt++;
-                }
-            }
-            if (divisorCnt % 2 == 0) {
-                result += i;
-                System.out.println("result : +"+result);
-            } else {
+            if (i % Math.sqrt(i) == 0) {
                 result -= i;
-                System.out.println("result : -"+result);
             }
-
-            System.out.println("left : "+i+" divisorCnt : "+divisorCnt);
+            else{
+                result += i;
+            }
         }
-        return left;
+        return result;
     }
 }
