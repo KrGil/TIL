@@ -1,35 +1,19 @@
 package programmer_lv1;
 
-import java.util.Locale;
-
 public class CreateStrangeStr {
     public static void main(String[] args) {
     String s = "try   hel  lo    world   ";
         CreateStrangeStr css = new CreateStrangeStr();
         System.out.println(css.solution(s));
-//        s	return
-//  "try hello world"	"TrY HeLlO WoRlD"
     }
     public String solution(String s){
-        String[] arr = s.split(" ");
-        StringBuffer st = new StringBuffer();
-
-        for (String a : arr) {
-            System.out.println("a = " + a);
-            for (int i = 0; i < a.length(); i++) {
-                if (i % 2 == 0) {
-                    st.append(String.valueOf(a.charAt(i)).toUpperCase().trim());
-                }else{
-                    st.append(String.valueOf(a.charAt(i)).toLowerCase().trim());
-                }
-            }
-            st.append(" ");
+        String[] temp = s.split("");
+        int cnt =0;
+        StringBuffer sn = new StringBuffer();
+        for (String a : temp) {
+            cnt = a.contains(" ") ? 0 : cnt +1;
+            sn.append(cnt % 2 == 0 ? a.toLowerCase() : a.toUpperCase());
         }
-        if(String.valueOf(s.charAt(s.length()-1)).equals(" ")){
-            System.out.println("is?");
-
-        }
-        st.setLength(st.length()-1);
-        return st.toString();
+        return sn.toString();
     }
 }
