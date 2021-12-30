@@ -13,7 +13,7 @@ public class IntSortAsc {
 
         Arrays.sort(a, Collections.reverseOrder());
         int[] b = Arrays.stream(a).mapToInt(v -> Integer.parseInt(v)).toArray();
-        int c = Arrays.toString(b);
+//        int c = Arrays.toString(b);
         System.out.println(Arrays.toString(b));
 
         return n;
