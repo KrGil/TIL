@@ -6,16 +6,12 @@ import java.util.stream.Stream;
 
 public class IntSortAsc {
     public static void main(String[] args) {
-        new IntSortAsc().solution(1231);
+        System.out.println(new IntSortAsc().solution(1231));
     }
-    public int solution(int n) {
+    public long solution(int n) {
         String[] a = String.valueOf(n).split("");
-
         Arrays.sort(a, Collections.reverseOrder());
-        int[] b = Arrays.stream(a).mapToInt(v -> Integer.parseInt(v)).toArray();
-        int c = Arrays.toString(b);
-        System.out.println(Arrays.toString(b));
-
-        return n;
+        String c = Arrays.toString(a);
+        return Long.parseLong(c.replaceAll("[^0-9]", ""));
     }
 }
