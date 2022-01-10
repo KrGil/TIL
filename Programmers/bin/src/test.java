@@ -15,15 +15,19 @@ public class test {
 //
 //        Input: n = 3, trust = [[1,3],[2,3],[3,1]]
 //        Output: -1
+//        3
+//                [[1,2],[2,3]]
     }
     public int solution(int n, int[][] trust) {
         int originNum = trust[0][1];
         int firstIndex = 1;
+        int[] judge = new int[n];
 
         for (int i = 0; i < trust.length; i++) {
             if (firstIndex != trust[i][0]) {
                 return -1;
             }
+            judge[i] = trust[i][1];
             firstIndex++;
         }
 
