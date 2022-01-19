@@ -38,25 +38,25 @@
 KrGil/TIL/CS/Algorithm/LeetCode/leetCode
 ```
 
-
-
 > leetcode로 link를 작성했습니다.
 
 링크를 걸 경우 아래와 같은 화면이 뜨게 됩니다.
 
 ![image-20220117154940380](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/LeetCode/LeetCode_Github.assets/image-20220117154940380.png)
 
+
+
 그 후 leetcode에서 평소와 같이 문제를 풀고 submit을 누릅니다.
 
-![image-20220117155106542](C:\Users\Eisen\Documents\GitHub\TIL\CS\Algorithm\LeetCode\LeetCode_Github.assets\image-20220117155106542.png)
+![image-20220117155106542](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/LeetCode/LeetCode_Github.assets/image-20220117155106542.png)
 
 그러면 아래 이미지들과 같이 자동으로  github에 글들이 올라옵니다.
 
-![image-20220117155626779](C:\Users\Eisen\Documents\GitHub\TIL\CS\Algorithm\LeetCode\LeetCode_Github.assets\image-20220117155626779.png)
+![image-20220117155626779](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/LeetCode/LeetCode_Github.assets/image-20220117155626779.png)
 
 chrome의 우측 상단에서 클립한 leethub을 보면 easy가 한개 올라가 있는 것을 알 수 있습니다.
 
-![image-20220117152311711](C:\Users\Eisen\Documents\GitHub\TIL\CS\Algorithm\LeetCode\LeetCode_Github.assets\image-20220117152311711.png)
+![image-20220117152311711](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/LeetCode/LeetCode_Github.assets/image-20220117152311711.png)
 
 ###### 
 
@@ -70,7 +70,7 @@ chrome의 우측 상단에서 클립한 leethub을 보면 easy가 한개 올라�
 
 ### Caution
 
-블로그를 작성한다고 leethub을 삭제 후 재설치 하였는데 기존 repository에 존재하는 파일의 경우 따로 반영이 되지 않는걸 알 수 있습니다. 만약 실수로 삭제했고 repository의 내용이 적다면 github의 repository를 삭제한 후 다시 submit을 클릭하면 재반영되는것을 알 수 있습니다.
+블로그를 작성한다고 leethub을 삭제 후 재설치했는데 기존 repository에 존재하는 파일의 경우 따로 반영이 되지 않는걸 알 수 있습니다. 만약 실수로 삭제했고 repository의 내용이 적다면 github의 repository를 삭제한 후 다시 submit을 클릭하면 재반영되는것을 알 수 있습니다.
 
 ### References
 
