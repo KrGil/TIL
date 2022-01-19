@@ -8,7 +8,7 @@ public class Two_sum {
         Two_sum two_sum = new Two_sum();
         int[] nums = {3, 2, 4};
 
-        two_sum.twoSum(nums, 6);
+        System.out.println("result = " + two_sum.twoSum(nums, 6));
     }
 
     //    public int[] twoSum(int[] nums, int target) {
