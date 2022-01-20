@@ -1,6 +1,7 @@
 package leetCode;
 
 import java.util.HashMap;
+import java.util.concurrent.ScheduledFuture;
 
 public class Two_sum {
     public static void main(String[] args) {
@@ -9,15 +10,25 @@ public class Two_sum {
 
         System.out.println("result = " + two_sum.twoSum(nums, 6));
     }
+
+    //    public int[] twoSum(int[] nums, int target) {
+//        HashMap<Integer, Integer> resultMap = new HashMap<>();
+//        for(int i=0; i< nums.length; i++){
+//            int result = target - nums[i];
+//            if (resultMap.containsKey(result)) {
+//                return new int[]{resultMap.get(result), i};
+//            }
+//            resultMap.put(nums[i], i);
+//        }
+//        return null;
     public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> resultMap = new HashMap<>();
-        for(int i=0; i< nums.length; i++){
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
             int result = target - nums[i];
-            if (resultMap.containsKey(result)) {
-                System.out.println("sdafasdfdddfsf");
-                return new int[]{resultMap.get(result), i};
+            if (map.containsKey(result)) {
+                return new int[]{ map.get(result), i};
             }
-            resultMap.put(nums[i], i);
+            map.put(result, i);
         }
         return null;
     }
