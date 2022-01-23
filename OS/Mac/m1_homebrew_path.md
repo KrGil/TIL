@@ -20,7 +20,7 @@
 
 터미널에서 위의 명령어를 실행시켜 줍니다.
 
-![image-20220123085005182](/Users/eisen/Documents/Github/TIL/OS/Mac/m1_homebrew_path.assets/image-20220123085005182.png)
+![image-20220123085005182](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Mac/m1_homebrew_path.assets/image-20220123085005182.png)
 
 비밀번호 등, 무엇을 요구하는지 잘 읽어본 후 엔터키를 쳐 설치를 완료합니다.
 
@@ -50,7 +50,7 @@ echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.zshrc
 
 ```brew --version``` 명령어로 ```brew``` 명령어가 잘 먹히는지, 버전은 몇인지 등을 확인할 수 있습니다.
 
-![image-20220123085753776](/Users/eisen/Documents/Github/TIL/OS/Mac/m1_homebrew_path.assets/image-20220123085753776.png)
+![image-20220123085753776](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Mac/m1_homebrew_path.assets/image-20220123085753776.png)
 
 
 
@@ -88,7 +88,7 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 #설치한 플러그인 잘 실행되는지 확인
 ```
 
-![image-20220123091002870](/Users/eisen/Documents/Github/TIL/OS/Mac/m1_homebrew_path.assets/image-20220123091002870.png)
+![image-20220123091002870](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Mac/m1_homebrew_path.assets/image-20220123091002870.png)
 
 설치 시 위의 이미지와 같이 해당 경로가 표시되어 있으니 설치 시 주의깊게 살펴보시길 바랍니다.
 
