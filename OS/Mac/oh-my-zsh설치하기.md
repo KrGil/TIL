@@ -16,7 +16,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 terminal에 상단의 명령어를 실행시킵니다.
 
-![image-20220124172659451](/Users/eisen/Documents/Github/TIL/OS/Mac/oh-my-zsh설치하기.assets/image-20220124172659451.png)
+![image-20220124172659451](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Mac/oh-my-zsh%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0.assets/image-20220124172659451.png)
 
 Oh-my-zsh 설치는 오래 걸리지 않습니다.
 
@@ -30,7 +30,7 @@ Oh-my-zsh 설치는 오래 걸리지 않습니다.
 
 > https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
-![image-20220124172844691](/Users/eisen/Documents/Github/TIL/OS/Mac/oh-my-zsh설치하기.assets/image-20220124172844691.png)
+![image-20220124172844691](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Mac/oh-my-zsh%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0.assets/image-20220124172844691.png)
 
 ZSH_THEME="" 부분을 원하시는 theme 이름으로 교체하시면 됩니다.
 
@@ -48,7 +48,7 @@ D2Coding ligature를 좋아하는 편이라 개발툴 등의 font를 모두 해�
 
 > Preferences -> Profiles -> Text -> Font : D2Coding ligatuer
 
-![image-20220124173750562](/Users/eisen/Documents/Github/TIL/OS/Mac/oh-my-zsh설치하기.assets/image-20220124173750562.png) 
+![image-20220124173750562](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Mac/oh-my-zsh%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0.assets/image-20220124173750562.png) 
 
 *저는 iterms에서 ligature를 사용하지 않습니다. (Use ligatures를 체크하지 않습니다)* 
 
@@ -90,7 +90,7 @@ prompt_context() {
 
 제일 하단에 위의 명령어를 붙여줍니다.
 
-![image-20220124175215405](/Users/eisen/Documents/Github/TIL/OS/Mac/oh-my-zsh설치하기.assets/image-20220124175215405.png)
+![image-20220124175215405](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Mac/oh-my-zsh%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0.assets/image-20220124175215405.png)
 
 위의 이미지와 같이 본인의 이름과 이모티콘으로 변경된 것을 알 수 있습니다.
 
@@ -207,7 +207,7 @@ vi ~/.zshrc
 
 zsh설정 파일에서 아래의 이미지와 같이 변경해 줍니다.
 
-![image-20220124181138539](/Users/eisen/Documents/Github/TIL/OS/Mac/oh-my-zsh설치하기.assets/image-20220124181138539.png)
+![image-20220124181138539](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Mac/oh-my-zsh%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0.assets/image-20220124181138539.png)
 
 *수정 후 iterm을 재시작 해주시길 바랍니다.*
 
