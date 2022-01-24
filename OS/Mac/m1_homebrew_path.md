@@ -2,19 +2,21 @@
 
 ### Before we go further
 
-맥북 2021 m1을 얼마 전에 구입하여 기존 맥과 연동시키지 말고 완전 처음부터 설정을 해보자는 생각에 하나하나 설정을 하고 있습니다.
+MacBook m1을 얼마 전에 구입하여 기존에 사용하던 MacBook과 연동시키지 말고 완전 처음부터 설정을 해보자는 생각에 하나하나 설정을 하고 있습니다.
 
 설정 도중에 m1이기에 기존에 사용하던 것들과는 조금 다른 설정들이 존재했습니다. Homebrew에서 받은 파일들의 경로가 기존 intel과 m1이 차이가 있더군요. 이에 대해 정리하고자 합니다.
 
-
+또한 제일 MacBook을 처음 구매하거나 사용했을 때 무엇부터 설정해야할 지 몰라 MacBook의 편한 기능들을 모르고 그냥 사용하시는 분들을 위해 설정을 위한 글들을 하나하나 작성해 보기로 했습니다. 추후에는 Mac 관련 글들을 모아 MacBook을 처음 사용하시는 개발자 분들을 위한 초기 세팅글을 작성할 예정입니다.
 
 ### Homebrew
 
-> Homebrew란 Mac OS용 패키지 관리자이자 툴입니다.
+> Homebrew란 Mac OS용 패키지 관리자이자 도구입니다.
+>
+> 간단하게 Mac OS에 설치되는 파일들을 관리해 주는 관리자(도구)라고 생각하시면 됩니다.
 
 #### 설치
 
-``` 
+``` bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -32,13 +34,13 @@
 
    a. ```~/.zshrc``` 라는 zsh설정 파일의 제일 하단에 ```export PATH=/opt/homebrew/bin:$PATH```라는 문구를 추가해주겠다는 명령어입니다.
 
-```
+```bash
 echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.zshrc
 ```
 
 2. 직접 ~/.zshrc 파일에 들어가셔서 ```export PATH=/opt/homebrew/bin:$PATH``` 를 추가해 주어도 됩니다.
 
-   ```
+   ```bash
    cd ~/.zshrc
    // 제일 하단에 아래의 문구 복사 붙여넣기
    export PATH=/opt/homebrew/bin:$PATH
@@ -72,14 +74,14 @@ M1 :  `/opt/homebrew`
 
 Intel mac에서
 
-```null
+```bash
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ```
 
 M1 mac에서
 
-```null
+```bash
 #.zshrc에 추가할 코드
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh

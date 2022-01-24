@@ -1,0 +1,3 @@
+# 
+
+https://hjiee.tistory.com/entry/%ED%84%B0%EB%AF%B8%EB%84%90-Oh-My-ZSH%EB%A1%9C-%ED%84%B0%EB%AF%B8%EB%84%90-%EC%95%84%EB%A6%84%EB%8B%B5%EA%B2%8C-%EA%BE%B8%EB%A9%B0%EB%B3%B4%EA%B8%B0
