@@ -34,6 +34,6 @@ public class PalindromeNumber {
             reversedNum = (reversedNum * 10) + lastDigit;
         }
         System.out.println("reversedNum = " + reversedNum);
-        return reversedNum==x && x > 0?true:false;
+        return reversedNum==x ?true:false;
     }
 }

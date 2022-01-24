@@ -26,9 +26,9 @@ public class FindTheTownJudge {
             System.out.println(1);
             if (trust[i][0] != trust[i][1]) {
                 if (i != trust.length) {
-                    System.out.println(2);
-                    System.out.println(trust[i][1]);
-                    System.out.println(trust[i + 1][1]);
+//                    System.out.println(2);
+//                    System.out.println(trust[i][1]);
+//                    System.out.println(trust[i + 1][1]);
                     if (trust[i][1] == trust[i + 1][1]) {
                         System.out.println(3);
                         return trust[i][1];
