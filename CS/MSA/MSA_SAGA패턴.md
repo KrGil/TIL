@@ -20,11 +20,11 @@
 
 마이크로서비스들끼리 이벤트를 주고 받아 특정 마이크로서비스에서의 작업이 실패하면 이전까지의 작업이 완료된 마이크로서비스들에게 보상(complemetary) 이벤트를 제공함으로 분산 환경에서 원자성(atomicity)을 보장하는 패턴입니다.
 
-![image-20220106141900336](https://raw.githubusercontent.com/KrGil/TIL/main/CS/CS/MSA_SAGA%ED%8C%A8%ED%84%B4.assets/image-20220106141900336.png)
+![image-20220106141900336](https://raw.githubusercontent.com/KrGil/TIL/main/CS/MSA/MSA_SAGA%ED%8C%A8%ED%84%B4.assets/image-20220106141900336.png)
 
 그리고 SAGA 패턴의 이벤트 실패 시는 다음과 같이 실패 이벤트를 주어 처리합니다.
 
-![image-20220106141919851](https://raw.githubusercontent.com/KrGil/TIL/main/CS/CS/MSA_SAGA%ED%8C%A8%ED%84%B4.assets/image-20220106141919851.png)
+![image-20220106141919851](https://raw.githubusercontent.com/KrGil/TIL/main/CS/MSA/MSA_SAGA%ED%8C%A8%ED%84%B4.assets/image-20220106141919851.png)
 
 SAGA 패턴의 핵심은 트랜잭션의 관리주체가 DBMS에 있는 것이 아닌 Application에 있습니다. 따라서 각각의 Application의 트랜잭션 요청의 실패로 인한 Rollback 처리(보상)은 Application에서 구현합니다.(분산되어 있으니까요)
 
