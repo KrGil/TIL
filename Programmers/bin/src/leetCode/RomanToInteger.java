@@ -21,18 +21,14 @@ public class RomanToInteger {
         map.put('D', 500);
         map.put('M', 1000);
         char[] chars = str.toCharArray();
-        int result = 0;
-        for (int i = 0; i < chars.length-1; i++) {
-            System.out.println("chars[i] = " + chars[i]);
-            System.out.println("chars = " + map.get(chars[i]));
-            if (map.get(chars[i]) <= map.get(chars[i + 1])) {
-                result = result - map.get(chars[i]);
+        int result = map.get(chars[0]);
+        for (int i = 1; i < chars.length-1; i++) {
+            if (map.get(chars[i]) < map.get(chars[i + 1])) {
+                result -= map.get(chars[i]);
             } else {
-                result = map.get(chars[i]) + result;
+                result += result;
             }
-            System.out.println(result);
         }
-
         return result+map.get(chars[chars.length-1]);
     }
 }
