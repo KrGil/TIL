@@ -93,7 +93,7 @@ Windows Terminal을 쓰신다면 다양한 terminal들을 쓰실탠데(git bash,
 > 댓글로 alias를 사용해서 좀 더 쉽게 설정하는 방법을 알려주셔서 좀 더 끄적여 봅니다~
 
     alias open=start
-![image-20220128090232501](C:\Users\Eisen\Documents\GitHub\TIL\OS\Windows\Tools\WindowsTerminal\WindowsTerminal_zsh_custom_command.assets\image-20220128090232501.png)
+![image-20220128090232501](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Windows/Tools/WindowsTerminal/WindowsTerminal_zsh_custom_command.assets/image-20220128090232501.png)
 
 위의 이미지와 같이 작성하면 됩니다!
 
