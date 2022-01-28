@@ -86,3 +86,17 @@ Windows Terminal을 쓰신다면 다양한 terminal들을 쓰실탠데(git bash,
 
 
 
+### MORE
+
+#### Alias 사용하기
+
+> 댓글로 alias를 사용해서 좀 더 쉽게 설정하는 방법을 알려주셔서 좀 더 끄적여 봅니다~
+
+    alias open=start
+![image-20220128090232501](C:\Users\Eisen\Documents\GitHub\TIL\OS\Windows\Tools\WindowsTerminal\WindowsTerminal_zsh_custom_command.assets\image-20220128090232501.png)
+
+위의 이미지와 같이 작성하면 됩니다!
+
+```~/.zshrc ``` 파일 자체에서 수정해도 되고 $ZSH_CUSTOM의 하단에 .zsh파일을 따로 생성하여 저처럼 alias만 모아두는 파일을 생성한 후 작성하셔도 됩니다!
+
+_참고로 bash를 사용하시는 분들은 ~/.bashrc 파일에 위의 문구를 작성하시면 됩니다!_ 
