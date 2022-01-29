@@ -1,14 +1,14 @@
-package baeckjoon;
+package leetCode;
 
 public class MaximumSubarray {
     public static void main(String[] args) {
         MaximumSubarray maximumSubarray = new MaximumSubarray();
-        System.out.println("maximumSubarray.solution() = " + maximumSubarray.solution());
+        int[] nums = {-2,1,-3,4,-1,2,1,-5,4};
+        System.out.println("maximumSubarray.solution() = " + maximumSubarray.solution(nums));
 
     }
 
-    private int solution() {
-        int[] nums = {-2,1,-3,4,-1,2,1,-5,4};
+    private int solution(int[] nums) {
         int sum = 0;
         int max = Integer.MIN_VALUE;
 
