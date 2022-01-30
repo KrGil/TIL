@@ -22,6 +22,7 @@ public class ValidMountainArray {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == max) {
                 maxIndex = i;
+                if( maxIndex == arr.length-1 || maxIndex == 0) return false;
                 break;
             }
         }
