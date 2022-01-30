@@ -30,7 +30,7 @@ Eisen.printArray(arr);
 >
 > "일반" 프로젝트 입니다. springboot를 사용하면 jitpack에서 build 시 오류가 납니다.
 
-![image-20220130152451541](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/java_package_배포.assets/image-20220130152451541.png)
+![image-20220130152451541](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_package_%EB%B0%B0%ED%8F%AC.assets/image-20220130152451541.png)
 
 _maven이나 gradle이나 상관없이 만드시면 됩니다._ 
 
@@ -38,7 +38,7 @@ _maven이나 gradle이나 상관없이 만드시면 됩니다._
 
 생성 후 아래와 같이 java파일을 만들어 줍니다. package 생성 후 하단에 java 파일을 생성하시길 바랍니다.
 
-![image-20220130152655058](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/java_package_배포.assets/image-20220130152655058.png)
+![image-20220130152655058](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_package_%EB%B0%B0%ED%8F%AC.assets/image-20220130152655058.png)
 
 
 
@@ -56,23 +56,23 @@ Github의 Repository 생성 및 연동에 관해서는 이곳에서 다루지 �
 
 위의 링크에 접속 후 아래의 이미지와 같이 본인의 repo 주소를 기입합니다.
 
-![image-20220130140931993](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/java_package_배포.assets/image-20220130140931993.png)
+![image-20220130140931993](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_package_%EB%B0%B0%ED%8F%AC.assets/image-20220130140931993.png)
 
 그 후 "Look up" 을 클릭하게 되면 아래와 같이 초록색 글씨로 여러 탭들이 나옵니다.
 
 만약 아래와 같이 Releases 따로 설정하지 않으면 Branch 탭의 master-SNAPSHOT을 선택하시면 됩니다.
 
-![image-20220130153709843](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/java_package_배포.assets/image-20220130153709843.png)
+![image-20220130153709843](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_package_%EB%B0%B0%ED%8F%AC.assets/image-20220130153709843.png)
 
 
 
 본인의 commit에 따른 버전을 적용시키고 싶다면 ```Commit``` 에 들어가시고 원하는 commit의 ```Get it``` 버튼을 클릭하시면 됩니다.
 
-![image-20220130141012169](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/java_package_배포.assets/image-20220130141012169.png)
+![image-20220130141012169](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_package_%EB%B0%B0%ED%8F%AC.assets/image-20220130141012169.png)
 
 만약 build가 성공적으로 작동된다면 아래와 같이 초록색 문서 아이콘이 생겨나고 실패한다면 붉은색 문서 아이콘이 생성됩니다. 이때 _SNAPSHOT_의 경우 따로 아이콘이 생겨나지 않습니다.
 
-![image-20220130154055111](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/java_package_배포.assets/image-20220130154055111.png)
+![image-20220130154055111](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_package_%EB%B0%B0%ED%8F%AC.assets/image-20220130154055111.png)
 
 
 
@@ -84,7 +84,7 @@ jdk가 8이 아니라면 jitpack의 maven이 jdk를 찾지 못합니다.
 
 _저는 jdk11로 시도를 했다 아래와 같은 오류를 받았습니다_
 
-![image-20220130154329498](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/java_package_배포.assets/image-20220130154329498.png)
+![image-20220130154329498](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_package_%EB%B0%B0%ED%8F%AC.assets/image-20220130154329498.png)
 
 jdk가 다른 버전이라면 아래와 같이 pom.xml을 수정해 주시면 됩니다.
 
@@ -102,7 +102,7 @@ jdk가 다른 버전이라면 아래와 같이 pom.xml을 수정해 주시면 �
 
 #### gradle
 
-![image-20220130141039279](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/java_package_배포.assets/image-20220130141039279.png)
+![image-20220130141039279](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_package_%EB%B0%B0%ED%8F%AC.assets/image-20220130141039279.png)
 
 
 
@@ -125,7 +125,7 @@ jdk가 다른 버전이라면 아래와 같이 pom.xml을 수정해 주시면 �
 
 #### maven
 
-![image-20220130141145371](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/java_package_배포.assets/image-20220130141145371.png)
+![image-20220130141145371](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_package_%EB%B0%B0%ED%8F%AC.assets/image-20220130141145371.png)
 
 
 
@@ -152,23 +152,19 @@ jdk가 다른 버전이라면 아래와 같이 pom.xml을 수정해 주시면 �
 >
 > 위의 방법을 통해 repositories, dependencies를 추가해 주고 코끼리아이콘을 눌러 rebuild를 시켜 주었습니다.
 
-![image-20220130141515375](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/java_package_배포.assets/image-20220130141515375.png)
+![image-20220130141515375](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_package_%EB%B0%B0%ED%8F%AC.assets/image-20220130141515375.png)
 
 #### 함수 사용하기
 
 아래와 같이 잘 나오는 것을 확인할 수 있습니다.
 
-![image-20220130150037679](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/java_package_배포.assets/image-20220130150037679.png)
+![image-20220130150037679](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_package_%EB%B0%B0%ED%8F%AC.assets/image-20220130150037679.png)
 
 긴 글 읽으시느라 고생 많으셨습니다. 위의 방법을 알려준 [지인](https://shanepark.tistory.com/227)에게 감사의 말을 전합니다.
 
 혹시 모르는 방법이나 궁금한 사항이 있다면 아래 댓글 달아주시면 할 수 있는 한 도와드리도록 하겠습니다. 
 
-앞으로도 본인의 입맛에 맞는 library를 작성하여 편하게 사용하실 수 있기 바랍니다!
-
-
-
-
+앞으로도 본인의 입맛에 맞는 library를 작성하여 편하게 사용하실 수 있기 ㄹ바ㄹ
 
 ### References
 
