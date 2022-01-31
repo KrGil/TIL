@@ -10,7 +10,7 @@
 >
 > 해당 어플을 사용하여 화면전환을 여러번 하지 않고 여러번 복사해서 한번에 붙여넣기 하실 수 있는 스마트한 맥 유저가 되길 바랍니다.
 
-![out](/Users/eisen/Documents/Github/TIL/OS/Mac/clipy.assets/out.gif)
+![out](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Mac/clipy.assets/out.gif)
 
 ### 설치
 
@@ -30,11 +30,11 @@ brew search clipy
 
 
 
-![image-20220131083634596](/Users/eisen/Documents/Github/TIL/OS/Mac/clipy.assets/image-20220131083634596.png)
+![image-20220131083634596](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Mac/clipy.assets/image-20220131083634596.png)
 
 설치 후 어플을 실생시키면 mac의 상단에 아래의 이미지와 같은 문서 아이콘이 생깁니다.
 
-![image-20220131090524922](/Users/eisen/Documents/Github/TIL/OS/Mac/clipy.assets/image-20220131090524922.png)
+![image-20220131090524922](https://raw.githubusercontent.com/KrGil/TIL/main/OS/Mac/clipy.assets/image-20220131090524922.png)
 
 이제 command + c로 여러 텍스트를 복사한 후 ```command + shift + v```로 본인이 복사한 history에서 붙여 넣기 바랍니다~!!
 
