@@ -7,3 +7,9 @@
   - recursive call(재귀호출)
 
 - 점근 표기법(asymptotic analysis)
+
+- Algorithm
+- sequence
+- data structure
+
+- Consecutive: 연속적인
