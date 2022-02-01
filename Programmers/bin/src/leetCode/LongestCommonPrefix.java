@@ -25,16 +25,12 @@ public class LongestCommonPrefix {
 
         for (int i = 1; i < strs.length; i++) {
             int cur = strs[i].length();
-
-            int pre = strs[i-1].length();
             System.out.println("cur = " + cur);
-            System.out.println("pre = " + pre);
             strLength = Math.min(cur, strLength);
-
             System.out.println("strLength = " + strLength);
         }
         System.out.println("strs[1].length() = " + strs[1].length());
-        if (strLength == 1) {
+        if (strLength == 0) {
             return "";
         }
 
