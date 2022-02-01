@@ -80,13 +80,13 @@ Static sequence interface(upper that mentioned), plus
 - delete_at(i): shift Xi <- Xi+1 <- ... <- Xn`-1 <- Xn-1
 - Insert/delete_first/last(x)/()
 
-![image-20220202075459874](/Users/eisen/Documents/Github/TIL/CS/Algorithm/Interface_DataStructure.assets/image-20220202075459874.png)
+![image-20220202075459874](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/Interface_DataStructure.assets/image-20220202075459874.png)
 
 
 
 ## Linked list
 
-![image-20220202080013196](/Users/eisen/Documents/Github/TIL/CS/Algorithm/Interface_DataStructure.assets/image-20220202080013196.png)
+![image-20220202080013196](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/Interface_DataStructure.assets/image-20220202080013196.png)
 
 
 
@@ -105,11 +105,11 @@ Static sequence interface(upper that mentioned), plus
 - insert / delete = first() O(1) time
 - Insert/delete first
 
-![image-20220202081138033](/Users/eisen/Documents/Github/TIL/CS/Algorithm/Interface_DataStructure.assets/image-20220202081138033.png)
+![image-20220202081138033](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/Interface_DataStructure.assets/image-20220202081138033.png)
 
 - Get / set_at need Θ(i) time(Θ(n) worst case)
 
-![image-20220202081755655](/Users/eisen/Documents/Github/TIL/CS/Algorithm/Interface_DataStructure.assets/image-20220202081755655.png)
+![image-20220202081755655](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/Interface_DataStructure.assets/image-20220202081755655.png)
 
 
 
@@ -119,7 +119,7 @@ Static sequence interface(upper that mentioned), plus
 - enforce size = Θ(n) & >= n
 - maintain A[i] = Xi
 - Inset_last(x). :add to end unless n == size
-- ![image-20220202082723046](/Users/eisen/Documents/Github/TIL/CS/Algorithm/Interface_DataStructure.assets/image-20220202082723046.png)
+- ![image-20220202082723046](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/Interface_DataStructure.assets/image-20220202082723046.png)
 
 - if n = size: allocate new array of 2*size
 
@@ -131,7 +131,7 @@ Static sequence interface(upper that mentioned), plus
 
   ​						= Θ(long Z i=0 2^i) = Θ(2^log n) = Θ(n)
 
-  ![image-20220202083510701](/Users/eisen/Documents/Github/TIL/CS/Algorithm/Interface_DataStructure.assets/image-20220202083510701.png)
+  ![image-20220202083510701](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/Interface_DataStructure.assets/image-20220202083510701.png)
 
 ## Amortization
 
@@ -145,4 +145,4 @@ if any k operations take <= k*T(n) time
 
 ## Conclution
 
-![image-20220202084055751](/Users/eisen/Documents/Github/TIL/CS/Algorithm/Interface_DataStructure.assets/image-20220202084055751.png)
+![image-20220202084055751](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/Interface_DataStructure.assets/image-20220202084055751.png)
