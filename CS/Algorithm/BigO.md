@@ -4,7 +4,7 @@
 
 >  O(N)
 
-![image-20220203215535981](/Users/eisen/Documents/Github/TIL/CS/Algorithm/BigO.assets/image-20220203215535981.png)
+![image-20220203215535981](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/BigO.assets/image-20220203215535981.png)
 
 ## Constant time(상수 시간)
 
@@ -18,7 +18,7 @@ public void print_first(arr){
 
 It doesn't matter how big the input is this function will tate the same amout of steps to finish.
 
-![image-20220203215502607](/Users/eisen/Documents/Github/TIL/CS/Algorithm/BigO.assets/image-20220203215502607.png)
+![image-20220203215502607](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/BigO.assets/image-20220203215502607.png)
 
 
 
@@ -36,13 +36,13 @@ public void print_twice(arr){
 }
 ```
 
-![image-20220203220510692](/Users/eisen/Documents/Github/TIL/CS/Algorithm/BigO.assets/image-20220203220510692.png)
+![image-20220203220510692](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/BigO.assets/image-20220203220510692.png)
 
 ## Logarithmic Time (log)
 
 > O(log n)
 
-![image-20220203220903188](/Users/eisen/Documents/Github/TIL/CS/Algorithm/BigO.assets/image-20220203220903188.png)
+![image-20220203220903188](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/BigO.assets/image-20220203220903188.png)
 
 ex) binary search
 
