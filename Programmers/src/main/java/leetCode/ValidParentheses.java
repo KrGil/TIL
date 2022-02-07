@@ -59,7 +59,7 @@ public class ValidParentheses {
 //            }
 //        }
         // 바로 뒤가 아닌 {[]} 이러한 경우도 넣어 주어야함.
-        // reverse. 앞의 반틈과 뒤의 반틈.
+        // reverse. 앞의 반틈과 뒤의 반틈이 서로 같다면 true return.
         StringBuffer sb = new StringBuffer(s);
         System.out.println("sb = " + sb.charAt(0));
         String[] sarrFirst = new String[s.length()/2];
