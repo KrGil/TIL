@@ -90,3 +90,5 @@
 
 - db indexing
   - query문 자체에 인덱싱 하는것.
+
+- 
