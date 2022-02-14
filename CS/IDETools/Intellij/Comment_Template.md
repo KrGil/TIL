@@ -8,7 +8,9 @@
 >
 > 그 후 `Editor` -> `File and Code Templates` 의 `class`를 확인합니다.
 
-![image-20220213145932012](/Users/eisen/Documents/Github/TIL/CS/IDETools/Intellij/Comment_Template.assets/image-20220213145932012.png)
+
+
+![image-20220213145932012](https://raw.githubusercontent.com/KrGil/TIL/6fc32d8966f2057bb377ad396b0ae24695de1cdf/CS/IDETools/Intellij/Comment_Template.assets/image-20220213145932012.png)
 
 ```java
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
@@ -21,7 +23,7 @@ public class ${NAME} {
 
 아래 이미지와 같이 comment를 기입한 후 `apply`를 눌러줍니다.
 
-![image-20220213150852614](/Users/eisen/Documents/Github/TIL/CS/IDETools/Intellij/Comment_Template.assets/image-20220213150852614.png)
+![image-20220213150852614](https://raw.githubusercontent.com/KrGil/TIL/6fc32d8966f2057bb377ad396b0ae24695de1cdf/CS/IDETools/Intellij/Comment_Template.assets/image-20220213150852614.png)
 
 ```
 /**
@@ -41,7 +43,7 @@ public class ${NAME} {
 
 아래와 같이 잘 출력되는것을 확인할 수 있습니다.
 
-![image-20220213151946115](/Users/eisen/Documents/Github/TIL/CS/IDETools/Intellij/Comment_Template.assets/image-20220213151946115.png)
+![image-20220213151946115](https://raw.githubusercontent.com/KrGil/TIL/6fc32d8966f2057bb377ad396b0ae24695de1cdf/CS/IDETools/Intellij/Comment_Template.assets/image-20220213151946115.png)
 
 
 
