@@ -1,0 +1,59 @@
+#  점근성능 표기법(Asymptotic Notation)
+
+
+
+> 계속 느껴오고 생각했던 알고리즘과 OS, 하드웨어 등에 대한 전반적인 지식의 부족함으로 이번에 방통대에 입학을 결정하게 되었습니다.
+>
+> 급하게 신청하느라 추가모집으로 3학년 컴퓨터과학으로 편입하게 되었습니다. 일과 동시에 학업을 수행해야해서 시간이 빠듯할 듯 하지만 그래도 평소에 계속 느껴왔던 부족함을 메꾸기 위해서 열심히 해 보려 합니다ㅎㅎ
+>
+> 우선 알고리즘 과목 수강을 통해 조금 더 체계적으로 문제 해결 능력을 키우고 막혔던 몇몇 프로그램머스 2단계와 leetcode easy 문제들을 다시 도전할 생각입니다.
+
+# Big O
+
+> 점근적 상한
+
+어떤 양의 상수 c와 n0이 존재하여 모든 `n >= n0` 에 대하여 `f(n) <= c * g(n)`이면 `f(n) = O(g(n))`입니다.
+
+임의의 n0 이후의 입력값들의 경우 f(n)은 cg(n)과 <u>_같거나 낮지만_</u> `초과`할 수 없습니다.
+
+따라서 알고리즘에 있어서 최악의 시간을 표기하는 방법을 Big O notation이라고 합니다.
+
+![image-20220220144318975](/Users/eisen/Documents/Github/TIL/CS/Algorithm/점근성능.assets/image-20220220144318975.png)
+
+# Big Omega
+
+> 점근적 하한
+
+어떤 양의 상수 c와 n0이 존재하여 모든 `n >= n0` 에 대하여 `f(n) <= c * g(n)`이면 `f(n) = Ω(g(n))`입니다.
+
+임의의 n0 이후의 입력값들의 경우 f(n)은 cg(n)과 <u>_같거나 높지만_</u> `미만`이 될 수 없습니다.
+
+따라서 알고리즘에 있어서 최선의 시간을 표기하는 방법을 Big Omega notation이라고 합니다.
+
+![image-20220220145149478](/Users/eisen/Documents/Github/TIL/CS/Algorithm/점근성능.assets/image-20220220145149478.png)
+
+
+
+
+
+# Big Theta
+
+> 점근적 상하한
+
+어떤 양의 상수 c와 n0이 존재하여 모든 `n >= n0` 에 대하여 `c1 * g(n) <= f(n) <= c2 * g(n)`이면 `f(n) = Θ(g(n))`입니다.
+
+Big O 와 Big Omega 두가지를 모두 만족했을 때 사용합니다.
+
+![image-20220220145452311](/Users/eisen/Documents/Github/TIL/CS/Algorithm/점근성능.assets/image-20220220145452311.png)
+
+
+
+ Asymptotic Notation은 최고 차항만 표기하면 됩니다.
+
+`f(n) = 3n3 + 3n-1, g(n) = n3` 일 시 `O(n3)`으로 표기합니다.
+
+
+
+## Rerences
+
+https://ledgku.tistory.com/31
