@@ -31,7 +31,7 @@ echo "first" > test1.txt
 echo "second" > test2.txt
 ```
 
-![image-20220219212829211](/Users/eisen/Documents/Github/TIL/CS/Git/Diff_Command.assets/image-20220219212829211.png)
+![image-20220219212829211](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Git/Diff_Command.assets/image-20220219212829211.png)
 
 
 
@@ -43,7 +43,7 @@ diff test1.txt test2.txt
 
 
 
-![image-20220219212938890](/Users/eisen/Documents/Github/TIL/CS/Git/Diff_Command.assets/image-20220219212938890.png)
+![image-20220219212938890](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Git/Diff_Command.assets/image-20220219212938890.png)
 
 `< >` 해당 기호를 활용하여 구분점을 두고 있습니다만 좀 알아보기 힘들군요.
 
@@ -57,7 +57,7 @@ diff test1.txt test2.txt
 diff -u test1.txt test2.txt
 ```
 
-![image-20220219213250828](/Users/eisen/Documents/Github/TIL/CS/Git/Diff_Command.assets/image-20220219213250828.png)
+![image-20220219213250828](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Git/Diff_Command.assets/image-20220219213250828.png)
 
 `-u` 옵션으로 git과 비슷하게 `+ -` 구분자를 활용하여 비교해 주네요. 
 
@@ -90,7 +90,7 @@ brew install colordiff
 diff -u test1.txt test2.txt | colordiff
 ```
 
-![image-20220219213223713](/Users/eisen/Documents/Github/TIL/CS/Git/Diff_Command.assets/image-20220219213223713.png)
+![image-20220219213223713](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Git/Diff_Command.assets/image-20220219213223713.png)
 
 !!! 일반적으로 git을 사용할때와 동일한 색상으로 파일을 비교하는 것을 알 수 있습니다.
 
