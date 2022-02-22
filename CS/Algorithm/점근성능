@@ -18,7 +18,7 @@
 
 따라서 알고리즘에 있어서 최악의 시간을 표기하는 방법을 Big O notation이라고 합니다.
 
-![image-20220220144318975](/Users/eisen/Documents/Github/TIL/CS/Algorithm/점근성능.assets/image-20220220144318975.png)
+![image-20220220144318975](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/점근성능.assets/image-20220220144318975.png)
 
 # Big Omega
 
@@ -30,7 +30,7 @@
 
 따라서 알고리즘에 있어서 최선의 시간을 표기하는 방법을 Big Omega notation이라고 합니다.
 
-![image-20220220145149478](/Users/eisen/Documents/Github/TIL/CS/Algorithm/점근성능.assets/image-20220220145149478.png)
+![image-20220220145149478](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/점근성능.assets/image-20220220145149478.png)
 
 
 
@@ -44,7 +44,7 @@
 
 Big O 와 Big Omega 두가지를 모두 만족했을 때 사용합니다.
 
-![image-20220220145452311](/Users/eisen/Documents/Github/TIL/CS/Algorithm/점근성능.assets/image-20220220145452311.png)
+![image-20220220145452311](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/점근성능.assets/image-20220220145452311.png)
 
 
 

@@ -15,8 +15,8 @@ public class FlipingStr {
     public String solution(String s) {
 //        String[] arr = s.split("");
 //        Arrays.sort(arr, Collections.reverseOrder());
-//        StringBuffer sb = new StringBuffer(Arrays.toString(arr));
-//        System.out.println("sb = " + sb.);
+//        StringBuffer asb = new StringBuffer(Arrays.toString(arr));
+//        System.out.println("asb = " + asb.);
 //        return new StringBuffer(new String(Arrays.toString(arr))).toString();
         char[] s1 = s.toCharArray();
         Arrays.sort(s1);

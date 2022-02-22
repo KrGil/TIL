@@ -14,12 +14,12 @@ public class NumsOfPnY {
 
     }
     public boolean solution(String s) {
-//        StringBuffer sb = new StringBuffer();
-//        sb.append(n.toUpperCase());
+//        StringBuffer asb = new StringBuffer();
+//        asb.append(n.toUpperCase());
 //        int pCnt = 0;
 //        int yCnt = 0;
-//        for (int i = 0; i < sb.length(); i++) {
-//            int temp = sb.charAt(i)=='P' ? pCnt++ : sb.charAt(i)=='Y'  ? yCnt++ : 0 ;
+//        for (int i = 0; i < asb.length(); i++) {
+//            int temp = asb.charAt(i)=='P' ? pCnt++ : asb.charAt(i)=='Y'  ? yCnt++ : 0 ;
 //        }
 //        return pCnt == yCnt ? true : false;
         s = s.toUpperCase();
