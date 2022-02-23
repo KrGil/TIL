@@ -15,8 +15,8 @@ public class ValidParentheses {
         if (s.length() % 2 != 0) {
             return false;
         }
-        char sBracketIn = '(';
-        char sBracketOut =')';
+        char asbracketIn = '(';
+        char asbracketOut =')';
         char mBracketIn = '{';
         char mBracketOut ='}';
         char bBracketIn = '[';
@@ -60,19 +60,19 @@ public class ValidParentheses {
 //        }
         // 바로 뒤가 아닌 {[]} 이러한 경우도 넣어 주어야함.
         // reverse. 앞의 반틈과 뒤의 반틈이 서로 같다면 true return.
-        StringBuffer sb = new StringBuffer(s);
-        System.out.println("sb = " + sb.charAt(0));
+        StringBuffer asb = new StringBuffer(s);
+        System.out.println("asb = " + asb.charAt(0));
         String[] sarrFirst = new String[s.length()/2];
         String[] sarrSecond = new String[s.length()/2];
         System.out.println("s.length() = " + s.length());
         System.out.println("s.length()/2 = " + s.length()/2);
         for (int i = 0; i < s.length()/2; i++) {
             System.out.println("i = " + i);
-            System.out.println("String.valueOf(sb.charAt(i)) = " + String.valueOf(sb.charAt(i)));
-            sarrFirst[i] = String.valueOf(sb.charAt(i));
+            System.out.println("String.valueOf(asb.charAt(i)) = " + String.valueOf(asb.charAt(i)));
+            sarrFirst[i] = String.valueOf(asb.charAt(i));
             System.out.println("sarrFirst = " + sarrFirst[0]);
             System.out.println("sarrFirst = " + Arrays.toString(sarrFirst));
-            sarrSecond[i] = String.valueOf(sb.charAt(s.length()-(i+1)));
+            sarrSecond[i] = String.valueOf(asb.charAt(s.length()-(i+1)));
         }
         Eisen.printArray(sarrFirst);
         Eisen.printArray(sarrSecond);

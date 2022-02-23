@@ -13,7 +13,7 @@ public class TheBiggestNumInArr {
         System.out.println(theBiggestNumInArr.solution(arr));
     }
     public String solution(int[] numbers) {
-        StringBuffer sb = new StringBuffer();
+        StringBuffer asb = new StringBuffer();
 
         for (int j = 0; j < numbers.length; j++) {
             char firstNum = (char)String.valueOf(numbers[j]).charAt(0);
@@ -37,8 +37,8 @@ public class TheBiggestNumInArr {
                 }
             }
             System.out.println("temp = " + temp);
-            sb.append(temp);
+            asb.append(temp);
         }
-        return sb.toString();
+        return asb.toString();
     }
 }

@@ -20,7 +20,7 @@ public class LongestCommonPrefix {
             return strs[0].toString();
         }
         HashMap<String, String> map = new HashMap<>();
-        StringBuffer sb = new StringBuffer();
+        StringBuffer asb = new StringBuffer();
         int strLength = strs[0].length();
 
         for (int i = 1; i < strs.length; i++) {
@@ -56,13 +56,13 @@ public class LongestCommonPrefix {
             }
 
             if (isSame) {
-                sb.append(tempChar[0]);
+                asb.append(tempChar[0]);
             }else{
                 break;
             }
 
         }
-        return sb.toString();
+        return asb.toString();
     }
 
 }

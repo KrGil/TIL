@@ -7,18 +7,18 @@ public class PalindromeNumber {
     }
     public boolean isPalindrome(int x){
         String[] sarr = String.valueOf(x).split("");
-        StringBuffer firstSb = new StringBuffer();
-        StringBuffer secondSb = new StringBuffer();
+        StringBuffer firstasb = new StringBuffer();
+        StringBuffer secondasb = new StringBuffer();
         for (int i = 0; i < sarr.length/2; i++) {
-            firstSb.append(sarr[i]);
+            firstasb.append(sarr[i]);
         }
         for (int i = (sarr.length%2)== 0? (sarr.length/2) : (sarr.length/2)+1 ; i < sarr.length; i++) {
-            secondSb.append(sarr[i]);
+            secondasb.append(sarr[i]);
         }
-        secondSb = secondSb.reverse();
-        System.out.println("secondSb = " + secondSb.toString());
-        for (int i = 0; i < firstSb.length(); i++) {
-            if (firstSb.charAt(i) != secondSb.charAt(i)) {
+        secondasb = secondasb.reverse();
+        System.out.println("secondasb = " + secondasb.toString());
+        for (int i = 0; i < firstasb.length(); i++) {
+            if (firstasb.charAt(i) != secondasb.charAt(i)) {
                 return false;
             }
         }
