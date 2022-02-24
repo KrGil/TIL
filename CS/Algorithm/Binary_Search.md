@@ -1,23 +1,12 @@
-# 분할정복(Divide and Conquer)
+# 이진탐색(Binary Search)
 
-# 종류
-
-1. 이진탐색(Binary Search)
-2. 합병 정렬(Merge Sort)
-3. 퀵 정렬(Quick Sort)
-4. 선택 문제(Selection Sort)
-
-![image-20220223084925457](C:\Users\Eisen\Documents\GitHub\TIL\CS\Algorithm\분할정복.assets\image-20220223084925457.png)
-
-
-
-## 이진탐색(Binary Search)
+# 이진탐색(Binary Search)
 
 > 정렬된 상태의 입력 데이터에 대한 효과적인 탐색 방법
 >
 > 오름차순
 
-### 탐색 방법
+## 탐색 방법
 
 배열의 가운데 원소 A[x]와 탐색키 y를 비교.
 
@@ -25,11 +14,15 @@
 2) 탐색키 < 가운데 원소 -> '이진 탐색(원래 크기 1/2인 왼쪽 부분 배열) ': 순환호출
 3) 탐색키 < 가운데 원소 -> '이진 탐색(원래 크기 1/2인 오른쪽 부분 배열) ': 순환호출
 
+## 예제
+
+![image-20220224085945134](C:\Users\Eisen\Documents\GitHub\TIL\CS\Algorithm\Binary_Search.assets\image-20220224085945134.png)
+
 `T(n) = T(n/2) + O(1) (n > 1), T(1) = 1`
 
 `T(n) = O(logn)`
 
-### 특징
+## 특징
 
 - 배열의 데이터가 정렬된 경우에만 적용.
 
@@ -38,8 +31,4 @@
   데이터의 정렬 상태 유지를 위해서 평균 n/2개의 데이터 이동이 발생.
 
   -> 삽입 / 삭제가 빈번한 응용에서는 부적합.
-
-
-
- 
 
