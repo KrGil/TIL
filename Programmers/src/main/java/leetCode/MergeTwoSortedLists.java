@@ -59,8 +59,6 @@ public class MergeTwoSortedLists {
             list1 = list1.next;
 
         }
-
-
         return null;
     }
 }
