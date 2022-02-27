@@ -40,7 +40,6 @@ public class MergeTwoSortedLists {
         ListNode list2 = new ListNode(1);
         list2.next = new ListNode(3);
         list2.next.next = new ListNode(4);
-        System.out.println("list2.next.next.next = " + list2.next.next);
 
         ListNode result = mtsl.mergeTwoLists(list1, list2);
         System.out.println("result = " + result);
@@ -54,9 +53,51 @@ public class MergeTwoSortedLists {
         ListNode listTmp = new ListNode();
         listTmp.next = new ListNode(1);
 
-        while(list1 != null ){
-            System.out.println("listTmp = " + list1.val);
-            list1 = list1.next;
+        while(list1 != null || list2 != null ){
+            System.out.println("list1 = " + list1.val+ "  list2 = " + list2.val);
+            int list1Tmp = list1.val;
+            int list2Tmp = list2.val;
+
+            // todo
+            // current .next.val => to current .val
+            // first compare
+            if (list1Tmp <= list2Tmp) {
+                // add smaller val to .val
+                listTmp.val = list1Tmp;
+                System.out.println("list2Tmp = " + list2Tmp);
+
+                // add larger val to .next.val
+                if ((Integer)list2Tmp != null) {
+                    listTmp.next = new ListNode(list2Tmp);
+                }
+                listTmp.next.val = list2Tmp;
+                listTmp = listTmp.next;
+
+                // reset
+                list1Tmp = list1.next.val;
+                list2Tmp = list2.val;
+
+                list1 = list1.next;
+
+            } else {
+                // todo
+                // copy
+                // add smaller value to listTmp.val
+                listTmp.val = list2Tmp;
+                listTmp = listTmp.next;
+
+                // add larger value to listTmp.next.val
+                listTmp.val = list1Tmp;
+                System.out.println("list2Tmp = " + list2Tmp);
+                // reset
+                list1Tmp = list1.val;
+                list2Tmp = list2.next.val;
+
+
+
+                list2 = list2.next;
+            }
+
 
         }
         return null;
@@ -64,29 +105,29 @@ public class MergeTwoSortedLists {
 }
 //    public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 //
-//        ListNode head = new ListNode();
-//        ListNode tail = head;
+//        ListNode list1Tmp = new ListNode();
+//        ListNode list2Tmp = list1Tmp;
 //
 //        while (list1 != null || list2 != null) {
 //
 //            if (list1 == null) {
-//                tail.next = new ListNode(list2.val);
+//                list2Tmp.next = new ListNode(list2.val);
 //                list2 = list2.next;
 //            } else if (list2 == null) {
-//                tail.next = new ListNode(list1.val);
+//                list2Tmp.next = new ListNode(list1.val);
 //                list1 = list1.next;
 //            } else {
 //                if (list1.val < list2.val) {
-//                    tail.next = new ListNode(list1.val);
+//                    list2Tmp.next = new ListNode(list1.val);
 //                    list1 = list1.next;
 //                } else {
-//                    tail.next = new ListNode(list2.val);
+//                    list2Tmp.next = new ListNode(list2.val);
 //                    list2 = list2.next;
 //                }
 //            }
 //
-//            tail = tail.next;
+//            list2Tmp = list2Tmp.next;
 //        }
 //
-//        return head.next;
+//        return list1Tmp.next;
 //    }
