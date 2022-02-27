@@ -18,3 +18,17 @@
 
 ![image-20220226190043847](/Users/eisen/Documents/Github/TIL/CS/Algorithm/Quick_Sort.assets/image-20220226190043847.png)
 
+
+
+
+
+## 수행 시간
+
+최선 => O(nlogn)
+
+최악 => O(n2)
+
+피벗 선택의 임의성만 보장되면 평균 성능을 보일 가능성이 매우 높다.
+
+​	배열에서 임의의 값을 선택한 후, 배열의 처음 원소와 서로 교호나한 후 정렬 수행
+
