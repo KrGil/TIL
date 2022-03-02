@@ -49,91 +49,74 @@ public class MergeTwoSortedLists {
     }
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        // binary search
-        // recursive
-        // list2.next = listTmp
-        // listTmp.next
-        ListNode listTmp = new ListNode();
-        listTmp.next = new ListNode(1);
 
-        // todo
-        // 1. 둘 모두 null이 아닐 경우
-        //  1-1. a와 b 비교 후 a가 작을 시 a를 listTmp.val에 할당
-        //  1-1-1. b의 값을 다음 loop에 사용할 수 있도록 .next로 할당
-        //  1-1-2. .next의 값을 다음 loop의 .val로 사용하게끔 listTmp에 할당(listTmp = listTmp.next)
-        //  1-1-3. ArrayList result에 값 추가.
-        //  1-2. a와 b 비교 후 b가 작을 시 b를 listTmp.val에 할당
-        //  1-1-1. 위의 과정 반복
+        // tail에게 head의 주소값을 바라보게.
+        // head가 곧 tail임.
+        // tail.next = head.next와 동일하게 만듦.
+        ListNode head = new ListNode();
+        ListNode tail = head;
 
-        // 2. list1이 null이고 list2가 null이 아닐 경우
-        // 2-1. list2의 값을
-        // 3. list1이 null이 아니고 list2가 null일 경우
+        while(list1 != null && list2 != null ){
 
-
-        if (list1 == null && list2 == null) {
-            return null;
-        }
-        ListNode result = new ListNode();
-        while(list1 != null || list2 != null ){
-
-            // 2. list1이 null일 때
-            // 3. list1이 null일 때
-            if (list1 == null) {
-                System.out.println("list1 == null && list2 != null");
-                return null;
-            } else if (list2 == null) {
-                System.out.println("list1 != null && list2 == null");
-                return null;
-            } else{
-                // 1.
-                System.out.println("list1 = " + list1.val + "  list2 = " + list2.val);
-
-                if (list1.val <= list2.val) {
-                    System.out.println("list1 < list2");
-
-                    listTmp.val = list1.val;
-                    result.next = new ListNode();
-                    result = result.next;
-                    System.out.println("listTmp = " + listTmp);
-
-                    list1 = list1.next;
-                } else {
-                    System.out.println("list1 > list2");
-
-                    listTmp.val = list2.val;
-                    System.out.println("listTmp = " + listTmp);
-
-//                    result.add(listTmp.val);
-                    listTmp.next = new ListNode(list1.val);
-                    listTmp = listTmp.next;
-
-                    list2 = list2.next;
-                }
+            if (list1.val <= list2.val) {
+                tail.next = list1;
+                list1 = list1.next;
+            } else {
+                tail.next = list2;
+                list2 = list2.next;
             }
-            // 4. 둘 다 null 일 경우
+            tail = tail.next;
         }
-        return null;
+
+        // list1이 null이면 list2를 넣고 아니면 1.
+        tail.next = list1 == null ? list2: list1;
+
+        return head.next;
     }
 }
+//그리구 나중에 바꾼건
+//
 //    public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 //
-//        ListNode list1.val = new ListNode();
-//        ListNode list2 = list1.val;
+//        ListNode head = new ListNode();
+//        ListNode tail = head;
 //
-//        while (list1 != null || list2 != null) {
+//        while (list1 != null && list2 != null) {
 //
-//            if (list1 == null) {
-//                list2.next = new ListNode(list2.val);
-//                list2 = list2.next;
-//            } else if (list2 == null) {
-//                list2.next = new ListNode(list1.val);
+//            if (list1.val < list2.val) {
+//                tail.next = list1;
 //                list1 = list1.next;
 //            } else {
+//                tail.next = list2;
+//                list2 = list2.next;
+//            }
+//            tail = tail.next;
+//        }
+//
+//        tail.next = list1 == null ? list2 : list1;
+//
+//        return head.next;
+//    }
+
+
+//    public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+//
+//        ListNode head = new ListNode();
+//        ListNode tail = head;
+//
+//        while (list1 != null || list2 != null) {
+//            if (list1 == null) {
+//                tail.next = new ListNode(list2.val);
+//                tail = list2.next;
+//            } else if (list2 == null) {
+//                tail.next = new ListNode(list1.val);
+//                tail = list1.next;
+//            } else {
 //                if (list1.val < list2.val) {
-//                    list2.next = new ListNode(list1.val);
+//                    tail.next = new ListNode(list1.val);
 //                    list1 = list1.next;
 //                } else {
-//                    list2.next = new ListNode(list2.val);
+//                    tail.next = new ListNode(list2.val);
 //                    list2 = list2.next;
 //                }
 //            }
@@ -141,5 +124,5 @@ public class MergeTwoSortedLists {
 //            list2 = list2.next;
 //        }
 //
-//        return list1.val.next;
+//        return head.next;
 //    }
