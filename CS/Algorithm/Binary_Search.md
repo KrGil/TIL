@@ -16,7 +16,7 @@
 
 ## 예제
 
-![image-20220224085945134](C:\Users\Eisen\Documents\GitHub\TIL\CS\Algorithm\Binary_Search.assets\image-20220224085945134.png)
+![image-20220224085945134](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Algorithm/Binary_Search.assets/image-20220224085945134.png)
 
 `T(n) = T(n/2) + O(1) (n > 1), T(1) = 1`
 
