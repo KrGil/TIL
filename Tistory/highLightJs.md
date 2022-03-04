@@ -38,7 +38,7 @@
 >
 > 4. typora의 codeblock에서 markup을 입력 시 해당 문제가 발생하는 것을 발견.
 >
-> 5. 관련하여 분석하니 typora는 markup이 아닌 markdown을 지원.
+>    관련하여 분석하니 typora는 markup이 아닌 markdown을 지원.
 
 ## 1. 개발자 도구 확인
 
@@ -52,23 +52,32 @@
 
 ## 2. typora 확인
 
-실제 블로그에 올리기 전 작성한 typora의 글을 확인해 보았습니다.
+실제 블로그에 올리기 전 작성한 typora의 글을 확인해 보았습니다. 
 
-![image-20220305000129603](/Users/eisen/Documents/Github/TIL/Tistory/highLightJs.assets/image-20220305000129603.png)
+문제의 부분은 우측 하단 언어 지정란이 markup으로 되어 있으며
 
-![image-20220304133247245](https://raw.githubusercontent.com/KrGil/TIL/07cb25426428920219a7923c3c49e265ef6889de/Tistory/highLightJs.assets/image-20220304133247245.png)
+![image-20220305000129603](https://raw.githubusercontent.com/KrGil/TIL/main/Tistory/highLightJs.assets/image-20220305000129603.png)
 
+잘 작성되어있는 부분은 xml로 작성되어 있네요.
 
-
-![image-20220304125113312](https://raw.githubusercontent.com/KrGil/TIL/07cb25426428920219a7923c3c49e265ef6889de/Tistory/highLightJs.assets/image-20220304125113312.png)
-
-
+![image-20220305000638705](https://raw.githubusercontent.com/KrGil/TIL/main/Tistory/highLightJs.assets/image-20220305000638705.png)
 
 
 
-![image-20220304125200718](https://raw.githubusercontent.com/KrGil/TIL/07cb25426428920219a7923c3c49e265ef6889de/Tistory/highLightJs.assets/image-20220304125200718.png)
+## 3. 가설 확립 및 확인
 
-```markdown
-므
-```
+이 때 언어를 `markup`일 경우 제대로 적용이 되지 않을 것이라는 가설을 세웠습니다. 다른 언어로 설정했을 경우는 xml과 같이 잘 적용될 것이고요.
 
+블로그 포스팅을 여러번 해본 결과 가설이 확인되었습니다.
+
+
+
+## 4. typora 확인
+
+이 단계에서 typora의 언어 입력 창에 `markup`이 존재하지 않는다는 사실을 알게 되었습니다. 그리고 지원하는 언어가 `markdown`이라는 사실도요.
+
+*사실 이 단계의 경우 [hljs의 github](https://github.com/highlightjs/highlight.js)에 글을 남기기 위해 확인하다 알게 되었습니다... 내 첫 contribute...*
+
+
+
+음... 저는 이런 프로세스로 일처리를 하고 있는 중이었군요. 평소에는 의식하지 않았는데 제 문제 해결 프로세스를 세분화하고 점검해 보니 나름 합리적으로 움직이고 있는 듯 하네요.
