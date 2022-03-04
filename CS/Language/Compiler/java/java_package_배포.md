@@ -129,7 +129,7 @@ jdk가 다른 버전이라면 아래와 같이 pom.xml을 수정해 주시면 �
 
 
 
-```markup
+```markdown
 <repositories>
 		<repository>
 		    <id>jitpack.io</id>
@@ -138,7 +138,7 @@ jdk가 다른 버전이라면 아래와 같이 pom.xml을 수정해 주시면 �
 	</repositories>
 ```
 
-```markup
+```markdown
 <dependency>
 	    <groupId>com.github.KrGil</groupId>
 	    <artifactId>eisenUtils</artifactId>
