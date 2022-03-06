@@ -6,7 +6,7 @@
 
 저는 `typora`라는 markdown editor를 사용하고 있습니다. 헌데 평소와 같이 code를 작성하여 올렸었는데 어떤 것은 제 의도대로 잘 나오고 어떤 것은 이상하게 나오더군요. 그래서 왜 이런 현상이 일어나는지 알아보았습니다.(~~hljs에서 놓친 부분이 있다고 생각하고 신나게 구글 번역기까지 돌려가며 issue 작성 중에 제 잘못이라는 것을 깨달았습니다...~~)
 
-![image-20220304223340678](/Users/eisen/Documents/Github/TIL/Tistory/highLightJs.assets/image-20220304223340678.png)
+![image-20220304223340678](https://raw.githubusercontent.com/KrGil/TIL/main/Tistory/highLightJs.assets/image-20220304223340678.png)
 
 *네... 작성하다가 제 실수인걸 알고 후다닥 지웠습니다...*
 
@@ -93,3 +93,4 @@
 만약 저와 비슷한 문제(codeblock이 깨지는 현상)를 겪고 있다면 본인이 `markup`을 사용했는지 `markdown`을 사용했는지 한번 확인해 보시길 바랍니다.
 
 감사합니다.
+
