@@ -4,7 +4,7 @@
 
 # gcc 설치
 
-![image-20220307201315158](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307201315158.png)
+![image-20220307201315158](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307201315158.png)
 
 
 
@@ -14,7 +14,7 @@
 
 1. vi editor를 사용하여 `test.c`  파일을 생성합니다.
 
-![image-20220307202126300](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202126300.png)
+![image-20220307202126300](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202126300.png)
 
 2. vi 모드에 진입한 후 아래의 코드를 입력하고 `:wq`를 입력하여 `test.c`파일을 저장합니다.
 
@@ -27,19 +27,19 @@ int main(void) {
 }
 ```
 
-![image-20220307202144613](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202144613.png)
+![image-20220307202144613](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202144613.png)
 
 
 
 3. `ll` 명령어를 통하여 `test.c` 파일이 잘 생성되어 있는지 확인해 봅니다.
 
-![image-20220307202217928](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202217928.png)
+![image-20220307202217928](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202217928.png)
 
 4. `cc` command를 사용하여 C 언어로 되어있는 파일을 compile 해 줍니다.
 
 해당 명령어르 실행하면 아래 이미지와 같이 `a.out` 이라는 컴퓨터가 이해할 수 있는 언어로 되어 있는 파일이 새로 생성됩니다.
 
-![image-20220307202236754](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202236754.png)
+![image-20220307202236754](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202236754.png)
 
 `vi a.out`명령어를 활용하여 해당 파일을 들어가 보면 인간이 알아보기 힘든 언어로 바뀌어 있는 것을 알 수 있습니다.
 
@@ -47,13 +47,13 @@ int main(void) {
 vi a.out
 ```
 
-![image-20220307202823889](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202823889.png)
+![image-20220307202823889](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202823889.png)
 
 
 
 5. `./a.out` 명령어로 Hello, world! 를 실행해 봅니다.
 
-![image-20220307202254008](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202254008.png)
+![image-20220307202254008](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/C/terminal_cProgramming.assets/image-20220307202254008.png)
 
 이상입니다.
 
