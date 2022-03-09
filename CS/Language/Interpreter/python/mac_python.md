@@ -6,9 +6,9 @@
 >
 > 그런데 해당 프로젝트가 python으로 진행이 되더군요.
 >
-> python은 워낙 예전에 아주 잠깐동안 만져보아서 잘 모르겠더군요. 그래도 조금이나마 도움이 될 수 있도록 개인 시간을 투자해서 공부해보기로 했습니다. 
+> python은 예전에 짧게 사용해 보긴 했지만... 잘 모르겠더군요. 그래도 조금이나마 도움이 될 수 있도록 개인 시간을 조금 투자하기로 했습니다.  
 >
-> 크롤링 기술이 대부분이었는데 크롤링 기술을 사용함에 앞서 python 환경 설정부터 차근차근 해보기로 했습니다.
+> 크롤링 기술이 대부분이었는데 해당 라이브러리 사용에 앞서 python 환경 설정부터 차근차근 해보았습니다.
 
 # List
 
@@ -58,9 +58,9 @@ pyenv -h
 pyenv install -h
 ```
 
-![image-20220308230256782](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308230256782.png)
+![image-20220308230256782](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308230256782.png)
 
-![image-20220308230453715](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308230453715.png)
+![image-20220308230453715](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308230453715.png)
 
 `pyenv install -l`을 사용하면 설치할 수 있는 python 버전들이 나올 듯 하네요.
 
@@ -84,7 +84,7 @@ pyenv install 3.9.4
 
 python 3.9.4 버전을 설치해 줍니다.(그냥 3.9.4가 설치해 보고 싶었습니다.)
 
-![image-20220308211850333](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308211850333.png)
+![image-20220308211850333](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308211850333.png)
 
 ### global 설정
 
@@ -94,7 +94,7 @@ pyenv global 3.9.4
 
 python 3.9.4 버전을 global하게 설정합니다.
 
-![image-20220308211909864](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308211909864.png)
+![image-20220308211909864](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308211909864.png)
 
 
 
@@ -102,7 +102,7 @@ python 3.9.4 버전을 global하게 설정합니다.
 
 네... 이 로직의 경우 저도 잘 이해가 안가네요. 참고한 사이트의 내용입니다.
 
-![image-20220308231413352](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308231413352.png)
+![image-20220308231413352](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308231413352.png)
 
 ```
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
@@ -110,7 +110,7 @@ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nf
 
  `vi ~/.zshrc`로 위의 command가 잘 적용되어있는지 확인합니다.
 
-![image-20220308212122617](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308212122617.png)
+![image-20220308212122617](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308212122617.png)
 
 `vi ~/.zshrc`에서 아래 line들을 직접 추가하셔도 됩니다.
 
@@ -120,6 +120,20 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 ```
 
+#### 추가
+
+상단에 `PYENV_ROOT` 를 추가해 줍니다. 해당 경로를 설치해 주지 않으면 `pyenv globl`이나 `pyenv local` 명령으로 버전을 설정해 줘도 `which python ` 명령어 입력 시 버전이 바뀌지 않더군요!!
+
+```
+export PYENV_ROOT="$HOME/.pyenv/shims"
+export PATH="$PYENV_ROOT:$PATH"
+export PIPENV_PYTHON="$PYENV_ROOT/python"
+```
+
+
+
+
+
 ### pip3 version 확인
 
 python 관리 툴인 pip의 버전을 확인해 봅니다.
@@ -128,7 +142,7 @@ python 관리 툴인 pip의 버전을 확인해 봅니다.
 pip3 -V
 ```
 
-![image-20220308212913992](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308212913992.png)
+![image-20220308212913992](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308212913992.png)
 
 
 
@@ -144,7 +158,7 @@ pip3 -V
 brew install pyenv-virtualenv
 ```
 
-![image-20220308213424007](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308213424007.png)
+![image-20220308213424007](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308213424007.png)
 
 
 
@@ -160,15 +174,15 @@ brew install pyenv-virtualenv
 pyenv virtualenv 3.9.4 crawlingTest
 ```
 
-![image-20220308215006254](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308215006254.png)
+![image-20220308215006254](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308215006254.png)
 
 
 
 ### 특정 디렉토리에 적용
 
-local 명령어로 특정 디렉토리(폴더)에 특정 python 가상 환경 적용합니다.
+local 명령어로 특정 디렉토리(폴더)에 특정 python 가상 환경(env)를 지정합니다.
 
-저는 `test1` 으로 설정한 가상환경을 현재 위치해 있는 test폴더에 적용시킵니다.
+test 폴더에 가상환경 test1(env)을 지정합니다.
 
 ```bash
 // cd 명령어로 적용할 디렉토리로 이동합니다.
@@ -180,21 +194,46 @@ pyenv local test1
 
 위의 명령어가 실행되면 해당 디렉토리에 `.python-verion`파일이 생성됩니다.
 
-`.python-version`이 설치되면 해당 디렉토리에서 하단의 트리구조는 모두 설정한 가상공간의 ptyhon 버전이 적용됩니다.
+`.python-version`에 설정된 `env`가 자동으로 지정됩니다. (추후 `activate` 명령어를 통해 지정된 env를 활성화 시킬 수 있습니다.) 
 
-![image-20220308215248302](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308215248302.png)
+![image-20220308215248302](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308215248302.png)
 
 ### python 버전 확인
 
-현재 설치 되어있는 env들과 적용되고있는  env 확인 가능합니다.
-
-> 두 개의 다른 가상공간을 두 개의 다른 디렉토리에 설정했다면 디렉토리에 들어갈 때마다 활성화되는 가상공간이 달라집니다.
+현재 설치 되어있는 env들과 현재 지정된 env를  확인할 수 있습니다.
 
 ```
 pyenv virtualenvs
 ```
 
-![image-20220308215619886](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308215619886.png)
+![image-20220308215619886](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308215619886.png)
+
+
+
+## 가상환경 실행
+
+```
+pyenv activate
+```
+
+`.python-version`에 설정된 가상환경 env를 활성화 시킵니다.
+
+
+
+```
+pyenv deactivate
+```
+
+가상환경을 비활성화 시킵니다.
+
+
+
+### Flow
+
+1. `virtualenv`로 가상환경(env)를 생성합니다.
+2. `local`로 특정 디렉토리에 적용시킬 가상환경(env)을 지정합니다.
+3. `activate`로 지정된 가상환경(env)를 활셩화합니다.
+4. `deactivate`로 활성화된 가상환경(env)를 비활성화 시킵니다.
 
 # requsets 설치
 
@@ -206,7 +245,7 @@ pyenv virtualenvs
 pip3 install requests
 ```
 
-![image-20220308220001539](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308220001539.png)
+![image-20220308220001539](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308220001539.png)
 
  이미지 하단에 warning이 떠 있습니다. 새로우 버전이 있나보군요. 설치해 줍니다.
 
@@ -218,7 +257,7 @@ pip3 install requests
 
 vsCode를 사용하여 request를 import 해 보았습니다. 잘 적용되는군요.
 
-![image-20220308233153127](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308233153127.png)
+![image-20220308233153127](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308233153127.png)
 
 
 
@@ -232,7 +271,11 @@ mac m1은 python 3.9.1 이상부터 지원된다고 하네요.(3.9.0도 설치�
 
 https://stackoverflow.com/questions/65457674/unexpected-output-of-arch-on-osx-using-mac-m1-installing-elastic-beans
 
-![image-20220308211721254](/Users/eisen/Documents/Github/TIL/CS/Language/Interpreter/python/mac_python.assets/image-20220308211721254.png)
+![image-20220308211721254](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Interpreter/python/mac_python.assets/image-20220308211721254.png)
+
+
+
+긴 글 읽느라 고생하셨습니다. 다음에는 vscode에서 크롤링한 내용을 올리도록 하겠습니다.
 
 
 
