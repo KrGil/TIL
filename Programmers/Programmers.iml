@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.github.KrGil:EisenUtils:master-f15dd2a8ee-1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.KrGil:EisenUtils:master-a69d43dde4-1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.perfectacle:time-machine:1.0.0" level="project" />
   </component>
 </module>
