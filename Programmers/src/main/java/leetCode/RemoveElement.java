@@ -46,7 +46,7 @@ public class RemoveElement {
         System.out.println("nums = " + nums+" InMethod2");
         return nums.length;
 //        return i;
-        BeanUt
+
 
     }
     public static void  test(int[] n){

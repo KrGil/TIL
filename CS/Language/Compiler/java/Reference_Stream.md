@@ -93,7 +93,7 @@ class Solution {
 
 #### Result
 
-![image-20220327182512261](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/Reference_Stream.assets/image-20220327182512261.png)
+![image-20220327182512261](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Reference_Stream.assets/image-20220327182512261.png)
 
 보시는바와 같이 처리된 nums 의 reference만 다른 것을 알 수 있습니다.
 
@@ -134,7 +134,7 @@ class Solution {
 
 #### result
 
-![image-20220327182927513](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/Reference_Stream.assets/image-20220327182927513.png)
+![image-20220327182927513](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Reference_Stream.assets/image-20220327182927513.png)
 
 이렇게 `forLoop`을 사용하여 nums 배열의 index에 직접적으로 값을 입력 할 시 해당 reference가 변경되는 것을 알 수 있습니다.
 
@@ -146,7 +146,7 @@ java8의 stream.toArray의 doc을 확인 해 보았습니다.
 
 https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#toArray--
 
-![image-20220327183721245](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/Reference_Stream.assets/image-20220327183721245.png)
+![image-20220327183721245](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Reference_Stream.assets/image-20220327183721245.png)
 
 Parameters 부분의 generator에서 a new Array를 생성한다고 나와 있군요.
 
@@ -165,7 +165,7 @@ public static void  test(int[] n){
 
 
 
-![image-20220327184159596](/Users/eisen/Documents/Github/TIL/CS/Language/Compiler/java/Reference_Stream.assets/image-20220327184159596.png)
+![image-20220327184159596](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Reference_Stream.assets/image-20220327184159596.png)
 
 네... 그렇네요ㅎㅎ
 
