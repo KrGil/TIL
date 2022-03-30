@@ -43,6 +43,7 @@ public class RemoveElement {
                 i++;
             }
         }
+
         System.out.println("nums = " + nums+" InMethod2");
         return nums.length;
 //        return i;
