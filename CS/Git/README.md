@@ -324,6 +324,8 @@ git config --global --list
 
 
 
+## Git rebase
+
 ### commit 순서 바꾸기
 
 ```
@@ -331,6 +333,40 @@ git rebase -i HEAD~3
 ```
 
 개인적으로 rebase의 경우 쓰기가 상당히 까다로운 듯 합니다.
+
+- pick
+
+  커밋을 선택(순서 변경)
+
+- reword
+
+  커밋 메시지 변경 -> 메시지 변경 editor 창이 뜸.
+
+- edit
+
+  커밋 메시지, 커밋 작업 내용 변경.
+
+  변경할 커밋으로 checkout 되서 작업내용 수정 후 `git add ` -> `git commit ...` -> `git rebase --continue` 로 진행.
+
+- squash
+
+  해당 커밋을 앞 커밋과 합친다. 앞 커밋의 메시지가 남는다.
+
+- fixup
+
+  해당 커밋을 앞 커밋과 합치지만 본인의 커밋 메시지가 남는다.
+
+- exec
+
+  ?
+
+- drop
+
+  커밋 히스토리에서 커밋을 삭제.
+
+### References
+
+https://hajoung56.tistory.com/5
 
 
 
