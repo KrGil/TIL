@@ -16,7 +16,7 @@ Set-Cookie: ...
 
 아래는 실제 개발자도구에서 확인한 모습 입니다.
 
-![image-20220403145612628](/Users/eisen/Documents/Github/TIL/CS/HTTP/sameSite_lax.assets/image-20220403145612628.png)
+![image-20220403145612628](https://raw.githubusercontent.com/KrGil/TIL/8eb560647e97854f7919438527c63b619caf5ab3/CS/HTTP/sameSite_lax.assets/image-20220403145612628.png)
 
 쿠키는 보통 서버에서 사용자를 식별하기 위한 수단으로 사용되어지며, 이후 브라우저에서 서버로 요청을 보낼 때 Cookie 헤더의 세션 ID를 읽어 누가 보낸 요청인지 식별하는 식으로 사용됩니다.
 
@@ -44,7 +44,7 @@ SameSite 쿠키는 보안상의 문제로 만들어 졌습니다.(CSRF-Cross Sit
 
 ### 정책
 
-![image-20220403152748397](/Users/eisen/Documents/Github/TIL/CS/HTTP/sameSite_lax.assets/image-20220403152748397.png)
+![image-20220403152748397](https://raw.githubusercontent.com/KrGil/TIL/8eb560647e97854f7919438527c63b619caf5ab3/CS/HTTP/sameSite_lax.assets/image-20220403152748397.png)
 
 `None`, `Lax`, `Strict` 세가지 종류가 있습니다.
 
@@ -64,7 +64,7 @@ SameSite 쿠키는 보안상의 문제로 만들어 졌습니다.(CSRF-Cross Sit
 
 아래는 어떨 때 쿠키들이 전송되는지 보여줍니다.(Normal은 `SameSite=None`입니다)
 
-![image-20220403153257334](/Users/eisen/Documents/Github/TIL/CS/HTTP/sameSite_lax.assets/image-20220403153257334.png)
+![image-20220403153257334](https://raw.githubusercontent.com/KrGil/TIL/8eb560647e97854f7919438527c63b619caf5ab3/CS/HTTP/sameSite_lax.assets/image-20220403153257334.png)
 
 https://imjuno.com/2019/08/
 
