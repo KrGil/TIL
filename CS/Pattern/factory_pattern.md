@@ -4,13 +4,15 @@
 
 들어가기에 앞서 추상클래스와 추상메서드에 대해 알고 가면 이해하기 조금 더 편할 듯 합니다.
 
-정리한 코드가 필요하시다면 
+정리한 코드가 보고싶으신 분은 아래 링크를 확인해 주세요.
+
+> GitHub: [Factory pattern 패키지](https://github.com/KrGil/TIL/tree/main/Programmers/src/main/java/patterns/factory_pattern)
 
 # Factory pattern
 
 > Client 측에서 factory를 통해 간단하게 원하는 Object(Cat, Dog)를 생성할 수 있습니다. 뒤의 Object(Cat, Dog)와 같은 객체들의 생성 과정을 알지 못해도 되죠.
 
-![image-20220417133824314](/Users/eisen/Documents/Github/TIL/CS/Pattern/factory_pattern.assets/image-20220417133824314.png)
+![image-20220417133824314](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/factory_pattern.assets/image-20220417133824314.png)
 
 *출처: [Design pattern, Factory Pattern, 디자인패턴, 팩토리패턴: 코드없는 프로그래밍](https://www.youtube.com/watch?v=AmwEIt0vhxA)*
 
@@ -30,7 +32,7 @@ Factory
  - Main
 ````
 
-![image-20220417140227121](/Users/eisen/Documents/Github/TIL/CS/Pattern/factory_pattern.assets/image-20220417140227121.png)
+![image-20220417140227121](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/factory_pattern.assets/image-20220417140227121.png)
 
 ### Animal.java
 
@@ -199,7 +201,7 @@ public class Main {
 
 ## Result
 
-![image-20220417143035911](/Users/eisen/Documents/Github/TIL/CS/Pattern/factory_pattern.assets/image-20220417143035911.png)
+![image-20220417143035911](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/factory_pattern.assets/image-20220417143035911.png)
 
 결과가 잘 출력되는 것을 알 수 있습니다. 
 
