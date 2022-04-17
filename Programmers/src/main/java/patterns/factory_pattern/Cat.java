@@ -1,9 +1,7 @@
-package patterns.factory_pattern.before;
-
-import patterns.factory_pattern.after.Animal;
+package patterns.factory_pattern;
 
 /**
- * packageName :  patterns.factory_pattern.before
+ * packageName :  patterns.factoryMethod
  * fileName : Cat
  * author :  eisen
  * date : 2022/04/17
@@ -13,9 +11,9 @@ import patterns.factory_pattern.after.Animal;
  * -----------------------------------------------------------
  * 2022/04/17                eisen             최초 생성
  */
-public class Cat {
+public class Cat extends Animal {
+    @Override
     public void speak() {
         System.out.println("Meow");
     }
 }
-

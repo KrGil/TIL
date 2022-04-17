@@ -1,8 +1,8 @@
-package patterns.factory_pattern.after;
+package patterns.factory_pattern;
 
 /**
  * packageName :  patterns.factoryMethod
- * fileName : Cat
+ * fileName : Animal
  * author :  eisen
  * date : 2022/04/17
  * description :
@@ -11,9 +11,8 @@ package patterns.factory_pattern.after;
  * -----------------------------------------------------------
  * 2022/04/17                eisen             최초 생성
  */
-public class Cat extends Animal {
-    @Override
+public abstract class Animal {
     public void speak() {
-        System.out.println("Meow");
+        System.out.println("짖는다.");
     }
 }

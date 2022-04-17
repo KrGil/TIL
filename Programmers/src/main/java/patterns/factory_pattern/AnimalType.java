@@ -1,4 +1,4 @@
-package patterns.factory_pattern.after;
+package patterns.factory_pattern;
 
 /**
  * packageName :  patterns.factory_pattern.after
