@@ -1,4 +1,4 @@
-package patterns.factory_pattern;
+package patterns.factory_pattern.after;
 
 /**
  * packageName :  patterns.factoryMethod
@@ -12,10 +12,10 @@ package patterns.factory_pattern;
  * 2022/04/17                eisen             최초 생성
  */
 public class Main {
-    public Animal FactoryMethod(String str){
-        if(str.equals("cat")){
+    public Animal FactoryFn(AnimalType type){
+        if(("cat").equals(type.getValue())){
             return new Cat();
-        } else if (str.equals("dog")) {
+        } else if (("dog").equals(type.getValue())) {
             return new Dog();
         } else{
             return new Animal() {
@@ -26,10 +26,29 @@ public class Main {
             };
         }
     }
+
     public static void main(String[] args) {
-        Main run = new Main();
-        run.FactoryMethod("cat").speak();
-        run.FactoryMethod("dog").speak();
-        run.FactoryMethod("none").speak();
+        /*
+            Fn으로 구현 시
+         */
+//        Main run = new Main();
+//
+//        Animal cat = run.FactoryFn(AnimalType.CAT);
+//        cat.speak();
+//        Animal dog = run.FactoryFn(AnimalType.DOG);
+//        dog.speak();
+//        Animal animal = run.FactoryFn(AnimalType.NONE);
+//        animal.speak();
+        /*
+            class object로 구현 시
+         */
+        AnimalFactory animalFactory = new AnimalFactory();
+        Animal cat = animalFactory.create(AnimalType.CAT);
+        cat.speak();
+        Animal dog = animalFactory.create(AnimalType.DOG);
+        dog.speak();
+        Animal animal = animalFactory.create(AnimalType.NONE);
+        animal.speak();
     }
+
 }

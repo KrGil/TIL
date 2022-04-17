@@ -1,12 +1,21 @@
-package patterns.factory_pattern.before;/**
+package patterns.factory_pattern.before;
+
+import patterns.factory_pattern.after.Animal;
+
+/**
  * packageName :  patterns.factory_pattern.before
  * fileName : Cat
  * author :  eisen
- * date : 2022/04/17 
+ * date : 2022/04/17
  * description :
  * ===========================================================
  * DATE                 AUTHOR                NOTE
  * -----------------------------------------------------------
  * 2022/04/17                eisen             최초 생성
- */public class Cat {
+ */
+public class Cat {
+    public void speak() {
+        System.out.println("Meow");
+    }
 }
+
