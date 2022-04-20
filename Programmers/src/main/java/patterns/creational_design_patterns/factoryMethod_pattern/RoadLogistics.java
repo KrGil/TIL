@@ -1,8 +1,8 @@
-package patterns.factory_pattern;
+package patterns.creational_design_patterns.factoryMethod_pattern;
 
 /**
- * packageName :  patterns.factoryMethod
- * fileName : Dog
+ * packageName :  patterns.creational_design_patterns.factoryMethod_pattern
+ * fileName : RoadLogistics
  * author :  eisen
  * date : 2022/04/17
  * description :
@@ -11,9 +11,9 @@ package patterns.factory_pattern;
  * -----------------------------------------------------------
  * 2022/04/17                eisen             최초 생성
  */
-public class Dog extends Animal{
+public class RoadLogistics extends Logistics{
     @Override
-    public void speak() {
-        System.out.println("Bark");
+    public void createTransport() {
+
     }
 }

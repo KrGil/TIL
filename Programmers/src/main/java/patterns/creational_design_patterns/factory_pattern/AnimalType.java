@@ -1,4 +1,4 @@
-package patterns.factory_pattern;
+package patterns.creational_design_patterns.factory_pattern;
 
 /**
  * packageName :  patterns.factory_pattern.after

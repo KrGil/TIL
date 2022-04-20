@@ -1,8 +1,8 @@
-package patterns.factory_pattern;
+package patterns.creational_design_patterns.factoryMethod_pattern;
 
 /**
- * packageName :  patterns.factoryMethod
- * fileName : Animal
+ * packageName :  patterns.creational_design_patterns.factoryMethod_pattern
+ * fileName : Ship
  * author :  eisen
  * date : 2022/04/17
  * description :
@@ -11,8 +11,9 @@ package patterns.factory_pattern;
  * -----------------------------------------------------------
  * 2022/04/17                eisen             최초 생성
  */
-public abstract class Animal {
-    public void speak() {
-        System.out.println("짖는다.");
+public class Ship implements Transport{
+    @Override
+    public void deliver() {
+        System.out.println("ship");
     }
 }
