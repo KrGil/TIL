@@ -4,7 +4,7 @@
 
 # 발단
 
-![image-20220422222218145](/Users/eisen/Documents/Github/TIL/CS/Pattern/builder_pattern.assets/image-20220422222218145.png)
+![image-20220422222218145](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/builder_pattern.assets/image-20220422222218145.png)
 
 *출처: https://refactoring.guru/design-patterns/builder*
 
@@ -14,7 +14,7 @@
 
 ## 일반적인 객체 생성
 
-![image-20220422221143405](/Users/eisen/Documents/Github/TIL/CS/Pattern/builder_pattern.assets/image-20220422221143405-0633113.png)
+![image-20220422221143405](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/builder_pattern.assets/image-20220422221143405-0633113.png)
 
 *출처: https://refactoring.guru/design-patterns/builder*
 
@@ -51,7 +51,7 @@ House houseWithGarage = new House(4, 2, 4, true, false, false, false);
 
 ## Builder 패턴 객체 생성
 
-![image-20220422224225322](/Users/eisen/Documents/Github/TIL/CS/Pattern/builder_pattern.assets/image-20220422224225322.png)
+![image-20220422224225322](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/builder_pattern.assets/image-20220422224225322.png)
 
 이미지와 같이 파트들을 하나씩 나눠서 객채 생성(호출) 시 조립하는 방법입니다.
 
@@ -81,7 +81,7 @@ BuilderHouse house = BuilderHouse.builder()
         .build();
 ```
 
-![image-20220422223856792](/Users/eisen/Documents/Github/TIL/CS/Pattern/builder_pattern.assets/image-20220422223856792.png)
+![image-20220422223856792](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/builder_pattern.assets/image-20220422223856792.png)
 
 *lombok을 사용하지 않는 코드는 아래에 작성하도록 하겠습니다.*
 

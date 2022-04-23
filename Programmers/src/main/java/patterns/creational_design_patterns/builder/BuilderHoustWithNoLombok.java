@@ -33,13 +33,20 @@ public class BuilderHoustWithNoLombok {
         }
 
     }
-   private BuilderHoustWithNoLombok(Builder builder){
+    private BuilderHoustWithNoLombok(Builder builder){
         this.windows = builder.windows;
         this.hasGarden = builder.hasGarden;
-   }
+    }
 
-   public void updateWindows(int windows){
+    public void updateWindows(int windows){
         this.windows = windows;
-   }
+    }
 
+    @Override
+    public String toString() {
+        return "BuilderHoustWithNoLombok{" +
+                "windows=" + windows +
+                ", hasGarden=" + hasGarden +
+                '}';
+    }
 }

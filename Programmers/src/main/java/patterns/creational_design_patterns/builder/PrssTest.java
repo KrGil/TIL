@@ -27,9 +27,19 @@ public class PrssTest {
         repo.save(entity);
 
         BuilderHoustWithNoLombok b = new BuilderHoustWithNoLombok.Builder()
-                .windows(1)
-                .hasGarden(true)
                 .build() ;
+        System.out.println(b.toString());
 
+        TT tt = new TT();
+        tt.getA();
+
+
+        System.out.println(tt.getA());
+    }
+    public static class TT{
+        int a;
+        public int getA(){
+            return a;
+        }
     }
 }
