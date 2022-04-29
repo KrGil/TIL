@@ -2,6 +2,16 @@
 
 > builder 패턴을 예전에도 몇번 들어보긴 했지만 관심있게 살펴 본 것은 한두달? 전으로 오래되지 않았네요. 저는 builder 패턴이란 개념이 익숙해지기까지 한달 정도의 시간이 걸린 듯 합니데ㅠㅠ(~~바보...~~) 시간날때 짬짬이 검색해 보고 모르는 부분을 주변에 물어가면서 조금씩 익숙해 진 듯 합니다. 처음에는 전혀 이해가 되지 않아 참 고생을 많이 했었는데 말이죠!! 회사에서도 직접 써보고 (~~builder 패턴 작성을 회사에서 오늘 처음 해본건 비밀ㅎㅎ~~) 몇번 보다보니 슬슬 익숙해 져서 글을 작성해서 정리해 보려고 합니다. 부족한 부분이 있다면 바로바로 수정 반영하도록 하겠습니다~
 
+
+# Builder 패턴
+
+## Builder 패턴
+
+![image-20220422224225322](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/builder_pattern.assets/image-20220422224225322.png)
+
+이미지와 같이 파트들을 하나씩 나눠서 객채 생성(호출) 시 조립하여 동일한 프로세스를 거쳐 다양한 객체를 만드는 방법입니다. 즉 빌더 패턴은 복잡한 객체를 생성하는 방법을 정의하는 클래스와 표현하는 방법을 정의하는 클래스를 별도로 분리하여, 서로 다른 표현이라도 이를 생성할 수 있는 동일한 절차를 제공합니다.
+
+
 # 발단
 
 ![image-20220422222218145](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/builder_pattern.assets/image-20220422222218145.png)
@@ -49,13 +59,6 @@ House houseWithGarage = new House(4, 2, 4, true, false, false, false);
 
 
 
-## Builder 패턴 객체 생성
-
-![image-20220422224225322](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/builder_pattern.assets/image-20220422224225322.png)
-
-이미지와 같이 파트들을 하나씩 나눠서 객채 생성(호출) 시 조립하는 방법입니다.
-
-
 
 ### builder패턴 적용 후 코드(lombok)
 
@@ -71,6 +74,10 @@ public class House {
     private boolean hasStatue;
     private boolean hasGarden;
 }
+
+
+
+
 ````
 
 ```java
@@ -210,6 +217,10 @@ public class BuilderHoustWithNoLombok {
 ```
 
 
+
+
+
+// 필수 변수 일 경우. 검색
 
 
 
