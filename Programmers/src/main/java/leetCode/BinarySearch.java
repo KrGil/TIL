@@ -23,12 +23,30 @@ public class BinarySearch {
 
     }
     public static int search(int[] nums, int target) {
-        int[] left;
+        int[] left ;
         int[] right;
         int mid = nums.length / 2;
-
+        System.out.println("mid = " + mid);
+//        while(){
+//
+//        }
+        return -1;
+    }
+    public static int cal(int[] nums, int target, int left, int right) {
+        int[] leftArr = new int[left];
+        int[] rightArr = new int[right];
+        int mid = nums.length / 2;
+        System.out.println("mid = " + mid);
+        for (int i = 0; i < nums.length; i++) {
+            if(i < left)
+                leftArr[i] = nums[i];
+            else
+                rightArr[i] = nums[i];
+        }
 
         return -1;
     }
+
+
 }
 

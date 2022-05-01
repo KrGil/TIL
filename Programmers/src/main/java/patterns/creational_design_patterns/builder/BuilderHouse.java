@@ -2,7 +2,6 @@ package patterns.creational_design_patterns.builder;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
 
 /**
  * packageName :  patterns.creational_design_patterns.builder
