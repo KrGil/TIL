@@ -12,7 +12,7 @@
 
 아래와 같이 이터레이터 내에도 여러 종류가 있습니다.
 
-![image-20220604105832105](/Users/eisen/Documents/Github/TIL/CS/Pattern/iterator_pattern.assets/image-20220604105832105.png)
+![image-20220604105832105](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/iterator_pattern.assets/image-20220604105832105.png)
 
 ## When?
 
@@ -36,7 +36,7 @@ for (int i = 0; i < arr.length; i++) {
 
 ## Iterator 패턴 구조
 
-![image-20220604231337363](/Users/eisen/Documents/Github/TIL/CS/Pattern/iterator_pattern.assets/image-20220604231337363.png)
+![image-20220604231337363](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/iterator_pattern.assets/image-20220604231337363.png)
 
 - Aggregate: Iterator 역할을 만들어내는 인터페이스 정의
 - Iterator: 요소를 순서대로 검색해가는 인터페이스 정의
@@ -51,7 +51,7 @@ for (int i = 0; i < arr.length; i++) {
 
 
 
-![image-20220604231200252](/Users/eisen/Documents/Github/TIL/CS/Pattern/iterator_pattern.assets/image-20220604231200252.png)
+![image-20220604231200252](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/iterator_pattern.assets/image-20220604231200252.png)
 
 
 
@@ -222,7 +222,7 @@ class IteratorTest {
     }
 ```
 
-![image-20220605000301690](/Users/eisen/Documents/Github/TIL/CS/Pattern/iterator_pattern.assets/image-20220605000301690.png)
+![image-20220605000301690](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/iterator_pattern.assets/image-20220605000301690.png)
 
 이렇게 Iterator 패턴을 구현할 수 있습니다. 실제 코드의 경우 아래의 링크를 참조해 주시기 바랍니다.
 
