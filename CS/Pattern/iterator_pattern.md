@@ -226,7 +226,11 @@ class IteratorTest {
 
 이렇게 Iterator 패턴을 구현할 수 있습니다. 실제 코드의 경우 아래의 링크를 참조해 주시기 바랍니다.
 
+https://github.com/KrGil/TIL/tree/main/Programmers/src/main/java/patterns/iterator_design_patterns
 
+
+
+긴 글 읽느라 고생하셨습니다. 감사합니다.
 
 
 
