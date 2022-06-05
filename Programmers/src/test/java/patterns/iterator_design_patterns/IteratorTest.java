@@ -2,7 +2,7 @@ package patterns.iterator_design_patterns;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+
 
 /**
  * packageName :  patterns.iterator_design_patterns
@@ -31,11 +31,13 @@ class IteratorTest {
         menuByPizza.addFood(new Pizza("슈퍼슈프림피자", 24000));
         menuByPizza.addFood(new Pizza("페퍼로니피자", 19000));
 
-        Iterator it = menuByChicken.iterator();
-//        Iterator it = menuByPizza.iterator();
+//        Iterator it = menuByChicken.iterator();
+        Iterator it = menuByPizza.iterator();
         while(it.hasNext()) {
             Food food = (Food)it.next();
             System.out.println("메뉴명 : " + food.getName() + " | 가격 : " + food.getPrice());
         }
+
+
     }
 }

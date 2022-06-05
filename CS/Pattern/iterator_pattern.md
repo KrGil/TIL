@@ -16,14 +16,15 @@
 
 ## When?
 
+- 컬렉션의 구현을 노출시키고싶지 않을 시 사용합니다.
 - 다른 자료구조(컬렉션)를 하나씩 조회해보고 싶을 시 각자 다른 루프를 돌려야 합니다.
 - 이터레이터 패턴을 적용할 시 반복되는 자료구조는 다형적으로 사용 가능합니다.
 - ~~사실 이렇게 작성했지만 여전히 어쩔 때 쓰이는지 잘 모르겠네요... ㅠㅠ~~
 
 ```java
 int[] arr = {1,2,3,4,5};
-
 List list = Arrays.stream(arr).boxed().collect(Collectors.toList());
+
 for (int i = 0; i < arr.length; i++) {
   System.out.println(arr[i]);
 }
