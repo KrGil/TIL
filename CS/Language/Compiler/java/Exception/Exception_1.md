@@ -14,7 +14,7 @@
 
 Exception에는 Checked Exception과 Unchecked Exception으로 구분할 수 있습니다. 
 
-![exceptions](C:\Users\Eisen\Desktop\2019-03-02-java-checked-unchecked-exceptions-1.png)
+![exceptions](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Exception/Exception_1.assets/2019-03-02-java-checked-unchecked-exceptions-1.png)
 
 *참조: https://madplay.github.io/post/java-checked-unchecked-exceptions*
 
