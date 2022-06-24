@@ -204,7 +204,7 @@ public class Client{
 
 - 실행 결과: 
 
-![image-20220625011858345](/Users/Eisen/Documents/GitHub/TIL/CS/Pattern/command_pattern.assets/image-20220625011858345.png)
+![image-20220625011858345](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/command_pattern.assets/image-20220625011858345.png)
 
 
 
