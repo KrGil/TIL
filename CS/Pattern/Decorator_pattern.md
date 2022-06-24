@@ -7,7 +7,7 @@ _이 블로그 글은 [[Design Pattern] 데코레이터 패턴이란](https://gm
 - 객체의 결합 을 통해 기능을 동적으로 유연하게 확장 할 수 있게 해주는 패턴으로 기본 기능에 추가할 수 있는 기능의 종류가 많은 경우에 각 추가 기능을 Decorator 클래스로 정의 한 후 필요한 Decorator 객체를 조합함으로써 추가 기능의 조합을 설계 하는 방식입니다.
 - 데코레이터 패턴을 활용하면 필요 추가 기능의 조합을 동적으로 생성할 수 있습니다.
 
-![image-20220515093333995](/Users/Eisen/Documents/GitHub/TIL/CS/Pattern/Decorator_pattern.assets/image-20220515093333995.png)
+![image-20220515093333995](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/Decorator_pattern.assets/image-20220515093333995.png)
 
 
 
@@ -15,7 +15,7 @@ _이 블로그 글은 [[Design Pattern] 데코레이터 패턴이란](https://gm
 
 아래와 같은 구조를 설계한다고 가정을 해봅니다.
 
-![image-20220515093640117](/Users/Eisen/Documents/GitHub/TIL/CS/Pattern/Decorator_pattern.assets/image-20220515093640117.png)
+![image-20220515093640117](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/Decorator_pattern.assets/image-20220515093640117.png)
 
 ### 구현 코드 
 
@@ -57,7 +57,7 @@ public class Client {
 
 차선 표시에 이에 교통량 표시 기능을 추가해 봅니다.
 
-![image-20220515094156687](/Users/Eisen/Documents/GitHub/TIL/CS/Pattern/Decorator_pattern.assets/image-20220515094156687.png)
+![image-20220515094156687](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/Decorator_pattern.assets/image-20220515094156687.png)
 
 ```java
 // 기본 도로 표시 + 교통량 표시 클래스
@@ -93,9 +93,9 @@ public class RoadDisplayWithCrossing extends RoadDisplay {
 
 - 여러가지 추가 기능을 조합해야 하는 경우
 
-![image-20220515094645112](/Users/Eisen/Documents/GitHub/TIL/CS/Pattern/Decorator_pattern.assets/image-20220515094645112.png)
+![image-20220515094645112](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/Decorator_pattern.assets/image-20220515094645112.png)
 
-![image-20220515094948393](/Users/Eisen/Documents/GitHub/TIL/CS/Pattern/Decorator_pattern.assets/image-20220515094948393.png)
+![image-20220515094948393](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/Decorator_pattern.assets/image-20220515094948393.png)
 
 위의 그림과 같이 조합되는 기능마다 새롭게 클래스를 작성, 구현해야 합니다.
 
@@ -107,7 +107,7 @@ public class RoadDisplayWithCrossing extends RoadDisplay {
 
 위의 문제를 해결하기 위해 각 추가 기능별로 개별적인 클래스를 설계, 기능을 조합할 때 각 클래스이 객체 조합을 이용하면 됩니다.
 
-![image-20220515095151283](/Users/Eisen/Documents/GitHub/TIL/CS/Pattern/Decorator_pattern.assets/image-20220515095151283.png)
+![image-20220515095151283](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Pattern/Decorator_pattern.assets/image-20220515095151283.png)
 
 
 
