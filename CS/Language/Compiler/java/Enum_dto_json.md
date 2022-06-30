@@ -68,7 +68,7 @@ class Enum_getTestTest {
 
 위와 같이 ObjectMapper를 사용해 `DTO -> json`으로 변환시킨 후 출력해 보았습니다.
 
-![image-20220630182837192](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\Enum_dto_json.assets\image-20220630182837192.png)
+![image-20220630182837192](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Enum_dto_json.assets/image-20220630182837192.png)
 
 결과는 위의 이미지와 같이 `Enum`의 `value`가 아닌 `name`을 출력해 주는 것을 확인 할 수 있습니다.
 
@@ -123,7 +123,7 @@ void EnumValue테스트() throws JsonProcessingException {
 }
 ```
 
-![image-20220630185018044](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\Enum_dto_json.assets\image-20220630185018044.png)
+![image-20220630185018044](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Enum_dto_json.assets/image-20220630185018044.png)
 
 보시는 바와 같이 `Enum`의 `name`이 아닌 `value`가 json으로 변환되는 것을 알 수 있습니다.
 
