@@ -58,7 +58,7 @@ class LombokClientTest {
 
 위의 상황처럼 클래스 `LombokClientDTO`의 `parent` 값에  `ParentDTO`를 상속한 `ChildDTO`를 넣는 상황에서 제대로 값이 들어갔는지 **log**를 찍어(여기서는 `System.out.println()`을 사용했습니다.) 확인해 봅니다.(~~debug를 사용하면 되지만 log만 확인할 때입니다~~).
 
-![image-20220706164750363](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\Lombok\toString_부모의변수출력하기.assets\image-20220706164750363.png)
+![image-20220706164750363](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Lombok/toString_%EB%B6%80%EB%AA%A8%EC%9D%98%EB%B3%80%EC%88%98%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.assets/image-20220706164750363.png)
 
 위의 이미지와 같이 `dto`를 찍어보게 되면 부모클래스`ParentDTO`의 변수들은 출력되지 않습니다. 이때 보통 toString을 @Override 해서  사용합니다.
 
@@ -78,7 +78,7 @@ public class ChildDTO extends ParentDTO {
 }
 ```
 
-![image-20220706165602700](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\Lombok\toString_부모의변수출력하기.assets\image-20220706165602700.png)
+![image-20220706165602700](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Lombok/toString_%EB%B6%80%EB%AA%A8%EC%9D%98%EB%B3%80%EC%88%98%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.assets/image-20220706165602700.png)
 
 출력을 하니 `ParentDTO`도 잘 출력되는 것을 확인할 수 있습니다.
 
@@ -86,7 +86,7 @@ public class ChildDTO extends ParentDTO {
 
 ## Lombok의 @ToString
 
-![image-20220706165932691](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\Lombok\toString_부모의변수출력하기.assets\image-20220706165932691.png)
+![image-20220706165932691](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Lombok/toString_%EB%B6%80%EB%AA%A8%EC%9D%98%EB%B3%80%EC%88%98%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.assets/image-20220706165932691.png)
 
 callSuper()의 default가 false이니 @ToString(callSuper = true)로 설정해 줍니다.(위에 설명이 되어 있지만 false일 경우 부모의 toString을 출력해주지 않겠다는 설정입니다.)
 
@@ -101,6 +101,6 @@ public class ChildDTO extends ParentDTO {
 
 위와 같이 설정 후 호출하면 아래의 이미지처럼 부모의 변수들도 잘 출력해 주는것을 볼 수 있습니다. 
 
-![image-20220706170054018](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\Lombok\toString_부모의변수출력하기.assets\image-20220706170054018.png)
+![image-20220706170054018](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Lombok/toString_%EB%B6%80%EB%AA%A8%EC%9D%98%EB%B3%80%EC%88%98%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.assets/image-20220706170054018.png)
 
 감사합니다.
