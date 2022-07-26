@@ -1,0 +1,6 @@
+# java8의 .orElseThrow() 
+
+
+
+unreported exception java.lang.Throwable; must be caught or declared to be thrown
+
