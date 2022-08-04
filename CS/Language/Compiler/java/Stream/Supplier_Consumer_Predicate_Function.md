@@ -1,8 +1,12 @@
 # [Java]  함수형 인터페이스(Functional Interface)
 
-> 요즘 프로그램을 짤 때 Stream API를 사용하고 있습니다. 하지만 Stream에서 주로 사용되는 여러가지 Class Type들이 너무 낯설더군요.  Stream을 사용하기 위해선 lambda를 사용해야하고 lambda를 사용하기 위해선 함수형 인터페이스(Functional Interface)를 사용해야 하더군요. 그래서 함수형 인터페이스(Functional Interface)에 대해 알아보았습니다.
+> 요즘 프로그램을 짤 때 Stream API를 사용하고 있습니다. 하지만 Stream에서 주로 사용되는 여러가지 Class Type들이 너무 낯설더군요.  Stream을 사용하기 위해선 lambda를 사용해야하고 lambda를 사용하기 위해선 함수형 인터페이스(Functional Interface)를 사용해야 하더군요. 그래서 함수형 인터페이스(Functional Interface)에 대해 알아보았습니다. 
 >
 > 검색을 해 보니 Stream, lambda 그리고 Functional Interface 세가지를 활용한 프로그래밍을 `Functional programming`이라고 하더군요. 다음에는 `Functional programming`을 알아보겠습니다. 
+
+아래에 정리한 코드들은 모두 `gitHub`에 올려 놓았습니다. 필요하시다면 편하게 가져다 쓰셔도 됩니다.
+
+> [Eisen's GitHub](https://github.com/KrGil/daily/tree/main/src/main/java/com/Eisen/daily/functionalInterface) 
 
 # Functional Interface
 
@@ -75,7 +79,7 @@ System.out.println(lambdaTest.myTest());
 
 ### Result
 
-![image-20220804093256002](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\Stream\Supplier_Consumer_Predicate_Function.assets\image-20220804093256002.png)
+![image-20220804093256002](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/Stream/Supplier_Consumer_Predicate_Function.assets/image-20220804093256002.png)
 
 
 
