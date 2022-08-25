@@ -15,7 +15,7 @@
 # 사용하기
 > 정규식은 대부분의 툴, 언어에서 지원을 하고 있습니다. java, javascript, eclipse, vsCode, intelliJ... 어디서든 사용할 수 있습니다. 저는 손에 익은 vsCode를 사용했습니다만 다른 툴 혹은 ide에서 직접적으로 사용하여도 무방합니다.
 
-![img1](usingRegExInVsCode_01.assets/Screen%20Shot%202022-07-26%20at%2011.50.26%20AM.png)
+![img1](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/RegularExpression/usingRegExInVsCode_01.assets/Screen%20Shot%202022-07-26%20at%2011.50.26%20AM.png)
 
 사용할 때 반드시 사진의 use Regular Expression을 클릭해 주셔야 합니다.
 
@@ -52,7 +52,7 @@ vsCode와 아래의 정규식을 활용하여 다음과 같이 코드를 한번�
 $1.set\U$2$3($4)
 ```
 
-![image-20220726121844863](/Users/eisen/Documents/Github/TIL/CS/Language/RegularExpression/usingRegExInVsCode_01.assets/image-20220726121844863.png)
+![image-20220726121844863](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/RegularExpression/usingRegExInVsCode_01.assets/image-20220726121844863.png)
 
 
 
