@@ -18,7 +18,7 @@ Kafka는 아래의 이미지와 같이 `cluster`로 설계되어 있고` topic`�
 
 ...? 말이 참 어렵네요. 해당 관련해서 조금 더 자세히 아시고 싶으신 분들은 https://kafka.apache.org/documentation/  Apache Kafka Document를 참고해보시는게 좋을 듯 합니다.
 
-![KafkaImg](/Users/eisen/Documents/Github/TIL/CS/MSA/Kafka_basic.assets/KafkaImg.jpeg)
+![KafkaImg](https://raw.githubusercontent.com/KrGil/TIL/main/CS/MSA/Kafka_basic.assets/KafkaImg.jpeg)
 
 위의 이미지와 같이 카프카는 `Producer`, `Consumer`, `Topic` 총 세가지로 구성되어 있습니다.
 
