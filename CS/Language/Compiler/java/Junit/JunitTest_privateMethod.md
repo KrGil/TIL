@@ -102,7 +102,7 @@ class JunitTestTest {
 
 아래의 이미지와 같이 해당 결과가 잘 나오는 것을 볼 수 있습니다.
 
-![image-20220904213146452](/Users/Eisen/Documents/GitHub/TIL/CS/Language/Compiler/java/Junit/JunitTest_privateMethod.assets/image-20220904213146452.png)
+![image-20220904213146452](https://raw.githubusercontent.com/KrGil/TIL/e2bbff7a04bf6d573c5116ae351c8b964623909c/CS/Language/Compiler/java/Junit/JunitTest_privateMethod.assets/image-20220904213146452.png)
 
 
 
@@ -128,7 +128,7 @@ class JunitTestTest {
 
 아래와 같이`Spring`에서  `DEBUG`도 따로 찍어 주는 것을 확인 할 수 있습니다.
 
-![image-20220904213103309](/Users/Eisen/Documents/GitHub/TIL/CS/Language/Compiler/java/Junit/JunitTest_privateMethod.assets/image-20220904213103309.png)
+![image-20220904213103309](https://raw.githubusercontent.com/KrGil/TIL/e2bbff7a04bf6d573c5116ae351c8b964623909c/CS/Language/Compiler/java/Junit/JunitTest_privateMethod.assets/image-20220904213103309.png)
 
 위의 `reflect.Method`를 활용한 방법보다 조금 더 깔끔하게 사용할 수 있습니니다만 `Spring`을 사용하지 않는 프로젝트이거나 버전이 `2.5`보다 낮은 경우 해당 방법을 사용할 수 없습니다.
 
