@@ -28,7 +28,7 @@
 
 [홈페이지](https://infcon.day/)에서 기재되어있던 기업들의 부스가 존재하더군요. 정면에서 봤을 때 좌측에는 당근마켓, 무신사, jetBrain 부스가, 우측에는 toss, 야놀자, ... 등의 부스가 존재했습니다.
 
-![image-20220830123701390](C:\Users\Eisen\Documents\GitHub\TIL\Study\conferences\infcon\infcon_2022.assets\image-20220830123701390.png)
+![image-20220830123701390](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/image-20220830123701390.png)
 
 // 사진
 
@@ -38,7 +38,7 @@
 
 제가 도착한 시간이 3시경이었으니 대부분의 행사가 종료된 이후였습니다. 강의의 경우 직접 참석은 못했지만 진행했던 강의들은 [홈페이지](https://infcon.day/)에서 찾아볼 수 있습니다!
 
-![image-20220830123748443](C:\Users\Eisen\Documents\GitHub\TIL\Study\conferences\infcon\infcon_2022.assets\image-20220830123748443.png)
+![image-20220830123748443](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/image-20220830123748443.png)
 
 이렇게 약 30분 가량 구경을 하고 나니 표가 없는 전 할 수 있는 일이 없더군요. 그때 약 20여분간 멍하니 앉아서 컨퍼런스를 지켜보았습니다. 웃으면서 경품 돌리고 컨퍼런스에 참석하는 분들의 모습이 그렇게 부러울 수가 없더군요.
 
@@ -230,7 +230,6 @@
 내가 작게만 느껴진다.
 
 다음에는 나도 참석할 수 있게끔 더 열심히 공부해야겠다.
-
 
 
 
