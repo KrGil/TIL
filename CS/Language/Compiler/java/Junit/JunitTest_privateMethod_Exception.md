@@ -141,7 +141,7 @@ class JunitTestTest {
 Assertions.assertThrows(InvocationTargetException.class, () -> target.invoke(junitTest, dto));
 ```
 
-![KakaoTalk_20220922_130648110](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\Junit\JunitTest_privateMethod_Exception.assets\KakaoTalk_20220922_130648110.jpg)
+![KakaoTalk_20220922_130648110](https://raw.githubusercontent.com/KrGil/TIL/f11e18fb637cc92d6cc46d20005107a6ff62b0f9/CS/Language/Compiler/java/Junit/JunitTest_privateMethod_Exception.assets/KakaoTalk_20220922_130648110.jpg)
 
 위의 이미지는 지인이 몇일 전에 보내주었던 `토비의 Spring` 의 한 페이지 입니다. 바로 `getTargetException()`을 사용하는 것인데요
 
