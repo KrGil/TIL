@@ -8,7 +8,7 @@
 
 ## Problem
 
-![image-20220926092413666](C:\Users\Eisen\Documents\GitHub\TIL\CS\IDETools\Intellij\compiled_code.assets\image-20220926092413666.png)
+![image-20220926092413666](https://raw.githubusercontent.com/KrGil/TIL/a025f95d25d5bdbb44f7e46559d26acb09ddaaef/CS/IDETools/Intellij/compiled_code.assets/image-20220926092413666.png)
 
 위의 이미지에서 보는 바와 같이 인텔리제이에서 외부 모듈(JAR)의 class 파일을 열었을 시 `/* complied code */`로 표기되는 현상을 최근들어 두번이나 겪게 되었습니다.
 
@@ -34,13 +34,13 @@ https://quick-advisors.com/how-to-view-compiled-code-in-intellij/
 
 java-decompiller.jar의 이름을 fernflower.jar로 변경해 주었습니다.
 
-![image-20220926092854096](C:\Users\Eisen\Documents\GitHub\TIL\CS\IDETools\Intellij\compiled_code.assets\image-20220926092854096.png)
+![image-20220926092854096](https://raw.githubusercontent.com/KrGil/TIL/a025f95d25d5bdbb44f7e46559d26acb09ddaaef/CS/IDETools/Intellij/compiled_code.assets/image-20220926092854096.png)
 
 
 
 그러면 아래와 같이 class 내부의 코드가 잘 나오는 것을 확인할 수 있습니다.
 
-![image-20220926132005745](C:\Users\Eisen\Documents\GitHub\TIL\CS\IDETools\Intellij\compiled_code.assets\image-20220926132005745.png)
+![image-20220926132005745](https://raw.githubusercontent.com/KrGil/TIL/a025f95d25d5bdbb44f7e46559d26acb09ddaaef/CS/IDETools/Intellij/compiled_code.assets/image-20220926132005745.png)
 
 감사합니다.
 
@@ -51,8 +51,3 @@ java-decompiller.jar의 이름을 fernflower.jar로 변경해 주었습니다.
 https://web2eye.tistory.com/247
 
 https://quick-advisors.com/how-to-view-compiled-code-in-intellij/
-
-> 
-
-다른 방법 안됨 
-
