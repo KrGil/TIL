@@ -18,7 +18,7 @@ SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
 [main] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.4.Final
 ```
 
-![image-20221013104758144](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\buildTool\slf4j_binding_error.assets\image-20221013104758144.png)
+![image-20221013104758144](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/buildTool/slf4j_binding_error.assets/image-20221013104758144.png)
 
 위와 같은 에러가 발생했습니다. ~~위의 에러 메시지만 보고 `org.slf4j/slf4j-simple` 혹은 `ch.qos.logback/logback-classic`둘 중 하나를 삭제하면 해결될 줄 알았습니다만... 해결되지 않았습니다 ㅠ~~
 
@@ -52,13 +52,13 @@ public static <T> void logMeasuredExecutionTime(Consumer<T> func, T request) {
 
 ### eisenUtils(외부 라이브러리)
 
-![image-20221013105431492](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\buildTool\slf4j_binding_error.assets\image-20221013105431492.png)
+![image-20221013105431492](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/buildTool/slf4j_binding_error.assets/image-20221013105431492.png)
 
 위와 같이 `eisenUitls`의 dependency를 들어가 보면 slf4j-simple이 추가되어 있습니다.
 
 ## Solution
 
-![image-20221013105627475](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\buildTool\slf4j_binding_error.assets\image-20221013105627475.png)
+![image-20221013105627475](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/buildTool/slf4j_binding_error.assets/image-20221013105627475.png)
 
 실제 사용하고 있는 프로젝트의 `build.gradle`에서 불러오고있는 eisenUtils에서 `slf4j-simple`을 제외시켜 주었습니다(comment 처리한 부분입니다.).
 
