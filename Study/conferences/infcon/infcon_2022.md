@@ -20,7 +20,13 @@
 
 제가 타 컨퍼런스에 참석해 본 적이 없어 티켓이 없다면 출입 자체를 못하는 줄 알았습니다만... 참석한 지인이 티켓이 없어도 구경은 할 수 있더군요!! 점심식사 이후 그 사실을 알게 되어 회사에 양해를 구하고(흔쾌이 허락을 해주셨습니다!!) 바로 달려갔습니다(컨퍼런스 보러갈 생각에 가슴이 엄청 두근두근거리더군요)!!
 
-//사진들
+![C05C27C7-AC0F-4457-96BA-40F4A533DD43_1_105_c](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/C05C27C7-AC0F-4457-96BA-40F4A533DD43_1_105_c.jpeg)
+
+
+
+![3D57454C-90ED-4ADF-BD1D-19F78BE21065_1_105_c](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/3D57454C-90ED-4ADF-BD1D-19F78BE21065_1_105_c.jpeg)
+
+*추후 문제가 된다면 사진을 내리도록 하겠습니다*
 
 ## 입장 후 
 
@@ -30,11 +36,11 @@
 
 ![image-20220830123701390](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/image-20220830123701390.png)
 
-// 사진
+![7F9D15E5-CCC0-4569-9508-2E322C1021BA_1_201_a](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/7F9D15E5-CCC0-4569-9508-2E322C1021BA_1_201_a-5488381.jpeg)
 
 또 각 부스를 돌아다니면 스탬프를 찍어주는데 스탬프가 다 찍히면 돌림판을 돌려 다양한 상품을 얻을 수 있습니다.(~~물론 표가 없던 전 멀리서 구경만...ㅠ~~)
 
-// 사진
+![70CE52EF-E131-46DB-AA6D-2B2CFAA7C1AC_1_105_c](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/70CE52EF-E131-46DB-AA6D-2B2CFAA7C1AC_1_105_c.jpeg)
 
 제가 도착한 시간이 3시경이었으니 대부분의 행사가 종료된 이후였습니다. 강의의 경우 직접 참석은 못했지만 진행했던 강의들은 [홈페이지](https://infcon.day/)에서 찾아볼 수 있습니다!
 
@@ -52,11 +58,13 @@
 
 그래서 감사하다고 이야기하고 다시 컨퍼런스장으로 돌아가 만나기로 했던 지인을 4시 50분 경에 만났습니다. 지인과 이야기 하던 도중 [개발바닥](https://www.youtube.com/channel/UCSEOUzkGNCT_29EU_vnBYjg) 라이브 방송을 여기서 한다고 하더군요! 
 
+![DBB5E380-30DA-4666-84BF-A3590CF145A1_1_105_c](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/DBB5E380-30DA-4666-84BF-A3590CF145A1_1_105_c.jpeg)
+
 ### 개발바닥
 
 그래서 향로님과 호돌맨님을 바로 앞에서 만날 수 있었습니다!! 지인을 기다리던 곳이 라이브 방송 정면일줄이야...!! ㅎㅎ
 
-// 사진
+![571AB37C-80DD-48C6-AFAE-F329695D77CA_1_105_c](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/571AB37C-80DD-48C6-AFAE-F329695D77CA_1_105_c.jpeg)
 
 방송도 라이브로 보고 모든게 너무 신기하더라구요! 제가 그런 자리에서 참여했다는 사실이 아직도 믿기지가 않네요ㅎㅎ 다만 평소와 같이 준비된 질문을 읽어주고 생각을 이야기해 주셨는데 시간이 짧아 현장 개발자들과 좀 더 많은 소통을 하지 못한 점이 개인적으로 조금 아쉽더라구요.
 
@@ -64,11 +72,11 @@
 
 개발바닥의 방송이 끝날 때 쯤에 [김영한](https://www.inflearn.com/users/@yh)님의 발표가 준비되고 있었습니다. 해당 호실의 대기줄이 순식간에 길어지더라구요. 그래서 강의실로 입장하기 시작했습니다.(~~도중에 나와서 죄송합니다...~~) 
 
-// 사진
-
-
+![FCB21F1F-7E39-42F4-83A9-9BD882C916C1_1_105_c](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/FCB21F1F-7E39-42F4-83A9-9BD882C916C1_1_105_c.jpeg)
 
 발표를 듣고 나서 많은 것들을 느꼈습니다. 인프런 강의와 유튜브에서 여러번 들었는데 실제로 들으니 느낌이 조금 다르더군요.
+
+*실물이 훨씬 나으시더군요!!ㅎㅎ*
 
 #### 내용
 
@@ -142,6 +150,8 @@
 
 지금 진행하면서 닥쳤던 어려움(타 MS API 조회 시간 (Future 클래스를 활용한 것), MSA 방식으로 필요한 데이터를 주고 받는것에 대한 어려웠던점(협의를 통해 해결), MS로 인해 test Code 작성시 어려웠던 점(Mock을 이용해서 해결)) 등등을 이력서에 추가로 작성하려고 합니다.
 
+![317FE196-0431-4975-8977-5158BF02F581_1_105_c](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/317FE196-0431-4975-8977-5158BF02F581_1_105_c.jpeg)
+
 #### 면접
 
 - 서류가 합격하고 면접이 떨어지면 내공이 조금 부족하다.
@@ -169,20 +179,21 @@
 #### 개발자의 삶
 
 - 목표와 `시스템`
-
 - 목표를 가지되 목표만 존재하면 안됨.
-
 - 반드시 목표를 이루기 위한 시스템이 구축되어 있어야 한다.
-
 - `목표`는 `결과`로 성공 or 실패만 존재하나
-
 - `시스템`은 `과정`으로 `루틴`이 적용되어야함.
 - 퇴근 후 30분 운동
   - 19:30 ~ 22:30 학습 및 강의 준비
-
 - 시스템을 돌리는 삶을 살아야 한다.
 
-// 김연아 짤
+![94604720-A52C-4858-9009-FE1DA379511C_1_105_c](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/94604720-A52C-4858-9009-FE1DA379511C_1_105_c.jpeg)
+
+
+
+![김연아 "무슨 생각을 해... 그냥 하는거지"](https://i.ytimg.com/vi/Q0-MOh1nx44/maxresdefault.jpg)
+
+
 
 평소 저는 사람이 가장 효율적인 순간은 컴퓨터처럼 움직일 때라고 생각합니다(보통 이런 말을 좋아하진 않더라구요.) 물론 인간적인 면이 필요할 때가 있지만 보통 그렇지 않더라구요. 입력한 `시스템`으로 삶을 살았을 때 가장 효율적이고 시간을 낭비하지 않을 수 있다고 생각합니다만 가끔 제가 주변과 너무 다른가? 하는 의문을 가지기도 했습니다(주변에 안그런 사람이 훨씬 많기 때문...).  하지만 이때 영한님이 말씀해 주셔서 너무 힘이 되더군요. 물론 완전 컴퓨터처럼 실행하지는 못하지만 출퇴근 한시간은 책 혹은 인강듣기, 퇴근 후 운동하기, 10시 까지 프로그램 관련 하고싶은거 하기를 최대한 지키려고 합니다.
 
@@ -215,8 +226,6 @@
 
 대나무의 마디처럼 `시스템`을 통해 꾸준히 성장해야 겠습니다.
 
-// 사진, 필기 용
-
 
 
 ### 느낀점
@@ -227,9 +236,21 @@
 
 - 제가 표가 떨어져서 그런지 아니면 컨퍼런스라는 것 자체가 처음이어서 그런지 다들 정말 대단하게 느껴지더군요. 실제 같이 참가했던 개발자 지인 역시 개인적으로 대단하다고 생각하지만 그분이 참석한 강연에서의 질문 깊이가 확실히 다르다고 하더군요.
 
-내가 작게만 느껴진다.
+- 다음에는 함께 참여해서 즐길 수 있도록 지금처럼 꾸준하게 노력하고 공부해야겠습니다.
 
-다음에는 나도 참석할 수 있게끔 더 열심히 공부해야겠다.
+![IMG_5084](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assetsIMG_5084.jpg)
+
+*열심히 필기를 받아적긴 했지만... 글씨체부터 연습해야하는건 아닌가 고민되네요ㅎㅎ*
+
+글을 올릴까말까 많이 고민했지만 이미 작성해 놓았기도 하고 나중에 블로그들을 한번 되돌아볼 때 생애 첫 컨퍼런스 경험과 이때 느꼈던 기분들을 상기할 수 있도록 작성해서 올립니다.
+
+긴 글 읽어 주셔서 감사합니다.
+
+
+
+![C665B024-23A6-4812-9955-FEC2854BC785_1_201_a](https://raw.githubusercontent.com/KrGil/TIL/main/Study/conferences/infcon/infcon_2022.assets/C665B024-23A6-4812-9955-FEC2854BC785_1_201_a.jpeg)
+
+
 
 
 
