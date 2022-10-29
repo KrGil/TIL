@@ -119,7 +119,7 @@ call plug#end()
 
 이후` vim` 의` normal mode`에서 `:PlugInstall` 을 입력 후 `enter`를 치시면 작성한 plugin들이 설치됩니다.
 
-![image-20221030014451425](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221030014451425.png)
+![image-20221030014451425](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221030014451425.png)
 
 이후 각 안어에 대한 설정을 해 줍니다.
 
@@ -149,7 +149,7 @@ https://github.com/neoclide/coc.nvim/wiki/Language-servers#python
 
 저는 python을 사용하기 위해 `coc-pyright`를 설치해 보겠습니다.
 
-![image-20221030012539662](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221030012539662.png)
+![image-20221030012539662](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221030012539662.png)
 
 이후 설치가 완료되었으면 아래의 명령어로 설치를 확인 할 수 있습니다.
 
@@ -157,13 +157,13 @@ https://github.com/neoclide/coc.nvim/wiki/Language-servers#python
 :CocList extensions
 ```
 
-![image-20221030013237539](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221030013237539.png)
+![image-20221030013237539](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221030013237539.png)
 
 위와 같이 잘 설치가 되었다면 이제 `:CocConfig` 명령어로 `~/.vim/coc-settings.json` 파일을 설정합니다.
 
 python의 경우 따로 설치할 필요 없이 자동완성이 잘 진행되는 것을 확인할 수 있습니다.
 
-![image-20221030020012379](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221030020012379.png)
+![image-20221030020012379](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221030020012379.png)
 
 ### java
 
@@ -171,17 +171,17 @@ python의 경우 따로 설치할 필요 없이 자동완성이 잘 진행되는
 
 `vim` `normal mode`에서 `:CocInstall coc-java coc-json` 실행시켜주고
 
-![image-20221030020130457](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221030020130457.png)
+![image-20221030020130457](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221030020130457.png)
 
 `:CocList extensions`  명령어로 설치 list 확인한 후
 
-![image-20221030020210970](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221030020210970.png)
+![image-20221030020210970](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221030020210970.png)
 
 `:CocConfig` 명령어를 실행하면 `~/.vim/coc-settings.json` 을 설정하는 화면이 나옵니다.
 
 음... java도 동일하게 아무것도 작성하지 않아도 자동완성이 제대로 작동하네요.
 
-![image-20221030020357945](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221030020357945.png)
+![image-20221030020357945](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221030020357945.png)
 
 # ale 설치하기
 
@@ -189,7 +189,7 @@ python의 경우 따로 설치할 필요 없이 자동완성이 잘 진행되는
 
 https://github.com/dense-analysis/ale
 
-![image-20221029231147787](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221029231147787.png)
+![image-20221029231147787](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221029231147787.png)
 
 ```
 " Vundle.vim로 작성하셨다면!!!
@@ -204,7 +204,7 @@ Plug 'dense-analysis/ale'  " <-- 추가
 
 추가하신 후 `:wq`로 나갔다가 다시 들어와서 `:PluginInstall`(Vundle), `:PlugInstall`(vim-plug) 명령어를 입력해야 `dense-analysis/ale`이 설치됩니다.
 
-![image-20221029232253937](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221029232253937.png)
+![image-20221029232253937](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221029232253937.png)
 
 
 
@@ -214,7 +214,7 @@ https://flake8.pycqa.org/en/latest/index.html
 
 https://github.com/nvie/vim-flake8
 
-![image-20221029233257345](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221029233257345.png)
+![image-20221029233257345](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221029233257345.png)
 
 installation을 따라 해 봅니다.
 
@@ -254,7 +254,7 @@ https://vimcolorschemes.com/
 
 https://github.com/morhetz/gruvbox
 
-![image-20221029234722839](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221029234722839.png)
+![image-20221029234722839](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221029234722839.png)
 
 다운받은 `colors` 파일을 `.vim/colors`에 옮깁니다.
 
@@ -262,7 +262,7 @@ https://github.com/morhetz/gruvbox
 cp ../gruvbox/colors/* ./colors
 ```
 
-![image-20221030000653666](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221030000653666.png)
+![image-20221030000653666](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221030000653666.png)
 
 
 
@@ -274,7 +274,7 @@ colorscheme gruvbox
 
 아래처럼 scheme 잘 적용된 것을 확인할 수 있습니다.
 
-![image-20221030000913897](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221030000913897.png)
+![image-20221030000913897](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221030000913897.png)
 
 
 
@@ -335,7 +335,7 @@ colorscheme gruvbox
 
 https://github.com/VundleVim/Vundle.vim
 
-![image-20221029231221367](/Users/eisen/Documents/Github/TIL/CS/IDETools/Vim/vim_python.assets/image-20221029231221367.png)
+![image-20221029231221367](https://raw.githubusercontent.com/KrGil/TIL/92b5b63bd25bd79b0835aca95e470114a367d813/CS/IDETools/Vim/vim_python.assets/image-20221029231221367.png)
 
 상단에 적혀있는대로 따라 작성해 봅니다.
 
