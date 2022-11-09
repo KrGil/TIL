@@ -402,6 +402,20 @@ git merge -n master
 
 ```master``` 브랜치에 존재하는 커밋들을 unstaged 상태로 가지고 옵니다.
 
+### 특정 브랜치를 병합할 때 병합커밋 남기기
+
+https://koreabigname.tistory.com/65
+
+```shell
+git merge --no-ff <branch>
+```
+
+fast-forward 관계인 경우에도 반드시 병합 커밋을 남깁니다.
+
+
+
+
+
 ## 브랜치 삭제
 
 https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
