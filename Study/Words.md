@@ -92,3 +92,10 @@
   - query문 자체에 인덱싱 하는것.
 
 - 
+
+### TLS(Thread Local Storege)
+
+- 쓰레드별로 사용되는 저장공간?
+
+### Entity Manger
+
