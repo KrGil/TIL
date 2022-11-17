@@ -27,7 +27,7 @@
 
 ## FastAPI
 
-![logo-teal](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Interpreter\python\FastAPI.assets\logo-teal.png)
+![logo-teal](https://raw.githubusercontent.com/KrGil/TIL/38d8b493700b7b05e6473b4358c6cd9869580806/CS/Language/Interpreter/python/FastAPI.assets/logo-teal.png)
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
 
@@ -107,7 +107,7 @@ $ python -m venv <환경변수 명>
 
 저는 ` python -m venv .venv`로 생성했습니다.
 
-![image-20221117162807221](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Interpreter\python\FastAPI.assets\image-20221117162807221.png)
+![image-20221117162807221](https://raw.githubusercontent.com/KrGil/TIL/38d8b493700b7b05e6473b4358c6cd9869580806/CS/Language/Interpreter/python/FastAPI.assets/image-20221117162807221.png)
 
 코드를 확인했을 때 위의 이미지와 같이 `.venv` 파일이 생성되는 것을 확인할 수 있습니다.
 
@@ -124,7 +124,7 @@ $ source ./.venv/bin/activate
 
 windows와 mac의 경로가 조금 다르니 확인 바랍니다.
 
-![image-20221117163309089](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Interpreter\python\FastAPI.assets\image-20221117163309089.png)
+![image-20221117163309089](https://raw.githubusercontent.com/KrGil/TIL/38d8b493700b7b05e6473b4358c6cd9869580806/CS/Language/Interpreter/python/FastAPI.assets/image-20221117163309089.png)
 
 ### 가상환경 확인
 
@@ -159,7 +159,7 @@ https://fastapi.tiangolo.com/ko/tutorial/
 $ pip install fastapi
 ```
 
-### ![image-20221117164855555](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Interpreter\python\FastAPI.assets\image-20221117164855555.png)
+### ![image-20221117164855555](https://raw.githubusercontent.com/KrGil/TIL/38d8b493700b7b05e6473b4358c6cd9869580806/CS/Language/Interpreter/python/FastAPI.assets/image-20221117164855555.png)
 
 ### 2. uvicorn 
 
@@ -190,11 +190,11 @@ async def root():
     return {"message": "Hello World"}
 ```
 
-![image-20221117165143001](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Interpreter\python\FastAPI.assets\image-20221117165143001.png)
+![image-20221117165143001](https://raw.githubusercontent.com/KrGil/TIL/38d8b493700b7b05e6473b4358c6cd9869580806/CS/Language/Interpreter/python/FastAPI.assets/image-20221117165143001.png)
 
 위와같이 작성한 후 `main.py`로 저장합니다.
 
-![image-20221117165243301](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Interpreter\python\FastAPI.assets\image-20221117165243301.png)
+![image-20221117165243301](https://raw.githubusercontent.com/KrGil/TIL/38d8b493700b7b05e6473b4358c6cd9869580806/CS/Language/Interpreter/python/FastAPI.assets/image-20221117165243301.png)
 
 잘 저장되어있군요.
 
@@ -211,11 +211,11 @@ $ uvicorn main:app --reload
 
 위와 같은 오류가 나면 기존의 포트가 사용되고 있는지 확인해 봅니다. 기본 포트는 8000으로 되어 있으니 8000이 사용되는지 확인해 보시면 되겠군요.
 
-![image-20221117170801050](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Interpreter\python\FastAPI.assets\image-20221117170801050.png)
+![image-20221117170801050](https://raw.githubusercontent.com/KrGil/TIL/38d8b493700b7b05e6473b4358c6cd9869580806/CS/Language/Interpreter/python/FastAPI.assets/image-20221117170801050.png)
 
 실행하면 위와 같이 어떤 url에서 어떤 port에 실행되는지 나옵니다. 
 
-![image-20221117170856539](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Interpreter\python\FastAPI.assets\image-20221117170856539.png)
+![image-20221117170856539](https://raw.githubusercontent.com/KrGil/TIL/38d8b493700b7b05e6473b4358c6cd9869580806/CS/Language/Interpreter/python/FastAPI.assets/image-20221117170856539.png)
 
 chrome에서 실행하면 이렇게 `Hello World`가 출력되는것을 확인할 수 있습니다.
 
@@ -225,7 +225,7 @@ fastAPI에서 가장 매력적인 기능 중 하나라고 느껴지는 swagger �
 
 `http://127.0.0.1:8000/docs`를 입력하게되면  아래와 같이 자동으로 swagger 페이지를 지원해 줍니다.
 
-![image-20221117171123918](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Interpreter\python\FastAPI.assets\image-20221117171123918.png)
+![image-20221117171123918](https://raw.githubusercontent.com/KrGil/TIL/38d8b493700b7b05e6473b4358c6cd9869580806/CS/Language/Interpreter/python/FastAPI.assets/image-20221117171123918.png)
 
 이렇게 기본적인 python 가상환경설정부터 fastAPI를 활용한 uvicorn 서버 올리기까지 해 보았습니다.
 
@@ -239,11 +239,11 @@ fastAPI에서 가장 매력적인 기능 중 하나라고 느껴지는 swagger �
 
 실행할때 하단의 `python` 옆의 버전을 클릭합니다. 저는 `3.9.4 64-bit`를 사용하고 있군요.
 
-![image-20221117170108731](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Interpreter\python\FastAPI.assets\image-20221117170108731.png)
+![image-20221117170108731](https://raw.githubusercontent.com/KrGil/TIL/38d8b493700b7b05e6473b4358c6cd9869580806/CS/Language/Interpreter/python/FastAPI.assets/image-20221117170108731.png)
 
 위에서 생성한 가상환경의 경로를 선택해 vscode에서 우리가 만든 가상환경을 사용하게 설정합니다. 
 
-![image-20221117170232187](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Interpreter\python\FastAPI.assets\image-20221117170232187.png)
+![image-20221117170232187](https://raw.githubusercontent.com/KrGil/TIL/38d8b493700b7b05e6473b4358c6cd9869580806/CS/Language/Interpreter/python/FastAPI.assets/image-20221117170232187.png)
 
 
 
@@ -262,6 +262,8 @@ https://ks1171-park.tistory.com/83#:~:text=pydantic%EC%9D%80%20vaildation%20libr
 ASGI
 
 https://www.itworld.co.kr/news/245062
+
+
 
 python 가상환경
 
