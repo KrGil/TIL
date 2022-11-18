@@ -52,7 +52,7 @@ python 3.7 이상으로 지원하는군요. 저는 `python 3.9.x` 버전으로 �
 
 
 
-## Stalette
+## ㅎ
 
 >  `Starlette`은 `ASGI framework`  라고 합니다.
 
