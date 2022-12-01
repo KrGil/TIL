@@ -53,7 +53,7 @@ class SpringBootFieldStaticSampleTest {
 
 위의 테스트 코드 실행 시 아래와 같은 오류가 제대로 발생하는 것을 알 수 있습니다.
 
-![image-20221129133714831](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\java_static.assets\image-20221129133714831.png)
+![image-20221129133714831](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_static.assets/image-20221129133714831.png)
 
 
 
@@ -110,15 +110,15 @@ public class SpringBootFieldStaticSample {
 
 - `@AllArgsConstructor` 사용 시 field에서 선언된 모든 객체들을 파라미터로 받는 생성자가 만들어 진 것을 볼 수 있습니다.(`SpringBootFieldStaticSample1`, `SpringBootFieldStaticSample2`, `String`)
 
-![image-20221129135140588](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\java_static.assets\image-20221129135140588.png)
+![image-20221129135140588](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_static.assets/image-20221129135140588.png)
 
 - `@RequireArgsConstructor` 사용 시 field에서 final이 명시적으로 붙어서 선언된 모든 객체들을 파라미터로 받는 생성자가 만들어 진 것을 볼 수 있습니다.(`SpringBootFieldStaticSample1`, `SpringBootFieldStaticSample2`)
 
-![image-20221129135042625](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\java_static.assets\image-20221129135042625.png)
+![image-20221129135042625](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_static.assets/image-20221129135042625.png)
 
 #### `@RequireArgsConstructor` 테스트
 
-![image-20221129135259683](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\java_static.assets\image-20221129135259683.png)
+![image-20221129135259683](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_static.assets/image-20221129135259683.png)
 
 문제 없이 잘 돌아가는것을 확인할 수 있습니다.
 
@@ -228,7 +228,7 @@ public class SpringBootFieldStaticSample {
 
 실행시킨다면 아래와 같은 오류가 발생합니다.
 
-![image-20221129153115194](C:\Users\Eisen\Documents\GitHub\TIL\CS\Language\Compiler\java\java_static.assets\image-20221129153115194.png)
+![image-20221129153115194](https://raw.githubusercontent.com/KrGil/TIL/main/CS/Language/Compiler/java/java_static.assets/image-20221129153115194.png)
 
 하지만 아래처럼 `lombok`을 사용하지 않고 생성자를 아래처럼 직접 구현하면 잘 작동하는 것을 볼 수 있습니다.
 
