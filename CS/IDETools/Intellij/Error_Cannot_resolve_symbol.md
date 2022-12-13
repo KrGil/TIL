@@ -14,7 +14,7 @@
    >
    > 그 후 재시작.
 
-![image-20211112083207494](/home/eisen/Documents/GitHub/TIL/CS/IDETools/Intellij/Error_Cannot_resolve_symbol.assets/image-20211112083207494.png)
+![image-20211112083207494](https://raw.githubusercontent.com/KrGil/TIL/main/CS/IDETools/Intellij/Error_Cannot_resolve_symbol.assets/image-20211112083207494.png)
 
 
 
@@ -24,9 +24,9 @@
 >
 > 그 후 아래 이미지와 같이 선택 후 실행해 줍니다.
 
-![image-20211112083421528](/home/eisen/Documents/GitHub/TIL/CS/IDETools/Intellij/Error_Cannot_resolve_symbol.assets/image-20211112083421528.png)
+![image-20211112083421528](https://raw.githubusercontent.com/KrGil/TIL/main/CS/IDETools/Intellij/Error_Cannot_resolve_symbol.assets/image-20211112083421528.png)
 
-![image-20211112083458226](/home/eisen/Documents/GitHub/TIL/CS/IDETools/Intellij/Error_Cannot_resolve_symbol.assets/image-20211112083458226.png)
+![image-20211112083458226](https://raw.githubusercontent.com/KrGil/TIL/main/CS/IDETools/Intellij/Error_Cannot_resolve_symbol.assets/image-20211112083458226.png)
 
 
 
@@ -36,13 +36,13 @@
    >
    > 프로젝트명을 마우스 우클릭 후 Refresh Gradle Dependencies를 누르고 기다립니다.
 
-![image-20211112084952695](/home/eisen/Documents/GitHub/TIL/CS/IDETools/Intellij/Error_Cannot_resolve_symbol.assets/image-20211112084952695.png)
+![image-20211112084952695](https://raw.githubusercontent.com/KrGil/TIL/main/CS/IDETools/Intellij/Error_Cannot_resolve_symbol.assets/image-20211112084952695.png)
 
 4. Gradle 빌드 설정을 intelliJ IDEA로 바꿔줍니다.
 
 > Settings -> Build, Execution, Deployment -> Build Tool -> Gradle -> Build and Run의 설정을 IntelliJ IDEA로 바꿔줍니다.
 
-![image-20211112085226125](/home/eisen/Documents/GitHub/TIL/CS/IDETools/Intellij/Error_Cannot_resolve_symbol.assets/image-20211112085226125.png)
+![image-20211112085226125](https://raw.githubusercontent.com/KrGil/TIL/main/CS/IDETools/Intellij/Error_Cannot_resolve_symbol.assets/image-20211112085226125.png)
 
 5. intelliJ의 버전을 체크해 봅니다.
 
