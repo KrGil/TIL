@@ -8,6 +8,10 @@
 
 ![image-20221206134915473](C:\Users\admin\Documents\GitHub\TIL\OS\Windows\hotspot_scheduler.assets\image-20221206134915473.png)
 
+
+
+![image-20221207092711785](C:\Users\admin\Documents\GitHub\TIL\OS\Windows\hotspot_scheduler.assets\image-20221207092711785.png)
+
 ![image-20221206134951413](C:\Users\admin\Documents\GitHub\TIL\OS\Windows\hotspot_scheduler.assets\image-20221206134951413.png)
 
 ![image-20221206135026463](C:\Users\admin\Documents\GitHub\TIL\OS\Windows\hotspot_scheduler.assets\image-20221206135026463.png)
