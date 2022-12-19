@@ -6,7 +6,7 @@
 
 아래 이미지와 같이 query 부분에서 한글이 깨지는 현상을 발견했습니다. 이를 해결하기 위해 3가지 파일들을 수정하였습니다. (우선 IDE의 Encoding 설정부터 확인 후 이를 따라해 보시는것을 추천드립니다.)
 
-![image-20221215135410519](C:\Users\admin\Documents\GitHub\TIL\CS\IDETools\Intellij\tomcat_korean.assets\image-20221215135410519.png)
+![image-20221215135410519](https://raw.githubusercontent.com/KrGil/TIL/b793118b7fdf82b238b4c7c1f961596e64d6728c/CS/IDETools/Intellij/tomcat_korean.assets/image-20221215135410519.png)
 
 
 
@@ -18,7 +18,7 @@
 
 `../apache-tomcat-8.5.78/conf/server.xml`
 
-![image-20221215140016094](C:\Users\admin\Documents\GitHub\TIL\CS\IDETools\Intellij\tomcat_korean.assets\image-20221215140016094.png)
+![image-20221215140016094](https://raw.githubusercontent.com/KrGil/TIL/b793118b7fdf82b238b4c7c1f961596e64d6728c/CS/IDETools/Intellij/tomcat_korean.assets/image-20221215140016094.png)
 
 ```xml
 URIEncoding="UTF-8"
@@ -32,7 +32,7 @@ tomcat의 conf 폴더(`tomcat/conf`) 안에서 server.xml 파일내에서 `Conne
 
 `../apache-tomcat-8.5.78/conf/logging.properties`
 
-![image-20221215135716970](C:\Users\admin\Documents\GitHub\TIL\CS\IDETools\Intellij\tomcat_korean.assets\image-20221215135716970.png)
+![image-20221215135716970](https://raw.githubusercontent.com/KrGil/TIL/b793118b7fdf82b238b4c7c1f961596e64d6728c/CS/IDETools/Intellij/tomcat_korean.assets/image-20221215135716970.png)
 
 ```java
 EUC-KR
@@ -46,7 +46,7 @@ EUC-KR
 
 `../apache-tomcat-8.5.78/bin/catalina.bat`
 
-![image-20221215141411472](C:\Users\admin\Documents\GitHub\TIL\CS\IDETools\Intellij\tomcat_korean.assets\image-20221215141411472.png)
+![image-20221215141411472](https://raw.githubusercontent.com/KrGil/TIL/b793118b7fdf82b238b4c7c1f961596e64d6728c/CS/IDETools/Intellij/tomcat_korean.assets/image-20221215141411472.png)
 
 ```java
 set JAVA_OPTS=%JAVA_OPTS% %LOGGING_MANAGER% "-Dfile.encoding=utf-8"
@@ -56,7 +56,7 @@ set JAVA_OPTS=%JAVA_OPTS% %LOGGING_MANAGER% "-Dfile.encoding=utf-8"
 
 위의 세단계 과정을 다 거친 후 tomcat을 재실행 시켜 보면 아래와 같이 한글이 잘 출력되는 것을 볼 수 있습니다.
 
-![image-20221215141742957](C:\Users\admin\Documents\GitHub\TIL\CS\IDETools\Intellij\tomcat_korean.assets\image-20221215141742957.png)
+![image-20221215141742957](https://raw.githubusercontent.com/KrGil/TIL/b793118b7fdf82b238b4c7c1f961596e64d6728c/CS/IDETools/Intellij/tomcat_korean.assets/image-20221215141742957.png)
 
 
 
