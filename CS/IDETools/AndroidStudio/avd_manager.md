@@ -6,7 +6,7 @@
 
 > 안드로이드 어플리케이션을 실행 시키면 아래의 이미지와 같이 오류 문구가 출력됩니다.(~~잘 되던게 왜 안될까...~~)
 
-![image-20221222153645953](C:\Users\admin\Documents\GitHub\TIL\CS\IDETools\AndroidStudio\avd_manager.assets\image-20221222153645953.png)
+![image-20221222153645953](https://raw.githubusercontent.com/KrGil/TIL/b810b18b8722249cf4a3027a79f34993fb65dde7/CS/IDETools/AndroidStudio/avd_manager.assets/image-20221222153645953.png)
 
 구글링을 통해 여러 방법을 알아 보았고 제가 사용했던 방법은 아주 간단한 방법입니다.
 
@@ -16,19 +16,19 @@
 >
 > `Actions` 탭에서 우측의 설정 탭을 클릭, `Show on Disk`를 클릭합니다.
 
-![image-20221222153726811](C:\Users\admin\Documents\GitHub\TIL\CS\IDETools\AndroidStudio\avd_manager.assets\image-20221222153726811.png)
+![image-20221222153726811](https://raw.githubusercontent.com/KrGil/TIL/b810b18b8722249cf4a3027a79f34993fb65dde7/CS/IDETools/AndroidStudio/avd_manager.assets/image-20221222153726811.png)
 
 
 
 클릭 후 아래의 창이 열리면 `hardware-qemu.ini.lock` 폴더를 삭제합니다.
 
-![image-20221222153814647](C:\Users\admin\Documents\GitHub\TIL\CS\IDETools\AndroidStudio\avd_manager.assets\image-20221222153814647.png)
+![image-20221222153814647](https://raw.githubusercontent.com/KrGil/TIL/b810b18b8722249cf4a3027a79f34993fb65dde7/CS/IDETools/AndroidStudio/avd_manager.assets/image-20221222153814647.png)
 
 
 
 그 후 안드로이드 프로그램을 실행시키면 아래와 같이 잘 작동하는 것을 확인하실 수 있습니다.
 
-![image-20221222154012006](C:\Users\admin\Documents\GitHub\TIL\CS\IDETools\AndroidStudio\avd_manager.assets\image-20221222154012006.png)
+![image-20221222154012006](https://raw.githubusercontent.com/KrGil/TIL/b810b18b8722249cf4a3027a79f34993fb65dde7/CS/IDETools/AndroidStudio/avd_manager.assets/image-20221222154012006.png)
 
 
 
