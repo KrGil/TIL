@@ -414,6 +414,16 @@ fast-forward 관계인 경우에도 반드시 병합 커밋을 남깁니다.
 
 
 
+### 병합된 브랜치들 중 특정 브랜치를 제외한 브랜치 삭제하기
+
+```
+git branch --merged | grep -v -P '(a|b)' | xargs git branch -D
+```
+
+`grep --help`
+
+`xargs --help` 참고
+
 
 
 ## 브랜치 삭제
