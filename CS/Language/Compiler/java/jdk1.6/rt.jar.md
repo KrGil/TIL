@@ -24,8 +24,8 @@
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.1</version>
     <configuration>
-        <source>${java-version}</source>
-        <target>${java-version}</target>
+        <source>1.6</source>
+        <target>1.6</target>
         <compilerArguments>
             <verbose />
             <bootclasspath>${java6-home}/jre/lib/rt.jar${path.separator}${java6-home}/jre/lib/jce.jar</bootclasspath>
@@ -73,9 +73,11 @@ ImageIO.write(bufferedImage, "jpg", new file(output));
 
 ### after
 
-수정하고 나니 버전업을 왜 하는지 이해가 가는 듯 합니다. 1.6버전에서 
+이렇게 1.6에서 1.8로 변경하고 나니 왜 버전업을 하는지 그 이유를 알 것 같습니다. 예전 코드보다 가독성이 높고 직관적이며 간단합니다. 
 
+현재 맡고있는 프로젝트의 maven, jdk, spring mvc 버전들이 조금씩 틀어져 있어 버전을 맞추면서 레거시 코드들을 정리하고 기술 부채들을 걷어갈 생각입니다. 궁극적으로는 가장 최신의 버전으로 유지할 계획입니다.
 
+감사합니다.
 
 ### References
 
