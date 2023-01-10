@@ -244,7 +244,11 @@ git log --pretty="%h %s" --graph
 
 ```--graph``` 그래프 보여주기
 
+```bash
+git log --stat --graph
+```
 
+그래프 보이기
 
 
 
@@ -308,13 +312,15 @@ git commit -c HEAD
 
 
 
+## git config
+
 ### git config list 보기
 
 ```
 git config --list
 ```
 
-
+### git config global
 
 ```
 git config --global --list
@@ -322,9 +328,17 @@ git config --global --list
 
 본인의 git 설정들을 볼 수 있습니다. 또한 ```--global``` 옵션을 추가하면 global 적용 옵션들만 따로 볼 수 있습니다.
 
+### git  한글 깨질 때
+
+```
+git config --global core.quotepath false
+```
+
+```"\354\204\254\354\227\260\352\262\260\355\225\230\352\270\260.cpp"``` git status 시 이런식으로 path가 출력될 때 사용하시면 한글로 변환되어서 출력됩니다.
 
 
-## Git rebase
+
+## git rebase
 
 ### commit 순서 바꾸기
 
@@ -388,6 +402,10 @@ git log HEAD^..HEAD
 
 HEAD로부터 한개 전까지.
 
+
+
+## git merge
+
 ### 특정 브랜치를 내 브랜치로 merge하기
 
 ```
@@ -414,6 +432,32 @@ fast-forward 관계인 경우에도 반드시 병합 커밋을 남깁니다.
 
 
 
+## git branch
+
+
+
+### 브랜치 삭제
+
+https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
+
+#### local
+
+```bash
+$ git branch -d <branch_name>
+```
+
+#### remote(보통 origin)
+
+```bash
+$ git push <remote_name> --delete <branch_name>
+```
+
+#### 삭제 확인
+
+```bash
+$ git branch -a
+```
+
 ### 병합된 브랜치들 중 특정 브랜치를 제외한 브랜치 삭제하기
 
 ```
@@ -425,42 +469,6 @@ git branch --merged | grep -v -P '(a|b)' | xargs git branch -D
 `xargs --help` 참고
 
 
-
-## 브랜치 삭제
-
-https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
-
-### local
-
-```bash
-$ git branch -d <branch_name>
-```
-
-### remote(보통 origin)
-
-```bash
-$ git push <remote_name> --delete <branch_name>
-```
-
-### 삭제 확인
-
-```bash
-$ git branch -a
-```
-
-
-
-
-
-## git config
-
-### git status 시 한글 안될 때.
-
-```
-git config --global core.quotepath false
-```
-
-```"\354\204\254\354\227\260\352\262\260\355\225\230\352\270\260.cpp"``` git status 시 이런식으로 path가 출력될 때 사용하시면 한글로 변환되어서 출력됩니다.
 
 
 
