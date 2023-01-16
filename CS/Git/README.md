@@ -470,5 +470,11 @@ git branch --merged | grep -v -P '(a|b)' | xargs git branch -D
 
 
 
+## git checkout
 
+```bash
+git checkout -b <브랜치명>
+```
+
+생성과 checkout 함께 하기.
 
