@@ -12,6 +12,10 @@
 
 # List
 
+> Windows에서 python 설치하기
+>
+> [[Windows] python 설치하기](https://jjam89.tistory.com/268)
+
 1. Homebrew 설치
 2. pyenv 설치
 3. pyenv-virtualenv 설치
