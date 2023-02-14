@@ -20,17 +20,17 @@
 
 >  https://gradle.org/releases/  
 
-![image-20230214092212760](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214092212760.png)
+![image-20230214092212760](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214092212760.png)
 
 ### 2. 환경 변수 편집
 
 환경변수 설정에서 Path에 C:\Gradle\gradle-8.0\bin 추가 합니다.
 
-![image-20230214092828343](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214092828343.png)
+![image-20230214092828343](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214092828343.png)
 
 터미널에서(저는 git bash를 사용했습니다.) 켜고 `gradle -v` 를 실행해 잘 설치되었는지 확인해 봅니다.
 
-![image-20230214092701533](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214092701533.png)
+![image-20230214092701533](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214092701533.png)
 
 
 
@@ -42,39 +42,39 @@
 
 eisenUitls 프로젝트의 pom.xml이 있는 폴더 위치에서 `gradle init`을 실행합니다.  
 
-![image-20230214093013188](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214093013188.png)
+![image-20230214093013188](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214093013188.png)
 
 build scirpt DSL을 선택하라고 하는데 저는 Groovy에 눈꼽만큼 좀 더 익숙하기에 Groovy를 선택했습니다.
 
 또한 새로운 API 들을 생성할것이냐고 묻는데 해당 API는 바뀔 수도 있다고 해서 no를 입력했습니다.
 
-![image-20230214093112650](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214093112650.png)
+![image-20230214093112650](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214093112650.png)
 
 Build가 성공했습니다.
 
-![image-20230214093159123](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214093159123.png)
+![image-20230214093159123](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214093159123.png)
 
 ### gradle setting
 
 `gradle init` 커맨드가 성공적으로 실행 되었으면 몇가지 gradle 파일이 추가된 것을 확인할 수 있습니다. 이제 폴더에 존재하는 pom.xml파일은 삭제해 줍니다.
 
-![image-20230214093236007](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214093236007.png)
+![image-20230214093236007](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214093236007.png)
 
 그 후 intellij로 프로젝트를 open 하면 아래와 같이 `Gradle build scripts found`라는 문구가 우측 하단에 뜹니다. `Load Gradle Project`를 클릭해 줍니다.
 
-![image-20230214093358073](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214093358073.png)
+![image-20230214093358073](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214093358073.png)
 
 ## Test
 
 Converting이 성공적으로 이루어 졌는지 Test를 작성해서 확인해 봅니다.
 
-![image-20230214095015450](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214095015450.png)
+![image-20230214095015450](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214095015450.png)
 
 위와 같이 `No tests found for given includes`라는 오류가 나옵니다. 
 
 https://stackoverflow.com/questions/30474767/no-tests-found-for-given-includes-error-when-running-parameterized-unit-test-in
 
-![image-20230214095209733](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214095209733.png)
+![image-20230214095209733](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214095209733.png)
 
 stackoverflow에서 발췌한 글입니다. 변환 시 test 환경은 따로 고려하지 않는다는군요. 직접 추가해 줍니다.
 
@@ -86,7 +86,7 @@ test {
 
 테스트가 성공적으로 완료된 것을 확인할 수 있습니다.
 
-![image-20230214130626506](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214130626506.png)
+![image-20230214130626506](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214130626506.png)
 
 ### build.gradle
 
@@ -148,7 +148,7 @@ maven -> gradle로 변경한 기념으로 버전을 1.0.1로 수정해서 배포
 
 gihub repo에서 release를 새로 따줍니다.
 
-![image-20230214131525291](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214131525291.png)
+![image-20230214131525291](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214131525291.png)
 
 
 
@@ -156,7 +156,7 @@ gihub repo에서 release를 새로 따줍니다.
 
 > https://jitpack.io/com/github/KrGil/eisenUtils/1.0.1/build.log
 
-![image-20230214130835385](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214130835385.png)
+![image-20230214130835385](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214130835385.png)
 
 로그 보고 확인했는데 `build.gradle`에 version을 1.01로 잘못 기입했었네요. 
 
@@ -175,7 +175,7 @@ implementation ('com.github.KrGil:eisenUtils:1.0.1')
 
 변경 후 gradle build를 새로 하면 아래와 같이 새로운 버전을 다운받는 것을 확인할 수 있습니다. 
 
-![image-20230214131112394](C:\Users\admin\Documents\GitHub\TIL\CS\BuildTool\gradle\maven-gradle.assets\image-20230214131112394.png)
+![image-20230214131112394](https://raw.githubusercontent.com/KrGil/TIL/4e24259dd20ae165a3d2998def375f37f20c0185/CS/BuildTool/gradle/maven-gradle.assets/image-20230214131112394.png)
 
 
 
