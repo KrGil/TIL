@@ -1,5 +1,13 @@
 # [SpringBoot] VSCode에 MariaDB5.5 연동하기(1)
 
+> [[SpringBoot] VSCode에 MariaDB5.5 연동하기(1)](https://jjam89.tistory.com/121)
+>
+> [[SpringBoot] VSCode에 MariaDB5.5 연동하기(2)](https://jjam89.tistory.com/123)
+>
+> [[SpringBoot] VSCode에 MariaDB5.5 연동하기(3)](https://jjam89.tistory.com/124)
+
+
+
 > pom.xml
 
 ```jsx
@@ -222,7 +230,7 @@ public class TestController{
 
 1. 3306 port 개방
 
-   ![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021_08_02/Untitled.png?raw=true)
+   ![alt text](https://raw.githubusercontent.com/KrGil/TIL/main/software/framework/springBoot/2021-08-02/Untitled.png?raw=true)
     vsCode에서도  동일한 오류 발생.
 
     > Solution
@@ -245,7 +253,7 @@ public class TestController{
 
     - 오픈중인 port 목록이 나옴. 아래 이미지처럼 나오면 해결.
 
-    ![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021_08_02/Untitled1.png?raw=true)
+    ![alt text](https://raw.githubusercontent.com/KrGil/TIL/main/software/framework/springBoot/2021-08-02/Untitled1.png?raw=true)
     - 이미지는 없지만 다시 연결하니 연결이 잘 됨.
 
 2. Current charset is UTF-8. If password has been set using other charset, consider using option 'passwordCharacterEncoding'] with root cause

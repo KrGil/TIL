@@ -1,5 +1,11 @@
 # [SpringBoot] VSCode에 MariaDB5.5 연동하기(3)
 
+> [[SpringBoot] VSCode에 MariaDB5.5 연동하기(1)](https://jjam89.tistory.com/121)
+>
+> [[SpringBoot] VSCode에 MariaDB5.5 연동하기(2)](https://jjam89.tistory.com/123)
+>
+> [[SpringBoot] VSCode에 MariaDB5.5 연동하기(3)](https://jjam89.tistory.com/124)
+
 # Preview
 
 
@@ -15,9 +21,9 @@
 ### blog 보고 따라하기
 [https://k9e4h.tistory.com/351](https://k9e4h.tistory.com/351)
 
-![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-04/Untitled.png)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/main/software/framework/springBoot/2021-08-04/Untitled.png)
 
-![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-04/Untitled1.png)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/main/software/framework/springBoot/2021-08-04/Untitled1.png)
 
 적용이 안됩니다 ㅠㅠ
 아래의 언어설정하는 방법으로 재시도 해봅니다.
@@ -68,13 +74,13 @@ $ status
 $ \s
 ```
 
-![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-04/Untitled2.png?raw=true)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/main/software/framework/springBoot/2021-08-04/Untitled2.png?raw=true)
 - 변경 후 root를 제외한 다른 계정에서의 접속이 되지 않음.
 ![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021_08_04/Untitled3.png?raw=true)
 
 - 계정 허락이 안되어있음.
 
-![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-04/Untitled4.png?raw=true)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/main/software/framework/springBoot/2021-08-04/Untitled4.png?raw=true)
 - 여기서는 제대로 설정 되어있는 듯 한데.... 흠...
 
 > 다시 test에 권한 부여
@@ -82,12 +88,12 @@ $ \s
 ```jsx
 $ grant all privileges on *.* to test@'localhost' identified by 'test';
 ```
-![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-04/Untitled5.png?raw=true)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/main/software/framework/springBoot/2021-08-04/Untitled5.png?raw=true)
 
 ```jsx
 $ flush privileges;
 ```
-![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-04/Untitled6.png?raw=true)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/main/software/framework/springBoot/2021-08-04/Untitled6.png?raw=true)
 
 - grant 테이블을 리로드하는것이라함.
 

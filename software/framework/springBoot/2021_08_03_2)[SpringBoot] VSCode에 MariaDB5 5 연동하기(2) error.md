@@ -1,4 +1,10 @@
-# [SpringBoot] VSCode에 MariaDB5.5 연동하기(2) error
+# [SpringBoot] VSCode에 MariaDB5.5 연동하기(2)
+
+> [[SpringBoot] VSCode에 MariaDB5.5 연동하기(1)](https://jjam89.tistory.com/121)
+>
+> [[SpringBoot] VSCode에 MariaDB5.5 연동하기(2)](https://jjam89.tistory.com/123)
+>
+> [[SpringBoot] VSCode에 MariaDB5.5 연동하기(3)](https://jjam89.tistory.com/124)
 
 # Error
 
@@ -45,7 +51,7 @@ Could not connect to HostAddress{host='10.0.100.58', port=3306, type='master'}. 
 $ grant all privileges on *.* to '사용자id'@'%' identified by '123123';
 ```
 
-![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-03-2/Untitled.png?raw=true)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/main/software/framework/springBoot/2021-08-03-2/Untitled.png?raw=true)
 
 
 성공.
@@ -65,7 +71,7 @@ Current charset is UTF-8. If password has been set using other charset, consider
 SHOW FULL COLUMNS FROM user;
 ```
 
-![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-03-2/Untitled1.png?raw=true)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/main/software/framework/springBoot/2021-08-03-2/Untitled1.png?raw=true)
 
 - 보는바와 같이 비밀번호가 latin1_bin으로 적용.
 
@@ -73,7 +79,7 @@ SHOW FULL COLUMNS FROM user;
 ALTER TABLE user MODIFY COLUMN Password char(41) COLLATE utf8_general_ci;
 ```
 
-![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-03-2/Untitled2.png?raw=true)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/main/software/framework/springBoot/2021-08-03-2/Untitled2.png?raw=true)
 
 - 변경.
 
