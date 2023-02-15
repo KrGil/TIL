@@ -222,7 +222,7 @@ public class TestController{
 
 1. 3306 port 개방
 
-   ![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_02/Untitled.png?raw=true)
+   ![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021_08_02/Untitled.png?raw=true)
     vsCode에서도  동일한 오류 발생.
 
     > Solution
@@ -245,7 +245,7 @@ public class TestController{
 
     - 오픈중인 port 목록이 나옴. 아래 이미지처럼 나오면 해결.
 
-    ![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_02/Untitled1.png?raw=true)
+    ![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021_08_02/Untitled1.png?raw=true)
     - 이미지는 없지만 다시 연결하니 연결이 잘 됨.
 
 2. Current charset is UTF-8. If password has been set using other charset, consider using option 'passwordCharacterEncoding'] with root cause

@@ -2,9 +2,8 @@
 
 # Error
 
----
 
-- 재설치 이후 처음 시작인데 이런 오류가 나옴.
+- 재설치 이후 처음 시작인데 이런 오류가 나옵니다.
 
 ```jsx
 [root@localhost /]# /usr/bin/mysql_secure_installation
@@ -46,7 +45,7 @@ Could not connect to HostAddress{host='10.0.100.58', port=3306, type='master'}. 
 $ grant all privileges on *.* to '사용자id'@'%' identified by '123123';
 ```
 
-![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_03_2/Untitled.png?raw=true)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-03-2/Untitled.png?raw=true)
 
 
 성공.
@@ -66,7 +65,7 @@ Current charset is UTF-8. If password has been set using other charset, consider
 SHOW FULL COLUMNS FROM user;
 ```
 
-![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_03_2/Untitled1.png?raw=true)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-03-2/Untitled1.png?raw=true)
 
 - 보는바와 같이 비밀번호가 latin1_bin으로 적용.
 
@@ -74,7 +73,7 @@ SHOW FULL COLUMNS FROM user;
 ALTER TABLE user MODIFY COLUMN Password char(41) COLLATE utf8_general_ci;
 ```
 
-![alt text](https://github.com/KrGil/TIL/blob/main/documents/2021_08_03_2/Untitled2.png?raw=true)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-03-2/Untitled2.png?raw=true)
 
 - 변경.
 
