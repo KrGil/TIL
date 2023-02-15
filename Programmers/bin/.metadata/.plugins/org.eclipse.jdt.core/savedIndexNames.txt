@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+/Users/Eisen/Documents/GitHub/TIL/Programmers/.metadata/.plugins/org.eclipse.jdt.core
-4008566294.index
-2089348824.index
