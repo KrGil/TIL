@@ -17,7 +17,7 @@
 
 ![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-04/Untitled.png)
 
-![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021_08_04/Untitled1.png)
+![alt text](https://raw.githubusercontent.com/KrGil/TIL/8bc6daa747b211f932733d7d17435ede84ff0086/software/framework/springBoot/2021-08-04/Untitled1.png)
 
 적용이 안됩니다 ㅠㅠ
 아래의 언어설정하는 방법으로 재시도 해봅니다.
