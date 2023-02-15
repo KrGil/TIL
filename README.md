@@ -16,6 +16,8 @@
 특수문자와 빈 공백sᴘᴀᴄᴇ은 사용하지 않는다.
 단어와 단어의 구분은 ‘_’(ᴜɴᴅᴇʀʙᴀʀ) 로 구성한다.
 
+
+## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
