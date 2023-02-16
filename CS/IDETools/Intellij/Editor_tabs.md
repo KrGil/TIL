@@ -20,11 +20,11 @@
 
 따라서 개인적으로 위의 상단바처럼 여러개의 탭이 존재할 필요가 없다고 생각됩니다. 없으면 intellij가 훨씬 깔끔해 지는 기분이죠! ㅎㅎ
 
-![Screen Shot 2022-09-02 at 7.25.01 PM](https://raw.githubusercontent.com/KrGil/TIL/55a110b6a0aa50244bd2bb839322d8e84f8008d7/CS/IDETools/Intellij/Editor_tabs.assets/Screen Shot 2022-09-02 at 7.25.01 PM.png)
+![Screen Shot 2022-09-02 at 7.25.01 PM](https://raw.githubusercontent.com/KrGil/TIL/55a110b6a0aa50244bd2bb839322d8e84f8008d7/CS/IDETools/Intellij/Editor_tabs.assets/ScreenShot2022-09-02at7.25.01PM.png)
 
 여러개의 `Editor Tab`이 존재할 시 `cmd + ,`로 `preferences`에 들어가게 된다면 하단의 `Editor` -> `General` -> `Editor Tabs`에서 아래와 같은 화면을 보실 수 있습니다.
 
-![Screen Shot 2022-09-02 at 7.25.14 PM](https://raw.githubusercontent.com/KrGil/TIL/55a110b6a0aa50244bd2bb839322d8e84f8008d7/CS/IDETools/Intellij/Editor_tabs.assets/Screen Shot 2022-09-02 at 7.25.14 PM.png)
+![Screen Shot 2022-09-02 at 7.25.14 PM](https://raw.githubusercontent.com/KrGil/TIL/55a110b6a0aa50244bd2bb839322d8e84f8008d7/CS/IDETools/Intellij/Editor_tabs.assets/ScreenShot2022-09-02at7.25.14PM.png)
 
 아래의 이미지와 같이 `Tab placement`의 selection을 `Top` -> `None`으로 변경해 줍니다. (~~혹시 반대로 하나의 Editor Tab이 불편하시다면 여러개의 Editor Tab으로 변경하실 수 있습니다!!~~)
 
@@ -32,7 +32,7 @@
 
 그럼 아래와 같이 상단의 `Editor Tab`이 사라지는것을 볼 수 있습니다~ ㅎㅎ 개인적으로 `Eclipse`에서도 동일하게 사용하려고 해보았는데요~ Eclipse의 `ctrl + e`의 경우 상단에 떠 있는 탭들 중에서 검색기능을 제공해주더군요!ㅎㅎ 
 
-![Screen Shot 2022-09-02 at 7.25.24 PM](https://raw.githubusercontent.com/KrGil/TIL/55a110b6a0aa50244bd2bb839322d8e84f8008d7/CS/IDETools/Intellij/Editor_tabs.assets/Screen Shot 2022-09-02 at 7.25.24 PM.png)
+![Screen Shot 2022-09-02 at 7.25.24 PM](https://raw.githubusercontent.com/KrGil/TIL/55a110b6a0aa50244bd2bb839322d8e84f8008d7/CS/IDETools/Intellij/Editor_tabs.assets/ScreenShot2022-09-02at7.25.24PM.png)
 
 
 
