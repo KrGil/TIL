@@ -4,7 +4,7 @@ https://github.com/apps/utterances
 
 
 
-![image-20220213155427396](/Users/eisen/Documents/Github/TIL/Tistory/utterances(history_comment).assets/image-20220213155427396.png)
+![image-20220213155427396](C:\Users\admin\Documents\GitHub\TIL\Tistory\utterances(history_comment).assets/image-20220213155427396.png)
 
 
 
@@ -22,7 +22,7 @@ https://github.com/apps/utterances
 
 
 
-![image-20220213163107456](/Users/eisen/Documents/Github/TIL/Tistory/utterances(history_comment).assets/image-20220213163107456.png)
+![image-20220213163107456](C:\Users\admin\Documents\GitHub\TIL\Tistory\utterances(history_comment).assets/image-20220213163107456.png)
 
 
 
@@ -30,4 +30,4 @@ https://github.com/apps/utterances
 
 
 
-![image-20220213163230346](/Users/eisen/Documents/Github/TIL/Tistory/utterances(history_comment).assets/image-20220213163230346.png)
+![image-20220213163230346](C:\Users\admin\Documents\GitHub\TIL\Tistory\utterances(history_comment).assets/image-20220213163230346.png)
